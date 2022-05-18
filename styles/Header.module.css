@@ -1,0 +1,123 @@
+.headerWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	padding-inline: 1rem;
+	background-color: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(4px);
+	z-index: 1;
+}
+
+.header {
+	width: 100%;
+	max-width: min(100%, var(--max-width));
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.hamburgerButton {
+	align-items: center;
+}
+
+.navTop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	padding-block: 1.25rem;
+}
+
+.navTop > h1 {
+	margin: 0;
+}
+
+.navItems {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 1rem;
+
+	clear:both;
+	width:100%;
+	overflow: hidden;
+	text-align: center;
+	transition: height .4s ease-in-out;
+}
+
+.navItems > nav{
+	display: flex;
+	align-items: center;
+}
+
+.navLinks {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	margin-block: 0;
+	padding-inline-start: 0;
+	gap: 1rem;
+}
+
+.navLinks > li > a {
+	font-weight: 500;
+	color: var(--color-brown);
+}
+
+.navLinks>li>a:hover {
+	font-weight: 500;
+	color: var(--color-secondary);
+}
+
+
+
+.leftButtons{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	color: white;
+}
+
+.downloadButton {
+	font-weight: 500;
+	padding: 0.75rem 3rem;
+	background-color: var(--color-brown);
+	border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+	.header {
+		flex-direction: row;
+	}
+	
+	.hamburgerButton {
+		display: none;
+	}
+	
+	.navItems {
+		display: contents;
+	}
+	
+	/* .navItems>nav,
+	.navLinks {
+		display: flex;
+		align-items: center;
+	} */
+	
+	.navLinks {
+		flex-direction: row;
+		gap: 2rem;
+	}
+	
+	.leftButtons {
+		gap: 1rem;
+		flex-direction: row;
+	}
+}

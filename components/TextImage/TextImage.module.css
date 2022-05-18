@@ -1,0 +1,35 @@
+.textImageRow {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+}
+
+.textImageRow:nth-child(n + 1) {
+	margin-block-start: 2rem;
+}
+
+.cardText {
+	margin-block-start: 0.5rem;
+	font-size: 1.15rem;
+}
+
+.imageWrapper {
+	aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 768px) {
+	.textImageRow {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+	}
+
+	.textImageRow:nth-child(2n) {
+		flex-direction: row-reverse;
+	}
+
+	.imageWrapper {
+		max-width: min(37rem, 50%);
+	}
+}
