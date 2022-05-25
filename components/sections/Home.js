@@ -15,9 +15,18 @@ export default function HomeSection({ t }) {
         <p className={styles.catchphrase}>{t("home.catchphrase")}</p>
       </div>
       <div className="container">
-        <TextImage text={t("home.card1.text")} image={t("home.card1.image")} />
-        <TextImage text={t("home.card2.text")} image={t("home.card2.image")} />
-        <TextImage text={t("home.card3.text")} image={t("home.card3.image")} />
+        <TextImage
+          text={t("home.card1.text")}
+          image={"https://picsum.photos/400/200"}
+        />
+        <TextImage
+          text={t("home.card2.text")}
+          image={"https://picsum.photos/400/200"}
+        />
+        <TextImage
+          text={t("home.card3.text")}
+          image={"https://picsum.photos/400/200"}
+        />
       </div>
       <div className={styles.downloadWrapper}>
         <a className={styles.downloadButton}>{t("home.downloadText")}</a>

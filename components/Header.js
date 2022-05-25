@@ -70,8 +70,8 @@ export default function Header({ t }) {
               </a>
               <LanguageSwitcher lang="es" className="esp">
                 es
-              </LanguageSwitcher>{" "}
-              |{" "}
+              </LanguageSwitcher>
+              |
               <LanguageSwitcher lang="en" className="eng">
                 en
               </LanguageSwitcher>

@@ -5,9 +5,18 @@ export default function Team({ t }) {
     <section id="team">
       <h2>{t("team.title")}</h2>
       <div className="container">
-        <TextImage text={t("team.card1.text")} image={t("team.card1.image")} />
-        <TextImage text={t("team.card2.text")} image={t("team.card2.image")} />
-        <TextImage text={t("team.card3.text")} image={t("team.card3.image")} />
+        <TextImage
+          text={t("team.card1.text")}
+          image={"https://picsum.photos/400/200"}
+        />
+        <TextImage
+          text={t("team.card2.text")}
+          image={"https://picsum.photos/400/200"}
+        />
+        <TextImage
+          text={t("team.card3.text")}
+          image={"https://picsum.photos/400/200"}
+        />
       </div>
     </section>
   );

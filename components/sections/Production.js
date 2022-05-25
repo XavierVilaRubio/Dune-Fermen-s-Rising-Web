@@ -7,15 +7,15 @@ export default function Production({ t }) {
       <div className="container">
         <TextImage
           text={t("production.card1.text")}
-          image={t("production.card1.image")}
+          image={"https://picsum.photos/400/200"}
         />
         <TextImage
           text={t("production.card2.text")}
-          image={t("production.card2.image")}
+          image={"https://picsum.photos/400/200"}
         />
         <TextImage
           text={t("production.card3.text")}
-          image={t("production.card3.image")}
+          image={"https://picsum.photos/400/200"}
         />
       </div>
     </section>

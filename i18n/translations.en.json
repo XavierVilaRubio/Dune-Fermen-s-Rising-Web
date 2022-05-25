@@ -13,46 +13,37 @@
       "catchphrase": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt aliquid quod repudiandae quo ipsa omnis ab, a illum voluptate?",
       "downloadText": "Download the game",
       "card1": {
-        "text": "Texto en english",
-        "image": "https://picsum.photos/400/200"
+        "text": "Texto en english"
       },
       "card2": {
-        "text": "Textito en english",
-        "image": "https://picsum.photos/400/200"
+        "text": "Textito en english"
       },
       "card3": {
-        "text": "Textazo en english",
-        "image": "https://picsum.photos/400/200"
+        "text": "Textazo en english"
       }
     },
     "team": {
       "title": "Equipo",
       "card1": {
-        "text": "Texto en english",
-        "image": "https://picsum.photos/400/200"
+        "text": "Texto en english"
       },
       "card2": {
-        "text": "Textito en english",
-        "image": "https://picsum.photos/400/200"
+        "text": "Textito en english"
       },
       "card3": {
-        "text": "Textazo en english",
-        "image": "https://picsum.photos/400/200"
+        "text": "Textazo en english"
       }
     },
     "production": {
       "title": "Producción",
       "card1": {
-        "text": "Texto en english",
-        "image": "https://picsum.photos/400/200"
+        "text": "Texto en english"
       },
       "card2": {
-        "text": "Textito en english",
-        "image": "https://picsum.photos/400/200"
+        "text": "Textito en english"
       },
       "card3": {
-        "text": "Textazo en english",
-        "image": "https://picsum.photos/400/200"
+        "text": "Textazo en english"
       }
     },
     "engine": {
