@@ -1,0 +1,65 @@
+{
+  "i18n": {
+    "nav": {
+      "home": "Inicio",
+      "team": "Equipo",
+      "production": "Producción",
+      "engine": "Motor",
+      "post_mortem": "Post Mortem",
+      "download": "Descargar"
+    },
+    "home": {
+      "headline": "Dune: Fermen's Rising",
+      "catchphrase": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt aliquid quod repudiandae quo ipsa omnis ab, a illum voluptate?",
+      "downloadText": "Descargar el juego",
+      "card1": {
+        "text": "Texto en español",
+        "image": "https://picsum.photos/400/200"
+      },
+      "card2": {
+        "text": "Textito en español",
+        "image": "https://picsum.photos/400/200"
+      },
+      "card3": {
+        "text": "Textazo en español",
+        "image": "https://picsum.photos/400/200"
+      }
+    },
+    "team": {
+      "title": "Equipo",
+      "card1": {
+        "text": "Texto en english",
+        "image": "https://picsum.photos/400/200"
+      },
+      "card2": {
+        "text": "Textito en english",
+        "image": "https://picsum.photos/400/200"
+      },
+      "card3": {
+        "text": "Textazo en english",
+        "image": "https://picsum.photos/400/200"
+      }
+    },
+    "production": {
+      "title": "Producción",
+      "card1": {
+        "text": "Texto en english",
+        "image": "https://picsum.photos/400/200"
+      },
+      "card2": {
+        "text": "Textito en english",
+        "image": "https://picsum.photos/400/200"
+      },
+      "card3": {
+        "text": "Textazo en english",
+        "image": "https://picsum.photos/400/200"
+      }
+    },
+    "engine": {
+      "title": "Motor"
+    },
+    "post_mortem": {
+      "title": "Post Mortem"
+    }
+  }
+}

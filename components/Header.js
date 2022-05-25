@@ -4,10 +4,12 @@ import styles from "styles/Header.module.css";
 import HamburguerIcon from "./Icons/Hamburger";
 import CloseIcon from "./Icons/Close";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import logo from "public/logo.png";
+import { useLanguageQuery, LanguageSwitcher } from "next-export-i18n";
 
-export default function Header({ lang }) {
+export default function Header({ t }) {
+  const [query] = useLanguageQuery();
+
   const [open, setOpen] = useState(false);
 
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -22,14 +24,6 @@ export default function Header({ lang }) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const changeLanguage = (e) => {
-    const locale = e.target.value;
-    router.push("/", "/", { locale });
-  };
-
-  const router = useRouter();
-  const { locale } = router;
 
   return (
     <>
@@ -54,32 +48,33 @@ export default function Header({ lang }) {
             <nav>
               <ul className={styles.navLinks}>
                 <li>
-                  <a href="#home">{lang.home}</a>
+                  <a href="#home">{t("nav.home")}</a>
                 </li>
                 <li>
-                  <a href="#team">{lang.team}</a>
+                  <a href="#team">{t("nav.team")}</a>
                 </li>
                 <li>
-                  <a href="#production">{lang.production}</a>
+                  <a href="#production">{t("nav.production")}</a>
                 </li>
                 <li>
-                  <a href="#engine">{lang.engine}</a>
+                  <a href="#engine">{t("nav.engine")}</a>
                 </li>
                 <li>
-                  <a href="#post-mortem">{lang.post_mortem}</a>
+                  <a href="#post-mortem">{t("nav.post_mortem")}</a>
                 </li>
               </ul>
             </nav>
             <div className={styles.leftButtons}>
               <a href="#download" className={styles.downloadButton}>
-                {lang.download}
+                {t("nav.download")}
               </a>
-              <button value="en" className="eng" onClick={changeLanguage}>
-                ENG
-              </button>
-              <button value="es" className="esp" onClick={changeLanguage}>
-                ESP
-              </button>
+              <LanguageSwitcher lang="es" className="esp">
+                es
+              </LanguageSwitcher>{" "}
+              |{" "}
+              <LanguageSwitcher lang="en" className="eng">
+                en
+              </LanguageSwitcher>
             </div>
           </div>
         </header>
@@ -89,16 +84,6 @@ export default function Header({ lang }) {
           box-shadow: ${scrollPosition === 0
             ? "0"
             : "0 10px 10px rgba(0, 0, 0, .05)"};
-        }
-
-        .eng {
-          display: ${locale === "en" ? "none" : "flex"};
-          font-weight: ${locale === "en" ? "800" : "600"};
-        }
-
-        .esp {
-          display: ${locale === "es" ? "none" : "flex"};
-          font-weight: ${locale === "es" ? "800" : "600"};
         }
 
         .mobileNavItems {
@@ -111,6 +96,15 @@ export default function Header({ lang }) {
           }
         }
       `}</style>
+      {/* .eng {
+          display: ${locale === "en" ? "none" : "flex"};
+          font-weight: ${locale === "en" ? "800" : "600"};
+        }
+
+        .esp {
+          display: ${locale === "es" ? "none" : "flex"};
+          font-weight: ${locale === "es" ? "800" : "600"};
+        } */}
     </>
   );
 }

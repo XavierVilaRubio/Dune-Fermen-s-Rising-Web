@@ -5,15 +5,16 @@ import HomeSection from "components/sections/Home";
 import PostMortem from "components/sections/PostMortem";
 import Production from "components/sections/Production";
 import Team from "components/sections/Team";
-import enLocale from "i18n/en";
-import esLocale from "i18n/es";
 import Head from "next/head";
-import { useRouter } from "next/router";
+import {
+  useTranslation,
+  useLanguageQuery,
+  LanguageSwitcher,
+} from "next-export-i18n";
 
-function Home(props) {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "en" ? enLocale : esLocale;
+export default function Home(props) {
+  const { t } = useTranslation();
+  const [query] = useLanguageQuery();
 
   return (
     <>
@@ -23,31 +24,13 @@ function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header lang={t} />
-      <HomeSection lang={t} data={props.homeContent} />
-      <Team lang={t} data={props.teamContent} />
-      <Production lang={t} data={props.productionContent} />
-      <Engine lang={t} />
-      <PostMortem lang={t} />
-      <Footer lang={t} />
+      <Header t={t} />
+      <HomeSection t={t} />
+      <Team t={t} />
+      <Production t={t} />
+      <Engine t={t} />
+      <PostMortem t={t} />
+      <Footer t={t} />
     </>
   );
 }
-
-export async function getStaticProps() {
-  const homeRes = await fetch("http://localhost:3000/api/home");
-  const homeContent = await homeRes.json();
-  const teamRes = await fetch("http://localhost:3000/api/team");
-  const teamContent = await teamRes.json();
-  const productionRes = await fetch("http://localhost:3000/api/production");
-  const productionContent = await productionRes.json();
-  return {
-    props: {
-      homeContent: homeContent,
-      teamContent: teamContent,
-      productionContent: productionContent,
-    },
-  };
-}
-
-export default Home;

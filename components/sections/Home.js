@@ -3,7 +3,7 @@ import logo from "public/logo.png";
 import Image from "next/image";
 import TextImage from "components/TextImage/TextImage";
 
-export default function HomeSection({ lang, data }) {
+export default function HomeSection({ t }) {
   return (
     <section id="home" className={styles.section}>
       <div className={styles.video}></div>
@@ -11,20 +11,16 @@ export default function HomeSection({ lang, data }) {
         <div className={styles.logoWrapper}>
           <Image src={logo} alt={"Dune: Fermen's Rising Logo"} />
         </div>
-        <h1 className={styles.title}>Dune: Fermen&rsquo;s Rising</h1>
-        <p className={styles.catchphrase}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-          deserunt aliquid quod repudiandae quo ipsa omnis ab, a illum
-          voluptate?
-        </p>
+        <h1 className={styles.title}>{t("home.headline")}</h1>
+        <p className={styles.catchphrase}>{t("home.catchphrase")}</p>
       </div>
       <div className="container">
-        {data.map((sec) => (
-          <TextImage data={sec} key={sec} />
-        ))}
+        <TextImage text={t("home.card1.text")} image={t("home.card1.image")} />
+        <TextImage text={t("home.card2.text")} image={t("home.card2.image")} />
+        <TextImage text={t("home.card3.text")} image={t("home.card3.image")} />
       </div>
       <div className={styles.downloadWrapper}>
-        <a className={styles.downloadButton}>Download the game</a>
+        <a className={styles.downloadButton}>{t("home.downloadText")}</a>
       </div>
     </section>
   );
