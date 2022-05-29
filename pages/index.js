@@ -26,11 +26,11 @@ export default function Home(props) {
       </Head>
 
       <Header t={t} />
-      {/* <HomeSection t={t} /> */}
+      <HomeSection t={t} />
       <Team t={t} />
-      {/* <Production t={t} /> */}
-      {/* <Engine t={t} /> */}
-      {/* <PostMortem t={t} /> */}
+      <Production t={t} />
+      <Engine t={t} />
+      <PostMortem t={t} />
       <Footer t={t} />
     </>
   );
