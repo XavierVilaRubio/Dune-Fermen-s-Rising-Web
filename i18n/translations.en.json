@@ -23,19 +23,14 @@
       }
     },
     "team": {
-      "title": "Equipo",
-      "card1": {
-        "text": "Texto en english"
-      },
-      "card2": {
-        "text": "Textito en english"
-      },
-      "card3": {
-        "text": "Textazo en english"
+      "title": "Team",
+      "cardAlejandro": {
+        "rol": "Programmer",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe a adipisci cumque. Nobis quidem quos at assumenda reprehenderit dolor id."
       }
     },
     "production": {
-      "title": "Producción",
+      "title": "Production",
       "card1": {
         "text": "Texto en english"
       },

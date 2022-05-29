@@ -21,15 +21,16 @@ export default function Home(props) {
       <Head>
         <title>Dune: Fermen&rsquo;s Rising</title>
         <meta name="description" content="Dune: Fermen's Rising Webpage" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header t={t} />
-      <HomeSection t={t} />
+      {/* <HomeSection t={t} /> */}
       <Team t={t} />
-      <Production t={t} />
-      <Engine t={t} />
-      <PostMortem t={t} />
+      {/* <Production t={t} /> */}
+      {/* <Engine t={t} /> */}
+      {/* <PostMortem t={t} /> */}
       <Footer t={t} />
     </>
   );

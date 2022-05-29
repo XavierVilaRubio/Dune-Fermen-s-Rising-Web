@@ -1,21 +1,25 @@
-import TextImage from "components/TextImage/TextImage";
+import TeamCard from "components/TeamCard/TeamCard";
 
 export default function Team({ t }) {
   return (
     <section id="team">
-      <h2>{t("team.title")}</h2>
-      <div className="container">
-        <TextImage
-          text={t("team.card1.text")}
-          image={"https://picsum.photos/400/200"}
+      <h2 className="mb-12">{t("team.title")}</h2>
+      <div className=" container items-center justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-12 sm:px-1">
+        <TeamCard
+          name={"Alejandro Moreno"}
+          rol={t("team.cardAlejandro.rol")}
+          twitter={"#"}
+          github={"#"}
+          linkedin={"#"}
+          text={t("team.cardAlejandro.text")}
         />
-        <TextImage
-          text={t("team.card2.text")}
-          image={"https://picsum.photos/400/200"}
-        />
-        <TextImage
-          text={t("team.card3.text")}
-          image={"https://picsum.photos/400/200"}
+        <TeamCard
+          name={"Prova"}
+          rol={t("team.cardAlejandro.rol")}
+          twitter={"#"}
+          github={"#"}
+          linkedin={"#"}
+          text={t("team.cardAlejandro.text")}
         />
       </div>
     </section>

@@ -1,4 +1,4 @@
-import TextImage from "components/TextImage/TextImage";
+import TextImage from "components/TextImage";
 
 export default function Production({ t }) {
   return (
