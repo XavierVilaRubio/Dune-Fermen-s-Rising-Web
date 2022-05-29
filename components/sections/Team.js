@@ -1,4 +1,4 @@
-import TeamCard from "components/TeamCard/TeamCard";
+import TeamCard from "components/TeamCard";
 
 export default function Team({ t }) {
   return (
