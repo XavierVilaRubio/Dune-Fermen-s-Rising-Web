@@ -8,7 +8,11 @@ module.exports = {
       center: true,
       padding: "2rem",
     },
-    extend: {},
+    extend: {
+      transitionProperty: {
+        height: "height",
+      },
+    },
   },
   plugins: [],
 };

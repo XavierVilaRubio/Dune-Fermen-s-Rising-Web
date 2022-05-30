@@ -6,11 +6,7 @@ import PostMortem from "components/sections/PostMortem";
 import Production from "components/sections/Production";
 import Team from "components/sections/Team";
 import Head from "next/head";
-import {
-  useTranslation,
-  useLanguageQuery,
-  LanguageSwitcher,
-} from "next-export-i18n";
+import { useTranslation, useLanguageQuery } from "next-export-i18n";
 
 export default function Home(props) {
   const { t } = useTranslation();
