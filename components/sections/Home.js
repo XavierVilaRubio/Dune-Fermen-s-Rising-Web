@@ -11,10 +11,10 @@ export default function HomeSection({ t }) {
           <div className="w-40 md:w-52 max-w-sm mx-auto">
             <Image src={logo} alt={"Dune: Fermen's Rising Logo"} />
           </div>
-          <h1 className="text-3xl md:text-4xl font-semibold md:font-bold text-center mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">
             {t("home.headline")}
           </h1>
-          <p className="md:text-xl text-center">{t("home.catchphrase")}</p>
+          <p className=" md:text-xl text-center">{t("home.catchphrase")}</p>
         </div>
         <div className="container">
           <TextImage
