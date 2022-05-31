@@ -10,16 +10,16 @@
     },
     "home": {
       "headline": "Dune: Fermen's Rising",
-      "catchphrase": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt aliquid quod repudiandae quo ipsa omnis ab, a illum voluptate?",
+      "catchphrase": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "downloadText": "Descargar el juego",
       "card1": {
-        "text": "Texto en español"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       },
       "card2": {
-        "text": "Textito en español"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       },
       "card3": {
-        "text": "Textazo en español"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       }
     },
     "team": {
@@ -32,20 +32,28 @@
     "production": {
       "title": "Producción",
       "card1": {
-        "text": "Texto en english"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       },
       "card2": {
-        "text": "Textito en english"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       },
       "card3": {
-        "text": "Textazo en english"
-      }
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
+      },
+      "subtitle1": "Objetos del juego",
+      "subtitle2": "Objetos del juego",
+      "subtitle3": "Objetos del juego",
+      "subtitle4": "Objetos del juego"
     },
     "engine": {
       "title": "Motor"
     },
     "post_mortem": {
-      "title": "Post Mortem"
+      "title": "Post Mortem",
+      "subtitle1": "Objetos del juego",
+      "subtitle2": "Objetos del juego",
+      "subtitle3": "Objetos del juego",
+      "subtitle4": "Objetos del juego"
     }
   }
 }

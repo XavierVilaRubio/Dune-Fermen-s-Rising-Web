@@ -10,16 +10,16 @@
     },
     "home": {
       "headline": "Dune: Fermen's Rising",
-      "catchphrase": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto deserunt aliquid quod repudiandae quo ipsa omnis ab, a illum voluptate?",
+      "catchphrase": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "downloadText": "Download the game",
       "card1": {
-        "text": "Texto en english"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       },
       "card2": {
-        "text": "Textito en english"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       },
       "card3": {
-        "text": "Textazo en english"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       }
     },
     "team": {
@@ -32,20 +32,28 @@
     "production": {
       "title": "Production",
       "card1": {
-        "text": "Texto en english"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       },
       "card2": {
-        "text": "Textito en english"
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
       },
       "card3": {
-        "text": "Textazo en english"
-      }
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
+      },
+      "subtitle1": "Game Objects",
+      "subtitle2": "Game Objects",
+      "subtitle3": "Game Objects",
+      "subtitle4": "Game Objects"
     },
     "engine": {
       "title": "Engine"
     },
     "post_mortem": {
-      "title": "Post Mortem"
+      "title": "Post Mortem",
+      "subtitle1": "Game Objects",
+      "subtitle2": "Game Objects",
+      "subtitle3": "Game Objects",
+      "subtitle4": "Game Objects"
     }
   }
 }

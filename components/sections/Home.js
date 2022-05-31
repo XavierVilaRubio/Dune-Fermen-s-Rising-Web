@@ -1,6 +1,7 @@
 import logo from "public/logo.png";
 import Image from "next/image";
 import TextImage from "components/TextImage";
+import DownloadButton from "components/DownloadButton";
 
 export default function HomeSection({ t }) {
   return (
@@ -15,8 +16,7 @@ export default function HomeSection({ t }) {
             {t("home.headline")}
           </h1>
           <p className=" md:text-xl text-center">{t("home.catchphrase")}</p>
-        </div>
-        <div className="container">
+
           <TextImage
             text={t("home.card1.text")}
             image={"https://picsum.photos/400/200"}
@@ -30,11 +30,7 @@ export default function HomeSection({ t }) {
             image={"https://picsum.photos/400/200"}
           />
         </div>
-        <div className="my-16 cursor-pointer">
-          <a className="downloadButton font-medium rounded-lg capitalize text-2xl md:text-3xl">
-            {t("home.downloadText")}
-          </a>
-        </div>
+        <DownloadButton t={t} />
       </section>
       <style jsx>{`
         .video {
@@ -43,27 +39,6 @@ export default function HomeSection({ t }) {
           background-size: cover;
           width: 100%;
           aspect-ratio: 16 /9;
-        }
-
-        .downloadButton {
-          display: inline-block;
-          padding: 12px 45px;
-          color: #fcfbe7;
-
-          border-bottom: 4px solid var(--color-orangish-brown);
-          background-color: var(--color-orange);
-          text-shadow: 1px 2px var(--color-orangish-brown);
-        }
-
-        .downloadButton:hover {
-          margin-top: 2px;
-          border-bottom: 2px solid var(--color-orangish-brown);
-        }
-
-        .downloadButton:active {
-          margin-top: 4px;
-          border: none;
-          box-shadow: none;
         }
       `}</style>
     </>
