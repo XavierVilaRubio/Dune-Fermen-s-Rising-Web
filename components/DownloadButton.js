@@ -1,31 +1,15 @@
 export default function DownloadButton({ t }) {
   return (
     <>
-      <div className="my-16 cursor-pointer">
-        <a className="downloadButton font-medium rounded-lg capitalize text-2xl md:text-3xl">
+      <div className="self-center mx-auto mt-8 w-fit">
+        <a className="active:mt-1 active:shadow-none hover:mt-0.5 inline-block px-12 py-3 text-2xl font-medium capitalize border-b-4 rounded-lg active:border-0 hover:border-b-2 downloadButton md:text-3xl bg-customOrange-500 border-orangishBrown-500">
           {t("home.downloadText")}
         </a>
       </div>
       <style jsx>{`
         .downloadButton {
-          display: inline-block;
-          padding: 12px 45px;
           color: #fcfbe7;
-
-          border-bottom: 4px solid var(--color-orangish-brown);
-          background-color: var(--color-orange);
           text-shadow: 1px 2px var(--color-orangish-brown);
-        }
-
-        .downloadButton:hover {
-          margin-top: 2px;
-          border-bottom: 2px solid var(--color-orangish-brown);
-        }
-
-        .downloadButton:active {
-          margin-top: 4px;
-          border: none;
-          box-shadow: none;
         }
       `}</style>
     </>

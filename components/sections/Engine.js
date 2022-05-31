@@ -3,8 +3,8 @@ import TextImage from "components/TextImage";
 
 export default function Engine({ t }) {
   return (
-    <section id="engine">
-      <h2 className="text-4xl md:text-5xl font-bold mb-12 mt-4">
+    <section className="container mb-16" id="engine">
+      <h2 className="mt-4 mb-12 text-4xl font-bold md:text-5xl text-customOrange-500">
         {t("engine.title")}
       </h2>
       <TextImage

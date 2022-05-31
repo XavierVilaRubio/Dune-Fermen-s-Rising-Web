@@ -8,14 +8,14 @@ export default function HomeSection({ t }) {
     <>
       <section id="home">
         <div className="video"></div>
-        <div className="container">
-          <div className="w-40 md:w-52 max-w-sm mx-auto">
+        <div className="container mb-16">
+          <div className="w-40 max-w-sm mx-auto md:w-52">
             <Image src={logo} alt={"Dune: Fermen's Rising Logo"} />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">
+          <h1 className="mb-4 text-4xl font-bold text-center md:text-5xl text-customOrange-500">
             {t("home.headline")}
           </h1>
-          <p className=" md:text-xl text-center">{t("home.catchphrase")}</p>
+          <p className="text-center md:text-xl">{t("home.catchphrase")}</p>
 
           <TextImage
             text={t("home.card1.text")}
@@ -29,8 +29,8 @@ export default function HomeSection({ t }) {
             text={t("home.card3.text")}
             image={"https://picsum.photos/400/200"}
           />
+          <DownloadButton t={t} />
         </div>
-        <DownloadButton t={t} />
       </section>
       <style jsx>{`
         .video {

@@ -1,13 +1,11 @@
-import styles from "styles/Footer.module.css";
-
 import Image from "next/image";
 import logo from "public/logo.png";
 
-export default function Footer({ lang }) {
+export default function Footer({ t }) {
   return (
-    <footer className={styles.footerWrapper}>
-      <div className={styles.footerContent}>
-        <div className={styles.logo}>
+    <footer className="w-full py-4 bg-customOrange-500">
+      <div className="container flex justify-between">
+        <div>
           <Image
             src={logo}
             width={54}
@@ -15,9 +13,9 @@ export default function Footer({ lang }) {
             alt="Dune: Fermen's Rising logo"
           />
         </div>
-        <div className={styles.social}>
+        <div className="flex items-center gap-4 font-medium">
           <p>Follow us:</p>
-          <ul className={styles.socialItems}>
+          <ul className="contents">
             <li>
               <a href="">Twitter</a>
             </li>

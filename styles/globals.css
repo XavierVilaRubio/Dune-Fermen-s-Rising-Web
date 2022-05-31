@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --color-light-yellow: hsl(40, 86%, 82%);
-  --color-orange: hsl(27, 97%, 55%);
-  --color-orangish-brown: hsl(18, 81%, 41%);
-  --color-brown: hsl(20, 76%, 23%);
+  --color-light-yellow: #f9deaa;
+  --color-orange: #fc811d;
+  --color-orangish-brown: #bd4714;
+  --color-brown: #672c0e;
   --color-primary: var(--color-light-yellow);
   --color-secondary: var(--color-orange);
   --color-accent: var(--color-orangish-brown);
@@ -35,12 +35,11 @@ a {
 }
 
 section {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  border-top: 1px solid black;
+  /* border-top: 1px solid black; */
 }
 
 

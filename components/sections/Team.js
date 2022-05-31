@@ -85,8 +85,8 @@ export default function Team({ t }) {
 
   return (
     <>
-      <section id="team">
-        <h2 className="text-4xl md:text-5xl font-bold mb-12 mt-4">
+      <section className="container mb-8" id="team">
+        <h2 className="mt-4 mb-12 text-4xl font-bold md:text-5xl text-customOrange-500">
           {t("team.title")}
         </h2>
         <div className="flex gap-8 mb-6">
@@ -116,7 +116,7 @@ export default function Team({ t }) {
             ART
           </button>
         </div>
-        <div className="container items-center justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-12 sm:px-1">
+        <div className="container grid items-center justify-center grid-cols-1 gap-4 px-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:px-1">
           {filteredMembers.map((member, index) => (
             <TeamCard key={index} {...member} />
           ))}
