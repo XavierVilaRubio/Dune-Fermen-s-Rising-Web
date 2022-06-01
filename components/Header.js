@@ -49,15 +49,28 @@ export default function Header({ t }) {
             <nav className="flex items-center justify-center">
               <ul className="flex flex-col gap-4 pr-0 my-0 list-none md:flex-row md:gap-8">
                 {[
-                  { href: "#home", text: t("nav.home") },
-                  { href: "#team", text: t("nav.team") },
-                  { href: "#production", text: t("nav.production") },
-                  { href: "#engine", text: t("nav.engine") },
-                  { href: "#post_mortem", text: t("nav.post_mortem") },
-                ].map(({ href, text }) => (
+                  { href: "#home", text: t("nav.home"), id: "homeNav" },
+                  { href: "#team", text: t("nav.team"), id: "teamNav" },
+                  {
+                    href: "#production",
+                    text: t("nav.production"),
+                    id: "productionNav",
+                  },
+                  {
+                    href: "#engine",
+                    text: t("nav.engine"),
+                    id: "engineNav",
+                  },
+                  {
+                    href: "#post_mortem",
+                    text: t("nav.post_mortem"),
+                    id: "post_mortemNav",
+                  },
+                ].map(({ href, text, id }) => (
                   <li key={href}>
                     <a
                       href={href}
+                      id={id}
                       className="font-medium transition-colors link text-brown-500 hover:text-customOrange-500"
                     >
                       {text}
@@ -103,6 +116,32 @@ export default function Header({ t }) {
         @media (min-width: 768px) {
           .mobileNavItems {
             height: auto;
+          }
+
+          #homeNav {
+            color: var(
+              --color-${scrollPosition < 1822 ? "orangish-brown" : "brown"}
+            );
+          }
+          #teamNav {
+            color: var(
+              --color-${scrollPosition > 1822 && scrollPosition < 2392 ? "orangish-brown" : "brown"}
+            );
+          }
+          #productionNav {
+            color: var(
+              --color-${scrollPosition > 2392 && scrollPosition < 5060 ? "orangish-brown" : "brown"}
+            );
+          }
+          #engineNav {
+            color: var(
+              --color-${scrollPosition > 5060 && scrollPosition < 6141 ? "orangish-brown" : "brown"}
+            );
+          }
+          #post_mortemNav {
+            color: var(
+              --color-${scrollPosition > 6141 ? "orangish-brown" : "brown"}
+            );
           }
         }
       `}</style>
