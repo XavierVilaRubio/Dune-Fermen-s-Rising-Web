@@ -1,6 +1,6 @@
 export default function PostMortem({ t }) {
   return (
-    <section className="container mt-16" id="post_mortem">
+    <section className="container mt-24" id="post_mortem">
       <h2 className="mt-4 text-4xl font-bold text-orange-500 md:text-5xl">
         {t("post_mortem.title")}
       </h2>

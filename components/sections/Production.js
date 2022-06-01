@@ -2,7 +2,7 @@ import TextImage from "components/TextImage";
 
 export default function Production({ t }) {
   return (
-    <section className="container mt-16" id="production">
+    <section className="container mt-24" id="production">
       <h2 className="mt-4 text-4xl font-bold text-orange-500 md:text-5xl">
         {t("production.title")}
       </h2>

@@ -119,29 +119,25 @@ export default function Header({ t }) {
           }
 
           #homeNav {
-            color: var(
-              --color-${scrollPosition < 1822 ? "orangish-brown" : ""}
-            );
+            color: ${scrollPosition < 1822 ? "#fb923c" : ""};
           }
           #teamNav {
-            color: var(
-              --color-${scrollPosition > 1822 && scrollPosition < 2392 ? "orangish-brown" : ""}
-            );
+            color: ${scrollPosition > 1822 && scrollPosition < 2392
+              ? "#fb923c"
+              : ""};
           }
           #productionNav {
-            color: var(
-              --color-${scrollPosition > 2392 && scrollPosition < 5060 ? "orangish-brown" : ""}
-            );
+            color: ${scrollPosition > 2392 && scrollPosition < 5060
+              ? "#fb923c"
+              : ""};
           }
           #engineNav {
-            color: var(
-              --color-${scrollPosition > 5060 && scrollPosition < 6141 ? "orangish-brown" : ""}
-            );
+            color: ${scrollPosition > 5060 && scrollPosition < 6141
+              ? "#fb923c"
+              : ""};
           }
           #post_mortemNav {
-            color: var(
-              --color-${scrollPosition > 6141 ? "orangish-brown" : ""}
-            );
+            color: ${scrollPosition > 6141 ? "#fb923c" : ""};
           }
         }
       `}</style>

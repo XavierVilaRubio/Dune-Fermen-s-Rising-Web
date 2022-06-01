@@ -3,7 +3,7 @@ import logo from "public/logo.png";
 
 export default function Footer({ t }) {
   return (
-    <footer className="w-full py-4 bg-orange-500">
+    <footer className="w-full py-4 mt-16 bg-orange-500">
       <div className="container flex justify-between">
         <div>
           <Image
