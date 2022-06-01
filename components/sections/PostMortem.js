@@ -1,10 +1,10 @@
 export default function PostMortem({ t }) {
   return (
-    <section className="container mb-16" id="post_mortem">
-      <h2 className="mt-4 text-4xl font-bold md:text-5xl text-customOrange-500">
+    <section className="container mt-16" id="post_mortem">
+      <h2 className="mt-4 text-4xl font-bold text-orange-500 md:text-5xl">
         {t("post_mortem.title")}
       </h2>
-      <h3 className="mt-8 mb-4 text-3xl font-bold underline text-customOrange-600">
+      <h3 className="mt-8 mb-4 text-3xl font-bold text-orange-600 underline">
         {t("post_mortem.subtitle1")}
       </h3>
       <p className="text-justify">
@@ -14,7 +14,7 @@ export default function PostMortem({ t }) {
         voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor
         cupiditate odit!
       </p>
-      <h3 className="mt-8 mb-4 text-3xl font-bold underline text-customOrange-600">
+      <h3 className="mt-8 mb-4 text-3xl font-bold text-orange-600 underline">
         {t("post_mortem.subtitle1")}
       </h3>
       <p className="text-justify">
@@ -24,7 +24,7 @@ export default function PostMortem({ t }) {
         voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor
         cupiditate odit!
       </p>
-      <h3 className="mt-8 mb-4 text-3xl font-bold underline text-customOrange-600">
+      <h3 className="mt-8 mb-4 text-3xl font-bold text-orange-600 underline">
         {t("post_mortem.subtitle1")}
       </h3>
       <p className="text-justify">

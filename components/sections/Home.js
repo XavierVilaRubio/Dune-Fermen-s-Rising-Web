@@ -8,11 +8,11 @@ export default function HomeSection({ t }) {
     <>
       <section id="home">
         <div className="video"></div>
-        <div className="container mb-16">
+        <div className="container">
           <div className="w-40 max-w-sm mx-auto md:w-52">
             <Image src={logo} alt={"Dune: Fermen's Rising Logo"} />
           </div>
-          <h1 className="mb-4 text-4xl font-bold text-center md:text-5xl text-customOrange-500">
+          <h1 className="mb-4 text-4xl font-bold text-center text-orange-500 md:text-5xl">
             {t("home.headline")}
           </h1>
           <p className="text-center md:text-xl">{t("home.catchphrase")}</p>

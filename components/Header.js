@@ -71,7 +71,7 @@ export default function Header({ t }) {
                     <a
                       href={href}
                       id={id}
-                      className="font-medium transition-colors link text-brown-500 hover:text-customOrange-500"
+                      className="font-medium transition-colors link text-brown-500 hover:text-orange-500"
                     >
                       {text}
                     </a>
@@ -82,7 +82,7 @@ export default function Header({ t }) {
             <div className="flex flex-col items-center justify-center gap-4 mb-4 md:flex-row md:mb-0">
               <a
                 href="#download"
-                className="px-10 py-2.5 font-medium text-white transition-colors border-2 rounded-lg downloadButton bg-brown-500 border-brown-500 hover:bg-customOrange-500"
+                className="px-10 py-2.5 font-medium text-white transition-colors border-2 rounded-lg downloadButton bg-brown-500 border-brown-500 hover:bg-orange-500"
               >
                 {t("nav.download")}
               </a>

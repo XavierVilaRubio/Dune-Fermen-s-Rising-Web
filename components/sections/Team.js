@@ -85,11 +85,11 @@ export default function Team({ t }) {
 
   return (
     <>
-      <section className="container mb-8" id="team">
-        <h2 className="mt-4 mb-12 text-4xl font-bold md:text-5xl text-customOrange-500">
+      <section className="container mt-16" id="team">
+        <h2 className="mt-4 text-4xl font-bold text-orange-500 md:text-5xl">
           {t("team.title")}
         </h2>
-        <div className="flex gap-8 mb-6">
+        <div className="flex gap-8 mt-12 mb-6">
           <button
             ref={allButton}
             className="underline"
