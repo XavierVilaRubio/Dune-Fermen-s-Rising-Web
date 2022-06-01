@@ -120,27 +120,27 @@ export default function Header({ t }) {
 
           #homeNav {
             color: var(
-              --color-${scrollPosition < 1822 ? "orangish-brown" : "brown"}
+              --color-${scrollPosition < 1822 ? "orangish-brown" : ""}
             );
           }
           #teamNav {
             color: var(
-              --color-${scrollPosition > 1822 && scrollPosition < 2392 ? "orangish-brown" : "brown"}
+              --color-${scrollPosition > 1822 && scrollPosition < 2392 ? "orangish-brown" : ""}
             );
           }
           #productionNav {
             color: var(
-              --color-${scrollPosition > 2392 && scrollPosition < 5060 ? "orangish-brown" : "brown"}
+              --color-${scrollPosition > 2392 && scrollPosition < 5060 ? "orangish-brown" : ""}
             );
           }
           #engineNav {
             color: var(
-              --color-${scrollPosition > 5060 && scrollPosition < 6141 ? "orangish-brown" : "brown"}
+              --color-${scrollPosition > 5060 && scrollPosition < 6141 ? "orangish-brown" : ""}
             );
           }
           #post_mortemNav {
             color: var(
-              --color-${scrollPosition > 6141 ? "orangish-brown" : "brown"}
+              --color-${scrollPosition > 6141 ? "orangish-brown" : ""}
             );
           }
         }
