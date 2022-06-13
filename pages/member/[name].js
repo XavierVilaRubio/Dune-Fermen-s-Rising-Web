@@ -7,16 +7,11 @@ import { useRouter } from "next/router";
 const Member = () => {
   const { t } = useTranslation();
   const router = useRouter();
-  const { name, slug, cat, github, linkedin, twitter } = router.query;
+  const { name, slug, cat, github, linkedin, twitter, artstation } =
+    router.query;
   const JSONcontribs = t(`team.${slug}.contributions`);
-
   var contribs = Object.values(JSONcontribs);
-
-  // console.log(router.query);
-  // console.log(t(`team.${slug}`));
-  // console.log(contribs);
-  // console.log(JSONcontribs.length);
-  // console.log(typeof contribs);
+  var i = 0;
 
   return (
     <>
@@ -33,6 +28,7 @@ const Member = () => {
                   github={github}
                   twitter={twitter}
                   linkedin={linkedin}
+                  artstation={artstation}
                   color="#000"
                   size={6}
                 />
@@ -58,13 +54,16 @@ const Member = () => {
         {contribs.map(({ title, text, media }, index) => {
           return (
             <div key={index}>
-              <h3 className="mt-8 text-2xl font-semibold">{title}</h3>
+              <h3
+                className="mt-8 text-2xl font-semibold"
+                dangerouslySetInnerHTML={{ __html: title }}
+              ></h3>
               <div
                 className={`flex ${
                   media && media.length > 1 ? "flex-col" : "flex-row"
                 }`}
               >
-                {text}
+                <p dangerouslySetInnerHTML={{ __html: text }}></p>
                 {media && media.length > 1 ? (
                   <>
                     <div className="grid grid-cols-3 gap-4 mt-4">
