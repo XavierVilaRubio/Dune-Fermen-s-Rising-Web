@@ -15,7 +15,7 @@ export default function HomeSection({ t }) {
           <h1 className="mb-4 text-4xl font-bold text-center text-orange-500 md:text-5xl">
             {t("home.headline")}
           </h1>
-          <p className="text-center md:text-xl">{t("home.catchphrase")}</p>
+          <p className="mb-8 text-center md:text-xl">{t("home.catchphrase")}</p>
 
           <TextImage
             text={t("home.card1.text")}
