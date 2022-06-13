@@ -7,7 +7,7 @@ export default function TeamCard({ member }) {
   const { t } = useTranslation();
   const router = useRouter();
 
-  const { name, slug, twitter, github, linkedin, image } = member;
+  const { name, slug, twitter, github, linkedin, image, artstation } = member;
 
   console.log(member);
 
@@ -42,6 +42,7 @@ export default function TeamCard({ member }) {
               github={github}
               twitter={twitter}
               linkedin={linkedin}
+              artstation={artstation}
               color={"#fff"}
               size={6}
             />

@@ -12,7 +12,7 @@ export default function Engine({ t }) {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!
       </div>
       <hr />
-      <div className="grid grid-cols-3 gap-3 mt-4 mt-8">
+      <div className="grid grid-cols-3 gap-3 mt-8">
         {[
           [
             "https://picsum.photos/1600/900",

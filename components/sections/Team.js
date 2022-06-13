@@ -13,6 +13,7 @@ export default function Team({ t }) {
       github: "#",
       linkedin: "#",
       cat: "LEADS",
+      image: "/logo.png",
     },
     {
       name: "Alejandro Moreno",
@@ -30,6 +31,7 @@ export default function Team({ t }) {
       github: "#",
       linkedin: "#",
       cat: "LEADS",
+      image: "/logo.png",
     },
     {
       name: "Carles Garriga",
@@ -37,6 +39,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "LEADS",
     },
     {
@@ -54,6 +57,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/Chuchocoronel",
       linkedin: "https://www.linkedin.com/in/carlos-megia-zubillaga-b64bb31b7/",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -62,6 +66,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -70,6 +75,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -78,6 +84,7 @@ export default function Team({ t }) {
       twitter: "https://twitter.com/KuronoaScarlet",
       github: "https://github.com/KuronoaScarlet",
       linkedin: "https://www.linkedin.com/in/ignasi-pardo-carbó-8693a9216/",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -86,6 +93,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -94,6 +102,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -102,6 +111,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -110,6 +120,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/MHF13",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -118,6 +129,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/UriKurae",
       linkedin: "https://www.linkedin.com/in/oriol-bernal-martinez-54b093176/",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -126,6 +138,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -134,6 +147,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -142,6 +156,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -150,6 +165,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "PROGRAMMING",
     },
     {
@@ -167,6 +183,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/Hydeon-git",
       linkedin: "https://www.linkedin.com/in/poualbert/",
+      image: "/logo.png",
       cat: "DESIGN",
     },
     {
@@ -175,6 +192,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "DESIGN",
     },
     {
@@ -183,6 +201,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "DESIGN",
     },
     {
@@ -191,6 +210,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "https://www.linkedin.com/in/isaac-colomer-casas-4a8a41206/",
+      image: "/logo.png",
       cat: "DESIGN",
     },
     {
@@ -199,6 +219,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "DESIGN",
     },
     {
@@ -207,6 +228,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "DESIGN",
     },
     {
@@ -215,6 +237,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/MaxLlovera",
       linkedin: "https://www.linkedin.com/in/max-llovera-mart%C3%AD-273929241/",
+      image: "/logo.png",
       cat: "DESIGN",
     },
     {
@@ -223,6 +246,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "DESIGN",
     },
     {
@@ -231,6 +255,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "DESIGN",
     },
     {
@@ -239,6 +264,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "ART",
     },
     {
@@ -247,6 +273,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/davidlira19",
       linkedin: "https://www.linkedin.com/in/david-lira-mart%C3%AD-b30a2b241/",
+      image: "/logo.png",
       cat: "ART",
     },
     {
@@ -256,6 +283,7 @@ export default function Team({ t }) {
       github: "https://github.com/Ramsubito",
       linkedin: "https://www.linkedin.com/in/marc-ramos-gomez-414872217/",
       artstation: "https://www.artstation.com/ramsubo",
+      image: "/logo.png",
       cat: "ART",
     },
     {
@@ -264,6 +292,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/Meeeri08",
       linkedin: "https://www.linkedin.com/in/maria-garrigolas-0407831b4",
+      image: "/logo.png",
       cat: "ART",
     },
     {
@@ -272,6 +301,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
+      image: "/logo.png",
       cat: "ART",
     },
     {
