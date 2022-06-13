@@ -4,8 +4,10 @@
       "home": "Inicio",
       "team": "Equipo",
       "production": "Producción",
+      "game": "Juego",
       "engine": "Motor",
       "post_mortem": "Post Mortem",
+      "contact": "Contacto",
       "download": "Descargar"
     },
     "home": {
@@ -30,7 +32,6 @@
       },
       "marcos": {
         "rol": "Diseñador",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe a adipisci cumque. Nobis quidem quos at assumenda reprehenderit dolor id.",
         "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
         "contributions": {
           "1": {
@@ -43,11 +44,27 @@
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
             "media": [
               "https://picsum.photos/1600/900",
+              "https://picsum.photos/1600/900",
+              "https://picsum.photos/1600/900",
+              "https://picsum.photos/1600/900",
               "https://picsum.photos/1600/900"
             ]
+          },
+          "3": {
+            "title": "Title of contribution",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "media": ["https://picsum.photos/1600/900"]
+          },
+          "4": {
+            "title": "Title of contribution",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "media": ["../logo.png", "https://picsum.photos/1600/900"]
           }
         }
       }
+    },
+    "game": {
+      "title": "Juego"
     },
     "production": {
       "title": "Producción",

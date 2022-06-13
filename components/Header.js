@@ -49,20 +49,21 @@ export default function Header({ t }) {
             <nav className="flex items-center justify-center">
               <ul className="flex flex-col gap-4 pr-0 my-0 list-none md:flex-row md:gap-8">
                 {[
-                  { href: "/#home", text: t("nav.home"), id: "homeNav" },
-                  { href: "/#team", text: t("nav.team"), id: "teamNav" },
+                  { href: "#home", text: t("nav.home"), id: "homeNav" },
+                  { href: "#team", text: t("nav.team"), id: "teamNav" },
                   {
-                    href: "/#production",
+                    href: "#production",
                     text: t("nav.production"),
                     id: "productionNav",
                   },
+                  { href: "#game", text: t("nav.game"), id: "gameNav" },
                   {
-                    href: "/#engine",
+                    href: "#engine",
                     text: t("nav.engine"),
                     id: "engineNav",
                   },
                   {
-                    href: "/#post_mortem",
+                    href: "#post_mortem",
                     text: t("nav.post_mortem"),
                     id: "post_mortemNav",
                   },

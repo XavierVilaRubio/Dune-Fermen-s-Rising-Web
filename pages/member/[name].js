@@ -67,11 +67,9 @@ const Member = () => {
                 {text}
                 {media && media.length > 1 ? (
                   <>
-                    <div className="flex flex-row">
+                    <div className="grid grid-cols-3 gap-4 mt-4">
                       {media.map((src) => {
-                        return (
-                          <img className="w-2/6" src={src} alt="" key={src} />
-                        );
+                        return <img src={src} alt="" key={src} />;
                       })}
                     </div>
                   </>

@@ -13,6 +13,7 @@ export default function Team({ t }) {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
       cat: "LEADS",
+      image: "/logo.png",
     },
     {
       name: "Prova",
@@ -21,6 +22,7 @@ export default function Team({ t }) {
       github: "#",
       linkedin: "#",
       cat: "PROGRAMMING",
+      image: "/logo.png",
     },
     {
       name: "Prova1",
@@ -29,6 +31,7 @@ export default function Team({ t }) {
       github: "#",
       linkedin: "#",
       cat: "DESIGN",
+      image: "/logo.png",
     },
     {
       name: "Marcos",
@@ -37,6 +40,7 @@ export default function Team({ t }) {
       github: "#",
       linkedin: "#",
       cat: "ART",
+      image: "/logo.png",
     },
   ];
   const [filteredMembers, setFilteredMembers] = React.useState(teamMembers);

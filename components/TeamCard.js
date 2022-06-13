@@ -7,7 +7,7 @@ export default function TeamCard({ member }) {
   const { t } = useTranslation();
   const router = useRouter();
 
-  const { name, slug, twitter, github, linkedin } = member;
+  const { name, slug, twitter, github, linkedin, image } = member;
 
   console.log(member);
 
@@ -26,7 +26,7 @@ export default function TeamCard({ member }) {
       >
         <Image
           className="absolute inset-0 z-0 object-cover w-full h-full transition-opacity opacity-50 md:opacity-90 group-hover:opacity-50"
-          src="https://picsum.photos/200/100"
+          src={image}
           width={100}
           height={100}
           layout={"raw"}

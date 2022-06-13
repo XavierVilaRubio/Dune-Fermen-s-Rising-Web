@@ -4,8 +4,10 @@
       "home": "Home",
       "team": "Team",
       "production": "Production",
+      "game": "Game",
       "engine": "Engine",
       "post_mortem": "Post Mortem",
+      "contact": "Contact",
       "download": "Download"
     },
     "home": {
@@ -49,6 +51,9 @@
       "subtitle2": "Game Objects",
       "subtitle3": "Game Objects",
       "subtitle4": "Game Objects"
+    },
+    "game": {
+      "title": "Game"
     },
     "engine": {
       "title": "Engine"
