@@ -38,6 +38,14 @@ export default function Team({ t }) {
       linkedin: "#",
       cat: "ART",
     },
+    {
+      name: "Adrian",
+      slug: "adrian",
+      twitter: "#",
+      github: "#",
+      linkedin: "#",
+      cat: "DESIGN",
+    },
   ];
   const [filteredMembers, setFilteredMembers] = React.useState(teamMembers);
 
