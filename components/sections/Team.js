@@ -172,10 +172,10 @@ export default function Team({ t }) {
       name: "Adrian Aroca",
       slug: "adrian",
       twitter: "#",
-      github: "#",
-      linkedin: "#",
+      github: "https://github.com/adrianam4",
+      linkedin: "https://www.linkedin.com/in/adri%C3%A1n-aroca-mascaraque-216a86154/",
       cat: "DESIGN",
-      image: "/logo.png",
+      image: "/people/Adrian/profile.png",
     },
     {
       name: "Albert Pou",
