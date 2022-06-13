@@ -14,7 +14,7 @@ const Member = () => {
 
   // console.log(router.query);
   // console.log(t(`team.${slug}`));
-  console.log(contribs);
+  // console.log(contribs);
   // console.log(JSONcontribs.length);
   // console.log(typeof contribs);
 
@@ -65,7 +65,7 @@ const Member = () => {
                 }`}
               >
                 {text}
-                {media.length > 1 ? (
+                {media && media.length > 1 ? (
                   <>
                     <div className="flex flex-row">
                       {media.map((src) => {
