@@ -60,7 +60,9 @@ const Member = () => {
             <div key={index}>
               <h3 className="mt-8 text-2xl font-semibold">{title}</h3>
               <div
-                className={`flex ${media.length > 1 ? "flex-col" : "flex-row"}`}
+                className={`flex ${
+                  media && media.length > 1 ? "flex-col" : "flex-row"
+                }`}
               >
                 {text}
                 {media.length > 1 ? (
