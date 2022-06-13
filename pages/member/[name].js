@@ -9,12 +9,13 @@ const Member = () => {
   const router = useRouter();
   const { name, slug, cat, github, linkedin, twitter } = router.query;
   const JSONcontribs = t(`team.${slug}.contributions`);
-  const contribs = JSON.stringify(JSONcontribs);
+
+  var contribs = Object.values(JSONcontribs);
 
   // console.log(router.query);
   // console.log(t(`team.${slug}`));
-  // console.log(contribs);
-  console.log(JSONcontribs);
+  console.log(contribs);
+  // console.log(JSONcontribs.length);
   // console.log(typeof contribs);
 
   return (
@@ -54,20 +55,33 @@ const Member = () => {
         </div>
         <h3 className="mt-8 text-3xl text-center">My Contribution</h3>
         <hr className="mt-2 border-orange-500" />
-        {JSONcontribs.map((index) => {
-          return <div key={index}>a</div>;
+        {contribs.map(({ title, text, media }, index) => {
+          return (
+            <div key={index}>
+              <h3 className="mt-8 text-2xl font-semibold">{title}</h3>
+              <div
+                className={`flex ${media.length > 1 ? "flex-col" : "flex-row"}`}
+              >
+                {text}
+                {media.length > 1 ? (
+                  <>
+                    <div className="flex flex-row">
+                      {media.map((src) => {
+                        return (
+                          <img className="w-2/6" src={src} alt="" key={src} />
+                        );
+                      })}
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <img className="w-2/6" src={media} alt="" />
+                  </>
+                )}
+              </div>
+            </div>
+          );
         })}
-        {/* {contributions.map((index) => {
-          return <div key={index}>a</div>;
-        })} */}
-        {/* {contributions.map(({ title, text, media }) => {
-          <div>
-            {title}
-            {text}
-            {media}
-          </div>;
-        })} */}
-        <h3 className="mt-8 text-2xl font-semibold">My Contribution</h3>
         <div></div>
       </div>
     </>
