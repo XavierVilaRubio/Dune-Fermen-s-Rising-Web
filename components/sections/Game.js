@@ -20,42 +20,22 @@ export default function Game({ t }) {
       <div className="mt-8">
         <h3 className="text-2xl text-center">Gameplay</h3>
         <div className="grid grid-cols-3 gap-3 mt-4">
-          <Image
-            src={"https://picsum.photos/1600/900"}
-            width={1600}
-            height={900}
-            layout="raw"
-          />
-          <Image
-            src={"https://picsum.photos/1600/900"}
-            width={1600}
-            height={900}
-            layout="raw"
-          />
-          <Image
-            src={"https://picsum.photos/1600/900"}
-            width={1600}
-            height={900}
-            layout="raw"
-          />
-          <Image
-            src={"https://picsum.photos/1600/900"}
-            width={1600}
-            height={900}
-            layout="raw"
-          />
-          <Image
-            src={"https://picsum.photos/1600/900"}
-            width={1600}
-            height={900}
-            layout="raw"
-          />
-          <Image
-            src={"https://picsum.photos/1600/900"}
-            width={1600}
-            height={900}
-            layout="raw"
-          />
+          {[
+            "https://picsum.photos/1600/900",
+            "https://picsum.photos/1600/900",
+            "https://picsum.photos/1600/900",
+            "https://picsum.photos/1600/900",
+            "https://picsum.photos/1600/900",
+            "https://picsum.photos/1600/900",
+          ].map((url, index) => (
+            <Image
+              key={index}
+              src={url}
+              width={1600}
+              height={900}
+              layout="raw"
+            />
+          ))}
         </div>
       </div>
     </section>
