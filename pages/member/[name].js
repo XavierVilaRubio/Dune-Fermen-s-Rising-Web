@@ -8,9 +8,14 @@ const Member = () => {
   const { t } = useTranslation();
   const router = useRouter();
   const { name, slug, cat, github, linkedin, twitter } = router.query;
+  const JSONcontribs = t(`team.${slug}.contributions`);
+  const contribs = JSON.stringify(JSONcontribs);
 
-  console.log(router.query);
-  console.log(t(`team.${slug}`));
+  // console.log(router.query);
+  // console.log(t(`team.${slug}`));
+  // console.log(contribs);
+  console.log(JSONcontribs);
+  // console.log(typeof contribs);
 
   return (
     <>
@@ -47,7 +52,23 @@ const Member = () => {
             </div>
           </div>
         </div>
-        <h3 className="mt-8 text-2xl text-center">My Contribution</h3>
+        <h3 className="mt-8 text-3xl text-center">My Contribution</h3>
+        <hr className="mt-2 border-orange-500" />
+        {JSONcontribs.map((index) => {
+          return <div key={index}>a</div>;
+        })}
+        {/* {contributions.map((index) => {
+          return <div key={index}>a</div>;
+        })} */}
+        {/* {contributions.map(({ title, text, media }) => {
+          <div>
+            {title}
+            {text}
+            {media}
+          </div>;
+        })} */}
+        <h3 className="mt-8 text-2xl font-semibold">My Contribution</h3>
+        <div></div>
       </div>
     </>
   );

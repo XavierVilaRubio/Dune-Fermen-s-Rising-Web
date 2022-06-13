@@ -42,6 +42,8 @@ export default function TeamCard({ member }) {
               github={github}
               twitter={twitter}
               linkedin={linkedin}
+              color={"#fff"}
+              size={6}
             />
           </div>
         </div>
