@@ -27,8 +27,8 @@ export default function TeamCard({ member }) {
         <Image
           className="absolute inset-0 z-0 object-cover w-full h-full transition-opacity opacity-50 md:opacity-90 group-hover:opacity-50"
           src={image}
-          width={100}
-          height={100}
+          width={340}
+          height={450}
           layout={"raw"}
           alt="Mountain"
         />
