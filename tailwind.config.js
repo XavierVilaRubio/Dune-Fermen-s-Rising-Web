@@ -44,6 +44,9 @@ module.exports = {
           600: "#3a1908",
         },
       },
+      aspectRatio: {
+        "3/4": "3 / 4",
+      },
     },
   },
   plugins: [],

@@ -4,4 +4,5 @@ module.exports = {
   images: {
     domains: ["picsum.photos"],
   },
+  experimental: { images: { layoutRaw: true } },
 };

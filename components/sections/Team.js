@@ -1,15 +1,17 @@
 import * as React from "react";
 
-import TeamCard from "components/TeamCard";
+// import TeamCard from "components/TeamCard";
+import dynamic from "next/dynamic";
+const TeamCard = dynamic(() => import("components/TeamCard"), { ssr: false });
 
 export default function Team({ t }) {
   const teamMembers = [
     {
       name: "Alejandro Moreno",
       rol: t("team.cardAlejandro.rol"),
-      twitter: "#",
-      github: "#",
-      linkedin: "#",
+      twitter: "https://twitter.com",
+      github: "https://github.com",
+      linkedin: "https://linkedin.com",
       text: t("team.cardAlejandro.text"),
       cat: "LEADS",
     },
@@ -32,12 +34,12 @@ export default function Team({ t }) {
       cat: "DESIGN",
     },
     {
-      name: "Prova2",
-      rol: t("team.cardAlejandro.rol"),
+      name: "Marcos",
+      rol: t("team.marcos.rol"),
       twitter: "#",
       github: "#",
       linkedin: "#",
-      text: t("team.cardAlejandro.text"),
+      text: t("team.marcos.text"),
       cat: "ART",
     },
   ];
@@ -89,7 +91,7 @@ export default function Team({ t }) {
         <h2 className="mt-4 text-4xl font-bold text-orange-500 md:text-5xl">
           {t("team.title")}
         </h2>
-        <div className="flex gap-8 mt-12 mb-6">
+        <div className="flex flex-wrap justify-center gap-4 mt-12 mb-6 md:gap-8">
           <button
             ref={allButton}
             className="underline"
@@ -116,9 +118,9 @@ export default function Team({ t }) {
             ART
           </button>
         </div>
-        <div className="container grid items-center justify-center grid-cols-1 gap-4 px-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:px-1">
+        <div className="container grid items-center justify-center grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {filteredMembers.map((member, index) => (
-            <TeamCard key={index} {...member} />
+            <TeamCard key={index} member={member} />
           ))}
         </div>
       </section>
