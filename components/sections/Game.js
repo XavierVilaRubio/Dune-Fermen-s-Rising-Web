@@ -14,7 +14,7 @@ export default function Game({ t }) {
             <iframe
               width="560"
               height="315"
-              src="https://youtu.be/Qi9ypqdbYCM"
+              src=""
               title="YouTube video player"
               className="w-full"
               frameBorder={"0"}
