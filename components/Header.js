@@ -5,8 +5,9 @@ import CloseIcon from "./Icons/Close";
 import Image from "next/image";
 import logo from "public/logo.png";
 import { useLanguageQuery, LanguageSwitcher } from "next-export-i18n";
+import Link from "next/link";
 
-export default function Header({ t }) {
+export default function Header({ t, home }) {
   const [query] = useLanguageQuery();
   // console.log(query);
   // console.log(t);
@@ -49,33 +50,53 @@ export default function Header({ t }) {
             <nav className="flex items-center justify-center">
               <ul className="flex flex-col gap-4 pr-0 my-0 list-none md:flex-row md:gap-8">
                 {[
-                  { href: "#home", text: t("nav.home"), id: "homeNav" },
-                  { href: "#team", text: t("nav.team"), id: "teamNav" },
                   {
-                    href: "#production",
+                    href: `${home ? "" : "/"}#home`,
+                    text: t("nav.home"),
+                    id: "homeNav",
+                  },
+                  {
+                    href: `${home ? "" : "/"}#team`,
+                    text: t("nav.team"),
+                    id: "teamNav",
+                  },
+                  {
+                    href: `${home ? "" : "/"}#production`,
                     text: t("nav.production"),
                     id: "productionNav",
                   },
-                  { href: "#game", text: t("nav.game"), id: "gameNav" },
                   {
-                    href: "#engine",
+                    href: `${home ? "" : "/"}#game`,
+                    text: t("nav.game"),
+                    id: "gameNav",
+                  },
+                  {
+                    href: `${home ? "" : "/"}#engine`,
                     text: t("nav.engine"),
                     id: "engineNav",
                   },
                   {
-                    href: "#post_mortem",
+                    href: `${home ? "" : "/"}#post_mortem`,
                     text: t("nav.post_mortem"),
                     id: "post_mortemNav",
                   },
                 ].map(({ href, text, id }) => (
                   <li key={href}>
-                    <a
-                      href={href}
-                      id={id}
-                      className="font-medium transition-colors link text-brown-500 hover:text-orange-500"
-                    >
-                      {text}
-                    </a>
+                    {home ? (
+                      <a
+                        href={href}
+                        id={id}
+                        className="font-medium transition-colors link text-brown-500 hover:text-orange-500"
+                      >
+                        {text}
+                      </a>
+                    ) : (
+                      <Link href={href}>
+                        <a className="font-medium transition-colors link text-brown-500 hover:text-orange-500">
+                          {text}
+                        </a>
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>

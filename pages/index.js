@@ -22,7 +22,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header t={t} />
+      <Header t={t} home />
       <HomeSection t={t} />
       <Team t={t} />
       <Production t={t} />
