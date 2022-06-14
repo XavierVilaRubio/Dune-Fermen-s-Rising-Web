@@ -568,34 +568,35 @@
         }
       },
       "oscarc": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "UI Programmer",
+        "overview": "The development of this game has shown me what I am capable of. Making a game in 16 weeks has been an incredible experience, creating a game that we can be proud of among so many people is an achievement, but overcoming all the challenges and obstacles that we have encountered along the way, that is what I really value. It's the most realistic approach I've ever had to a working environment in this industry, and I appreciate having been part of it. In the code team, we have improved the great engine, Ragnar Engine, implementing several systems to be able to develop the game comfortably. I have been working on the UI system and the feedback of it.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "UI System",
+            "text": "The implementation of the UI system was my main task at the beginning of the project, we had to adapt it since we had originally developed it for a different engine. We created several UI elements such as buttons or sliders, but as development progressed we implemented new ones as we needed them.",
+            "media": ["../people/OscarCanales/UISystem2.gif"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "UI Screens",
+            "text": "I worked on the creation of several scenes that were not part of the gameplay, like the Main Menu, Pause, Win and Lose screen. And in updating these scenes as development progressed.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/OscarCanales/Screens1.gif",
+              "../people/OscarCanales/UiScreen.png"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Feedback",
+            "text": "To improve the player experience, we have spent a lot of time and effort in improving all the feedback, so that the player has the most information possible.",
+            "media": ["../people/OscarCanales/UIsystem.gif"]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Bug Fixing",
+            "text": "As always, any code implementation ends up causing bugs everywhere. So another job I've spent part of the project on has been fixing all these bugs."
+          },
+          "5": {
+            "title": "Extras: Dialogue System",
+            "text": "Before we had the cinematics, we had a dialogue system to explain the story to the players.Finally, it was removed from the game as the cinematics were already working properly.",
+            "media": ["../people/OscarCanales/Dialogue.gif"]
           }
         }
       },
