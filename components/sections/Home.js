@@ -38,7 +38,7 @@ export default function HomeSection({ t }) {
       </section>
       <style jsx>{`
         .video {
-          background-image: url("trailer.mp4");
+          background-image: url("trailer.webp");
           background-repeat: no-repeat;
           background-size: cover;
           width: 100%;
