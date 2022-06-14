@@ -12,9 +12,10 @@ export default function Game({ t }) {
         <div className="flex flex-row w-full gap-4 mt-8">
           <div className="w-1/2">
             <iframe
+              class="embed-responsive-item"
               width="560"
               height="315"
-              src="https://www.youtube.com/watch?v=Qi9ypqdbYCM"
+              src="https://www.youtube.com/embed/Qi9ypqdbYCM"
               title="YouTube video player"
               className="w-full"
               frameBorder={"0"}
