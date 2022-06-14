@@ -23,7 +23,7 @@ export default function Team({ t }) {
       github: "https://github.com",
       linkedin: "https://linkedin.com",
       cat: "LEADS",
-      image: "/logo.png",
+      image: "/people/Alejandro/profile.png",
     },
     {
       name: "Ismael Tejada",
@@ -32,7 +32,7 @@ export default function Team({ t }) {
       github: "#",
       linkedin: "#",
       cat: "LEADS",
-      image: "/logo.png",
+      image: "/people/Ismael/profile.png",
     },
     {
       name: "Carles Garriga",
@@ -40,7 +40,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Carles/profile.jpeg",
       cat: "LEADS",
     },
     {
@@ -50,7 +50,7 @@ export default function Team({ t }) {
       github: "#",
       linkedin: "#",
       cat: "PROGRAMMING",
-      image: "/logo.png",
+      image: "/people/ArnauBonada/profile.jpg",
     },
     {
       name: "Carlos Megia",
@@ -77,7 +77,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Himar/profile.jpg",
       cat: "PROGRAMMING",
     },
     {
@@ -113,7 +113,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Magda/profile.jpeg",
       cat: "PROGRAMMING",
     },
     {
@@ -149,7 +149,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/OscarCanales/profile.jpg",
       cat: "PROGRAMMING",
     },
     {
@@ -158,7 +158,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Raul/profile.jpeg",
       cat: "PROGRAMMING",
     },
     {
@@ -257,8 +257,7 @@ export default function Team({ t }) {
       slug: "polv",
       twitter: "https://twitter.com/_Amade128_",
       github: "https://github.com/AMADE128",
-      linkedin:
-        "https://www.linkedin.com/in/pol-v%C3%A1zquez-porcar-74b435202/",
+      linkedin: "https://www.linkedin.com/in/pol-v%C3%A1zquez-porcar-74b435202/",
       image: "/people/PolVazquez/profile.PNG",
       cat: "DESIGN",
     },
@@ -268,7 +267,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Alex/profile.jpg",
       cat: "ART",
     },
     {

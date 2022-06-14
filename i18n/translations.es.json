@@ -373,8 +373,7 @@
           },
           "5": {
             "title": "Quality Assurance",
-            "text": "After all the previous work, I was busy fixing all the skill-related bugs that came in from the Playtesting sessions. I personally took care of several bugs related to the skills that generate noise areas, as well as small hotfixes to make everything work properly.<br />On the other hand, and until the end of the project, together with my colleagues we have been working on making the game look as nice and finished as possible, having as a personal task that the skills were launched according to the animations that we received from art.",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "text": "After all the previous work, I was busy fixing all the skill-related bugs that came in from the Playtesting sessions. I personally took care of several bugs related to the skills that generate noise areas, as well as small hotfixes to make everything work properly.<br />On the other hand, and until the end of the project, together with my colleagues we have been working on making the game look as nice and finished as possible, having as a personal task that the skills were launched according to the animations that we received from art."
           }
         }
       },
@@ -404,8 +403,7 @@
           },
           "5": {
             "title": "Note",
-            "text": "Taking part in such a large team, given our experience back then, I have realized how much work there is always to do, so I sincerely thank everyone, specially the code department, for such fine organization and effort to get through this humble project in the most professional of ways it could.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "Taking part in such a large team, given our experience back then, I have realized how much work there is always to do, so I sincerely thank everyone, specially the code department, for such fine organization and effort to get through this humble project in the most professional of ways it could."
           }
         }
       },
@@ -546,8 +544,7 @@
         "contributions": {
           "1": {
             "title": "Player abilities",
-            "text": "Much of my work on this project has been creating most of the abilities for both Paul and Chani. Thanks to the logic of the player manager, the skills work by generating an empty gameObject where in the Start what is necessary is calculated before being able to do it, such as if you have selected an enemy or if you have to change something internal to the prefab.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "Much of my work on this project has been creating most of the abilities for both Paul and Chani. Thanks to the logic of the player manager, the skills work by generating an empty gameObject where in the Start what is necessary is calculated before being able to do it, such as if you have selected an enemy or if you have to change something internal to the prefab."
           },
           "2": {
             "title": "Paul",
@@ -577,8 +574,7 @@
           },
           "5": {
             "title": "BugFixing",
-            "text": "At the end of the process I dedicated myself to solving the bugs that were related to Paul and Chani's skills. For example, when throwing the knife, the enemies would die if they stepped on it or Chani's backstab when killing a specific enemy would blow up the game.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "At the end of the process I dedicated myself to solving the bugs that were related to Paul and Chani's skills. For example, when throwing the knife, the enemies would die if they stepped on it or Chani's backstab when killing a specific enemy would blow up the game."
           }
         }
       },
@@ -809,8 +805,7 @@
         "contributions": {
           "1": {
             "title": "Level Design",
-            "text": "As part of the Level Design Team, I’ve been in charge of doing all the block outs and hand design of all the levels, as well as all the enemies positioning and their respective patrols. Checking if the narrative aspect of the game was coherent with the design of our levels.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "As part of the Level Design Team, I’ve been in charge of doing all the block outs and hand design of all the levels, as well as all the enemies positioning and their respective patrols. Checking if the narrative aspect of the game was coherent with the design of our levels."
           },
           "2": {
             "title": "Level 1",
@@ -835,13 +830,11 @@
           },
           "5": {
             "title": "Level Prototyping",
-            "text": "We did a Unity build to test the first level and the abilities of the character. We also did some early enemy AI to test how they would react to the player actions.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "We did a Unity build to test the first level and the abilities of the character. We also did some early enemy AI to test how they would react to the player actions."
           },
           "6": {
             "title": "Playtest",
-            "text": "We needed to know which errors our game had, and I was one of the participants of the playtesting sessions we held at the center. I also helped to organize the in class playtesting sessions, which were really helpful because we hadn’t had the opportunity to test the whole game and lots of design errors came from those sessions.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "We needed to know which errors our game had, and I was one of the participants of the playtesting sessions we held at the center. I also helped to organize the in class playtesting sessions, which were really helpful because we hadn’t had the opportunity to test the whole game and lots of design errors came from those sessions."
           },
           "7": {
             "title": "Extras",
@@ -894,8 +887,7 @@
           },
           "6": {
             "title": "Minor Stuff",
-            "text": "Interactable Objects: Concept Discovery of interactable objects. <br />Audio Feedback: Audio implementations on the early iterations of the game.<br />Characters Design: Abilities, movement options and sound area defined on early stages.<br />Enemies behavior: Design of different enemies behaviors needed to be implemented.<br />Props List: Defined different props list on each level for art to make.<br />Difficulty Balance: The feedback the playtesting gave us made us realize the game was too hard, so we reduced cooldowns on players abilities and reduced the number of enemies on some zones.<br />QA: Finding and reporting bugs.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "Interactable Objects: Concept Discovery of interactable objects. <br />Audio Feedback: Audio implementations on the early iterations of the game.<br />Characters Design: Abilities, movement options and sound area defined on early stages.<br />Enemies behavior: Design of different enemies behaviors needed to be implemented.<br />Props List: Defined different props list on each level for art to make.<br />Difficulty Balance: The feedback the playtesting gave us made us realize the game was too hard, so we reduced cooldowns on players abilities and reduced the number of enemies on some zones.<br />QA: Finding and reporting bugs."
           }
         }
       },
@@ -951,8 +943,7 @@
           },
           "6": {
             "title": "Feedback documents",
-            "text": "Giving feedback to the player is crucial for an enjoyable experience when playing a video game. I started with a first feedback draft document for all the visual and auditive feedback needed for the Alpha version. Then I finished the document for the final gold version of the game of all the missing feedback after testing the game.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "Giving feedback to the player is crucial for an enjoyable experience when playing a video game. I started with a first feedback draft document for all the visual and auditive feedback needed for the Alpha version. Then I finished the document for the final gold version of the game of all the missing feedback after testing the game."
           },
           "7": {
             "title": "Characters and Cinematic Animations",
@@ -1159,8 +1150,7 @@
           },
           "5": {
             "title": "Other",
-            "text": "Also, I lent a hand anytime my teammates had a hard time finishing on time their tasks, such as helping on the animation part with Stilgar character animations.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "Also, I lent a hand anytime my teammates had a hard time finishing on time their tasks, such as helping on the animation part with Stilgar character animations."
           }
         }
       },
