@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import HamburguerIcon from "./Icons/Hamburger";
 import CloseIcon from "./Icons/Close";
@@ -108,7 +109,7 @@ export default function Header({ t, home }) {
             </nav>
             <div className="flex flex-col items-center justify-center gap-4 mb-4 md:flex-row md:mb-0">
               <a
-                href="#download"
+                href="https://github.com/Denisdrk6/Dune-Fremen-s-Rising/releases/download/V_0.7/Dune_Fremens_Rising_Alpha3.rar"
                 className="px-10 py-2.5 font-medium text-white transition-colors border-2 rounded-lg downloadButton bg-brown-500 border-brown-500 hover:bg-orange-500"
               >
                 {t("nav.download")}

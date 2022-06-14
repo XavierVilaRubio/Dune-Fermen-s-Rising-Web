@@ -78,7 +78,10 @@
           "3": {
             "title": "Tags and Layers",
             "text": "The tags and layers system has allowed to determine the type of the objects to condition and mask the events. Some tags and layers are included by default but the developer can add as many as needed.",
-            "media": ["https://picsum.photos/1600/900"]
+            "media": [
+                "../people/Alejandro/layers.png",
+                "../people/Alejandro/tags_edit.png"
+            ]
           },
           "4": {
             "title": "Perception System",
@@ -93,12 +96,17 @@
           "6": {
             "title": "Pop Up",
             "text": "The tags and layers system has allowed to determine the type of the objects to condition and mask the events. Some tags and layers are included by default but the developer can add as many as needed.",
-            "media": ["https://picsum.photos/1600/900"]
+            "media": [
+                "../people/Alejandro/WorldToScreen.png",
+                "../people/Alejandro/explosion.png",
+                "../people/Alejandro/knife_paul.png",
+                "../people/Alejandro/trap_stilgar.png"
+            ]
           }
         }
       },
       "ismael": {
-        "rol": "Diseñador",
+        "rol": "Lead designer",
         "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
         "contributions": {
           "1": {
@@ -205,7 +213,7 @@
       },
       "carlos": {
         "rol": "Programmer",
-        "overview": "My objective in this project was to improve my programming skills and learn to work with other teammates, including coders, designers and artists. I think I have accomplished them.<br />Speaking about the project, it was tough. I learned the problems of working with lots of people and bad programming, but also I acquired the aptitudes to solve them.<br />I am proud of the work I have done, and proud of the game we have done.",
+        "overview": "My objective in this project was to improve my programming skills and learn to work with other teammates, including coders, designers and artists. I think I have accomplished them. Speaking about the project, it was tough. I learned the problems of working with lots of people and bad programming, but also I acquired the aptitudes to solve them.I am proud of the work I have done, and proud of the game we have done.",
         "contributions": {
           "1": {
             "title": "Prefabs",
@@ -242,7 +250,7 @@
       },
       "davidg": {
         "rol": "Programmer",
-        "overview": "With this project I have been able to boost my overall programming skills alongside a good engine code structure to make it sustainable for the long term. I also learnt a lot about graphics programming and how to set a scripting system.<br />Furthermore, I also learnt how to work with a mid-sized team, efficient communication and give and receive feedback.<br />This project has helped me to finally decide that I want to dedicate myself to graphics programming and rendering or game engine programming.",
+        "overview": "With this project I have been able to boost my overall programming skills alongside a good engine code structure to make it sustainable for the long term. I also learnt a lot about graphics programming and how to set a scripting system. Furthermore, I also learnt how to work with a mid-sized team, efficient communication and give and receive feedback. This project has helped me to finally decide that I want to dedicate myself to graphics programming and rendering or game engine programming.",
         "contributions": {
           "1": {
             "title": "Cel Shading and Outline post processing",
@@ -312,7 +320,7 @@
       },
       "ignasi": {
         "rol": "Gameplay/Systems Programmer",
-        "overview": "I certainly believe that what we have achieved with this project is something to be taken into account by all the people who may come to value us at some point in our lives. Thanks to the efforts of everyone involved, we have managed to make a contribution to the industry that really feels like our own. And the feeling of having achieved it is something I thought I would never feel. <br />Thanks to this project I have been able to see where I want to direct my career as a programmer, since I have dedicated myself in large part to the creation of the logic of the information management systems of the players and the enemies, and also, it has helped me to know the experience of working in a team as if it were a company; but most importantly, and what I will always take with me, is that this project has taught me to fail, accept criticism, mend my mistakes and obtain results even greater than the previous ones.",
+        "overview": "I certainly believe that what we have achieved with this project is something to be taken into account by all the people who may come to value us at some point in our lives. Thanks to the efforts of everyone involved, we have managed to make a contribution to the industry that really feels like our own. And the feeling of having achieved it is something I thought I would never feel. Thanks to this project I have been able to see where I want to direct my career as a programmer, since I have dedicated myself in large part to the creation of the logic of the information management systems of the players and the enemies, and also, it has helped me to know the experience of working in a team as if it were a company; but most importantly, and what I will always take with me, is that this project has taught me to fail, accept criticism, mend my mistakes and obtain results even greater than the previous ones.",
         "contributions": {
           "1": {
             "title": "Player Management",
@@ -357,7 +365,7 @@
       },
       "isaacd": {
         "rol": "Programmer",
-        "overview": "AThis project has been truly an ambitious enterprise, and the burden of going from scratch to a complete game has posed both an appealing goal yet a crunching madtime.<br />Getting to know my colleagues better has proven to be very comforting, and despite all the fun times, I still got somewhat unmotivated early on. However, regarding back all the effort condensed into this final result I feel proud of the team as a whole.<br />Staying in the programming department, in which we really lacked some personal back then, I developed a few features to be taken as first approaches, always focusing on functionality.",
+        "overview": "AThis project has been truly an ambitious enterprise, and the burden of going from scratch to a complete game has posed both an appealing goal yet a crunching madtime. Getting to know my colleagues better has proven to be very comforting, and despite all the fun times, I still got somewhat unmotivated early on. However, regarding back all the effort condensed into this final result I feel proud of the team as a whole. Staying in the programming department, in which we really lacked some personal back then, I developed a few features to be taken as first approaches, always focusing on functionality.",
         "contributions": {
           "1": {
             "title": "Animations Core",
@@ -388,7 +396,7 @@
       },
       "lucas": {
         "rol": "Programmer",
-        "overview": "This project has allowed me to learn many things, to improve my programming skills and to structure my code correctly. <br />First of all, I have learned to work with a medium sized team, communicating with the other departments and giving and receiving feedback.<br />I also learned how to implement things I had never done before like the animation system and the Scene Manager. These were quite a challenge for me, as they were really difficult to implement, and there wasn't much time.<br />Overall, I think I did a great job during the whole project and I am very happy with the outcome of the project.",
+        "overview": "This project has allowed me to learn many things, to improve my programming skills and to structure my code correctly. First of all, I have learned to work with a medium sized team, communicating with the other departments and giving and receiving feedback. I also learned how to implement things I had never done before like the animation system and the Scene Manager. These were quite a challenge for me, as they were really difficult to implement, and there wasn't much time. Overall, I think I did a great job during the whole project and I am very happy with the outcome of the project.",
         "contributions": {
           "1": {
             "title": "Ragnar Engine",
@@ -423,34 +431,30 @@
         }
       },
       "magdalena": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
-        "contributions": {
+        "rol": "Programmer",
+        "overview": "I have joined the project with some expectations but now as I look back I see how different they were compared to the reality that we have been facing for the last couple of months. In such a big project everything depends on organization, communication and time management and thanks to that I have ",
+
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Particle System",
+            "text": "I have been working in the development of the particle system in the game engine using C++.<br /><br />My contribution included:<br /><ul><li>- Building the base code of the particle system using object pooling for optimization</li><li>Coding some particle effects such as velocity, acceleration, color, spawn in the spherical, cubicle and conical sphere shape</li><li>The billboard (particles rotate to always face the camera)</li><li>Special timer that allows specifying the duration of the particles’ effect</li>",
+            "media": [
+              "../people/Magda/particle_system.gif",
+              "../people/Magda/billboard.gif"
+            ]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Particle Effects",
+            "text": "The particle system has been used in our game many times to build different effects. I created the following ones: character’s shield, fire, sand wind, destroyed drone’s explosion and sand spatter after the fall of an object.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/Magda/Shield.gif",
+              "../people/Magda/sand_wind.gif",
+              "../people/Magda/dron_destroyed.gif"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Perception cone’s color change",
+            "text": "I was responsible for making the perception cones of enemies change their color when the player is detected. The function used for the color switch depends on the time that player spends in the area of vision of the enemy.",
+            "media": ["../people/Magda/perception_cone.gif"]
           }
         }
       },
@@ -482,7 +486,7 @@
       },
       "oriolb": {
         "rol": "Programmer",
-        "overview": "This project improved my teamwork skills, I also learned how to work under pressure and with different departments. Also, I had the pleasure to work with new code teammates that gave me different perspectives on how they work or code.<br />As a member of the code team, I implemented different systems like the animation system, or tools like the save system, as well as developed some core mechanics like the boss.<br />Although I have helped in mechanics, my goal was to give the team different utilities that made the coding and implementations easier.",
+        "overview": "This project improved my teamwork skills, I also learned how to work under pressure and with different departments. Also, I had the pleasure to work with new code teammates that gave me different perspectives on how they work or code. As a member of the code team, I implemented different systems like the animation system, or tools like the save system, as well as developed some core mechanics like the boss. Although I have helped in mechanics, my goal was to give the team different utilities that made the coding and implementations easier.",
         "contributions": {
           "1": {
             "title": "Base engine “Ragnar Engine”",
@@ -523,7 +527,7 @@
       },
       "oriolv": {
         "rol": "Programmer",
-        "overview": "At first I thought it would be like the vast majority of other projects I've been doing, with a small group of people. This project has made me see that an already quite large group of people is very different from anything I've ever done. It is much more difficult to organize and if someone does not get the job done on time, someone else will be delayed as a result.<br />Apart from this, this experience has made me a better programmer in relation to frontend developer with C# because of its similarity with the engine used in a wide market called Unity.<br />I am very proud of the final result despite some comments denying it and I think it has been a necessary subject in the development of a game developer.<br />Much of my contribution to this project has basically been C# programming in the engine to make the game functional. Although at the beginning before it was implemented, I was dedicated to helping several groups in engine code and small tasks that the lead was giving me.",
+        "overview": "At first I thought it would be like the vast majority of other projects I've been doing, with a small group of people. This project has made me see that an already quite large group of people is very different from anything I've ever done. It is much more difficult to organize and if someone does not get the job done on time, someone else will be delayed as a result. Apart from this, this experience has made me a better programmer in relation to frontend developer with C# because of its similarity with the engine used in a wide market called Unity. I am very proud of the final result despite some comments denying it and I think it has been a necessary subject in the development of a game developer. Much of my contribution to this project has basically been C# programming in the engine to make the game functional. Although at the beginning before it was implemented, I was dedicated to helping several groups in engine code and small tasks that the lead was giving me.",
         "contributions": {
           "1": {
             "title": "Player abilities",
@@ -564,34 +568,35 @@
         }
       },
       "oscarc": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "UI Programmer",
+        "overview": "The development of this game has shown me what I am capable of. Making a game in 16 weeks has been an incredible experience, creating a game that we can be proud of among so many people is an achievement, but overcoming all the challenges and obstacles that we have encountered along the way, that is what I really value. It's the most realistic approach I've ever had to a working environment in this industry, and I appreciate having been part of it. In the code team, we have improved the great engine, Ragnar Engine, implementing several systems to be able to develop the game comfortably. I have been working on the UI system and the feedback of it.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "UI System",
+            "text": "The implementation of the UI system was my main task at the beginning of the project, we had to adapt it since we had originally developed it for a different engine. We created several UI elements such as buttons or sliders, but as development progressed we implemented new ones as we needed them.",
+            "media": ["../people/OscarCanales/UISystem2.gif"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "UI Screens",
+            "text": "I worked on the creation of several scenes that were not part of the gameplay, like the Main Menu, Pause, Win and Lose screen. And in updating these scenes as development progressed.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/OscarCanales/Screens1.gif",
+              "../people/OscarCanales/UiScreen.png"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Feedback",
+            "text": "To improve the player experience, we have spent a lot of time and effort in improving all the feedback, so that the player has the most information possible.",
+            "media": ["../people/OscarCanales/UIsystem.gif"]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Bug Fixing",
+            "text": "As always, any code implementation ends up causing bugs everywhere. So another job I've spent part of the project on has been fixing all these bugs."
+          },
+          "5": {
+            "title": "Extras: Dialogue System",
+            "text": "Before we had the cinematics, we had a dialogue system to explain the story to the players.Finally, it was removed from the game as the cinematics were already working properly.",
+            "media": ["../people/OscarCanales/Dialogue.gif"]
           }
         }
       },
@@ -653,7 +658,7 @@
       },
       "adrian": {
         "rol": "Designer",
-        "overview": "During this project I learned how to design some aspects of a video game from scratch (mostly, enemies and boss design). Moreover, I improved my programming skills thanks to creating all the quests system.<br />Furthermore, I also learned how to work inside a big development team. Being efficient, communicative and even being able to organize little scrum teams.<br />This project helped me to decide that my goal inside this industry is to become a great technical designer, focusing my efforts into Level, Enemies, and Combat design. I could also be a gameplay programmer.",
+        "overview": "During this project I learned how to design some aspects of a video game from scratch (mostly, enemies and boss design). Moreover, I improved my programming skills thanks to creating all the quests system. Furthermore, I also learned how to work inside a big development team. Being efficient, communicative and even being able to organize little scrum teams. This project helped me to decide that my goal inside this industry is to become a great technical designer, focusing my efforts into Level, Enemies, and Combat design. I could also be a gameplay programmer.",
         "contributions": {
           "1": {
             "title": "Quest System",
@@ -678,7 +683,7 @@
       },
       "albert": {
         "rol": "Game/UI Designer",
-        "overview": "As a game designer I was first tasked with analyzing tactical combat implemented in various games. I documented some of the games that were supposed to be similar to the one we were tasked to develop.<br />I helped with audio design and made the audio bible. I was one of the main designers for the UI and UX of the game.<br />Later on in the project I switched to the Code department to help with the cinematics.<br />I express my gratitude and joy to be able to help develop this game. I am proud of the work done.",
+        "overview": "As a game designer I was first tasked with analyzing tactical combat implemented in various games. I documented some of the games that were supposed to be similar to the one we were tasked to develop. I helped with audio design and made the audio bible. I was one of the main designers for the UI and UX of the game. Later on in the project I switched to the Code department to help with the cinematics. I express my gratitude and joy to be able to help develop this game. I am proud of the work done.",
         "contributions": {
           "1": {
             "title": "Audio Design & Audio Bible",
@@ -714,7 +719,7 @@
       },
       "arnauu": {
         "rol": "Designer",
-        "overview": "During these last months I have been working, mainly, as a designer, although I have also worked as an artist. That’s why during game creation I’ve been able to work in different fields. Like the whole design team, I have tried to have everything I needed to do quickly so I could help in whatever way I could.<br />The main fields I’ve been working as a designer are Core Game Pillars, audio, NPC dialogues, animations and feedback. As an artist I’ve been into animations.",
+        "overview": "During these last months I have been working, mainly, as a designer, although I have also worked as an artist. That’s why during game creation I’ve been able to work in different fields. Like the whole design team, I have tried to have everything I needed to do quickly so I could help in whatever way I could. The main fields I’ve been working as a designer are Core Game Pillars, audio, NPC dialogues, animations and feedback. As an artist I’ve been into animations.",
         "contributions": {
           "1": {
             "title": "Core Game Pillars",
@@ -756,7 +761,7 @@
       },
       "enric": {
         "rol": "Narrative director",
-        "overview": "My focus when working on this project has been to take care of the narrative and the consistency of our work with the Dune universe, taking into account both Frank Herbert's novels and Dennis Villeneuve's final film for the same franchise in 2021 as well as reading extensive 200+ page Lore documents.<br />Working with my team has been a myriad of challenges, a lot of hours of intense work and has certainly given me a closer perspective on how the industry works and is something I will never forget.<br />Everything with this team has been an incredible experience that sometimes I can't quite process. How the department has worked in sync and how I have been able to manage my skills in communicating with the other departments and do my best to get the job done in the most effective way possible.",
+        "overview": "My focus when working on this project has been to take care of the narrative and the consistency of our work with the Dune universe, taking into account both Frank Herbert's novels and Dennis Villeneuve's final film for the same franchise in 2021 as well as reading extensive 200+ page Lore documents. Working with my team has been a myriad of challenges, a lot of hours of intense work and has certainly given me a closer perspective on how the industry works and is something I will never forget. Everything with this team has been an incredible experience that sometimes I can't quite process. How the department has worked in sync and how I have been able to manage my skills in communicating with the other departments and do my best to get the job done in the most effective way possible.",
         "contributions": {
           "1": {
             "title": "Concept discovery",
@@ -832,7 +837,7 @@
       },
       "marcp": {
         "rol": "Designer",
-        "overview": "As a member of the Design team I’ve been working from the early discovery and concepts to the final polishing of the game. It’s been an incredible learning experience, where we all learned how to team up and tackle the constant adversities we found along the way. And at the end of the road I realize the hard and marvelous job that all the departments have achieved. <br />Personally, I’ve learned to work as a team in a professional environment, whether it be seeking help or giving it when needed, distributing tasks, guiding the team and keeping track of the work as Scrum Master, being more critical with myself and accepting others' criticism. As well as foundations for level, enemy, character design and the effort it takes to iterate countless times to get them as close to perfect as possible.",
+        "overview": "As a member of the Design team I’ve been working from the early discovery and concepts to the final polishing of the game. It’s been an incredible learning experience, where we all learned how to team up and tackle the constant adversities we found along the way. And at the end of the road I realize the hard and marvelous job that all the departments have achieved. Personally, I’ve learned to work as a team in a professional environment, whether it be seeking help or giving it when needed, distributing tasks, guiding the team and keeping track of the work as Scrum Master, being more critical with myself and accepting others' criticism. As well as foundations for level, enemy, character design and the effort it takes to iterate countless times to get them as close to perfect as possible.",
         "contributions": {
           "1": {
             "title": "Level Design",
@@ -881,7 +886,7 @@
       },
       "marcru": {
         "rol": "Designer",
-        "overview": "As a member of the design project I have made a lot of impactful throughout the development of the game, my contribution for this game has been made in a wide range such as abilities, narrative and marketing. So everywhere I was I tried my best to ensure the game received the best quality I could add. Working with my classmates has been an enriching experience that I will carry on for my future as I learnt a lot about working with a team.<br />I have been a scrum master thrice and leading my team has been an amazing journey with a great result that I’m proud to be part of.",
+        "overview": "As a member of the design project I have made a lot of impactful throughout the development of the game, my contribution for this game has been made in a wide range such as abilities, narrative and marketing. So everywhere I was I tried my best to ensure the game received the best quality I could add. Working with my classmates has been an enriching experience that I will carry on for my future as I learnt a lot about working with a team. I have been a scrum master thrice and leading my team has been an amazing journey with a great result that I’m proud to be part of.",
         "contributions": {
           "1": {
             "title": "Stealth mechanics and skill tree",
@@ -981,7 +986,7 @@
       },
       "polv": {
         "rol": "Designer/Artist",
-        "overview": "During this project, I’ve played different roles during the project, alternating between the Design and the Art departments.<br />My part during this project was primarily focused on Boss Design, while also helping with Level Design with the blockouts. During the middle of the project, we needed some help in art, so I switched to the Art department to help.<br />When I was in art, I helped with the animations, but mainly I focused on level 2. I did some props, all of the houses and the city wall. Lastly, I put it all together and made the final touches to the 2nd level.<br />In the final milestones I helped in the gameplay feedback and polish of the game. It was a lot of fun and helped me decide that I want to become either a Level Designer or a 3D Environment artist.",
+        "overview": "During this project, I’ve played different roles during the project, alternating between the Design and the Art departments. My part during this project was primarily focused on Boss Design, while also helping with Level Design with the blockouts. During the middle of the project, we needed some help in art, so I switched to the Art department to help. When I was in art, I helped with the animations, but mainly I focused on level 2. I did some props, all of the houses and the city wall. Lastly, I put it all together and made the final touches to the 2nd level. In the final milestones I helped in the gameplay feedback and polish of the game. It was a lot of fun and helped me decide that I want to become either a Level Designer or a 3D Environment artist.",
         "contributions": {
           "1": {
             "title": "Boss Design",
@@ -1049,7 +1054,7 @@
       },
       "davidl": {
         "rol": "Artist",
-        "overview": "I am David Lira Martí, a Videogame Development student who loves art and videogames. On this project I worked as a Concept Artist and Modeler for some of the props and characters.<br />Dune Fremen’s Rising was a real challenge for the team and myself, I think that during the development I learned several things about video game development as an artist.<br />Despite some difficult moments we managed to finish a cool game on time with some created from 0 with our own engine. I think it is quite amazing what we managed to do by ourselves in such little time of development. It was nice and educational working on this project with my classmates and is an experience I will always remember.",
+        "overview": "I am David Lira Martí, a Videogame Development student who loves art and videogames. On this project I worked as a Concept Artist and Modeler for some of the props and characters. Dune Fremen’s Rising was a real challenge for the team and myself, I think that during the development I learned several things about video game development as an artist. Despite some difficult moments we managed to finish a cool game on time with some created from 0 with our own engine. I think it is quite amazing what we managed to do by ourselves in such little time of development. It was nice and educational working on this project with my classmates and is an experience I will always remember.",
         "contributions": {
           "1": {
             "title": "Concept / HUD Art",
@@ -1147,7 +1152,7 @@
       },
       "oscarr": {
         "rol": "Artist",
-        "overview": "This project has been a lot of fun and even with some problems that we had I liked it a lot and think the final result is great. Having the opportunity to work as if it was a real studio and the possibility to work in what I like the most has been an incredible experience that I'll always remember.<br />As a member of the art team, my main role in the project has been 3D modeling. Throughout the project, I have been in charge of modeling some of the characters and many assets that appear in the game. Also made some textures and animations.",
+        "overview": "This project has been a lot of fun and even with some problems that we had I liked it a lot and think the final result is great. Having the opportunity to work as if it was a real studio and the possibility to work in what I like the most has been an incredible experience that I'll always remember. As a member of the art team, my main role in the project has been 3D modeling. Throughout the project, I have been in charge of modeling some of the characters and many assets that appear in the game. Also made some textures and animations.",
         "contributions": {
           "1": {
             "title": "Concept for Level 2",
