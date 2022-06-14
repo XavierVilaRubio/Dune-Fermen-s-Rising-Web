@@ -230,9 +230,7 @@
           "1": {
             "title": "Cel Shading and Outline post processing",
             "text": "Developed the cartoonish visual style by implementing Cel Shading in the shader lightning calculations and also a post processing edge detector done with the color, depth and normals textures of the scene. The threshold value can be edited for each object so it has more outline or less.",
-            "media": [
-              "../people/DavidGonzalez/CelShading_and_outline.png"
-            ]
+            "media": ["../people/DavidGonzalez/CelShading_and_outline.png"]
           },
           "2": {
             "title": "Real time lightning and shadow mapping",
@@ -533,15 +531,15 @@
             "text": "",
             "media": [
               "../people/OriolValverde/Chani1.gif",
-              "../people/OriolValverde/Chani2.gif
+              "../people/OriolValverde/Chani2.gif"
             ]
           },
           "4": {
             "title": "God Mode",
             "text": "For a while, if we wanted to debug something that was not at the beginning of the game, we had to play to the location we wanted to test. This was very time consuming. That's why I decided to make the God Mode system to be able to teleport to other areas or so that enemies couldn't attack you.",
             "media": [
-                "../people/OriolValverde/God.gif",
-                "../people/OriolValverde/God2.gif"
+              "../people/OriolValverde/God.gif",
+              "../people/OriolValverde/God2.gif"
             ]
           },
           "5": {
@@ -623,9 +621,9 @@
             "title": "Menus and submenus",
             "text": "As you can see different menus have been implemented with different functions and structures, some of these menus contain submenus that allow access to different sections such as options, credits, pause menu, etc..., have been programmed so as to stop as little as possible the immersion of the player avoiding as much as possible long waiting times and always enhancing the feedback to the user.",
             "media": [
-                "../people/Unai/optionsControls.png",
-                "../people/Unai/credits.png",
-                "../people/Unai/game.png"
+              "../people/Unai/optionsControls.png",
+              "../people/Unai/credits.png",
+              "../people/Unai/game.png"
             ]
           },
           "2": {
@@ -701,10 +699,7 @@
           "4": {
             "title": "QA Testing",
             "text": "Since the cinematic I was in charge got canceled, I got some time to participate in the playtesting sessions before the Gold release to help polish the game by finding bugs and writing them down on a document to help the Code team track them down.",
-            "media": [
-                "../people/Albert/qa_1.png",
-                "../people/Albert/qa_2.png"
-            ]
+            "media": ["../people/Albert/qa_1.png", "../people/Albert/qa_2.png"]
           }
         }
       },
@@ -958,10 +953,10 @@
             "title": "UX  Designer",
             "text": "For this design iteration of the HUD, we have chosen to go with DUNE's typography-based design. This is because it was the one that came closest to the objectives that were set at the beginning before making this design, these were the simplicity of this design and the closeness it has with the film.",
             "media": [
-                "../people/Pau/UXDesign1.png",
-                "../people/Pau/UXDesign2.png",
-                "../people/Pau/UXDesign3.png",
-                "../people/Pau/UXDesign4.PNG"
+              "../people/Pau/UXDesign1.png",
+              "../people/Pau/UXDesign2.png",
+              "../people/Pau/UXDesign3.png",
+              "../people/Pau/UXDesign4.PNG"
             ]
           },
           "2": {
@@ -971,7 +966,7 @@
           },
           "3": {
             "title": "Playtesting",
-            "text": "I was responsible for the creation of the tests for the playtest, in addition to helping with the dynamization and the creation of an optimal environment to carry them out.",
+            "text": "I was responsible for the creation of the tests for the playtest, in addition to helping with the dynamization and the creation of an optimal environment to carry them out."
           }
         }
       },
@@ -1080,7 +1075,7 @@
       },
       "marcra": {
         "rol": "Artist",
-        "overview": "As a member of the art team, my duty in this project was to create the art of the levels alongside other artists. During the project I have been modeling and texturing props and environments based on the art style of the game and optimizations given the engine guidelines.	",
+        "overview": "As a member of the art team, my duty in this project was to create the art of the levels alongside other artists. During the project I have been modeling and texturing props and environments based on the art style of the game and optimizations given the engine guidelines.",
         "contributions": {
           "1": {
             "title": "Level 1 Art",
@@ -1110,18 +1105,18 @@
             "title": "Concept Art",
             "text": "First of all, we needed to have a visual reference or representation of how the different characters would look like. These are some of the turnarounds that were made in order to ease the modeling process.",
             "media": [
-                "../people/Maria/Concepts/char_stilgar_art.png",
-                "../people/Maria/Concepts/enm_boss_art.png",
-                "../people/Maria/Concepts/enm_enemy4_art.png",
-                "../people/Maria/Concepts/nme_enemy3_art.png"
+              "../people/Maria/Concepts/char_stilgar_art.png",
+              "../people/Maria/Concepts/enm_boss_art.png",
+              "../people/Maria/Concepts/enm_enemy4_art.png",
+              "../people/Maria/Concepts/nme_enemy3_art.png"
             ]
           },
           "2": {
             "title": "Characters and enemies",
             "text": "Once the modeling was done, we had to proceed to texturize them. These are the characters and their abilities with their respective textures. Substance was the main software used for the textures. The only channels that were used are base color and normal map. Also I had to do some last minute modeling on the abilities part, because stilgar’s trap was missing.",
             "media": [
-                "../people/Maria/Characters/chars.png",
-                "../people/Maria/Characters/abilities.png"
+              "../people/Maria/Characters/chars.png",
+              "../people/Maria/Characters/abilities.png"
             ]
           },
           "3": {
@@ -1149,9 +1144,9 @@
             "title": "Concept for Level 2",
             "text": "My first important work was researching and creating a concept for the second level. I searched for the ambience, the look of the buildings and the props. I also developed the prop list that later needed to be extended.",
             "media": [
-                "../people/OscarRoyo/environmentscene2conceptmoodboard.png",
-                "../people/OscarRoyo/environmentscene2conceptmoodboard2.png",
-                "../people/OscarRoyo/environmentscene2conceptmoodboard3.png"
+              "../people/OscarRoyo/environmentscene2conceptmoodboard.png",
+              "../people/OscarRoyo/environmentscene2conceptmoodboard2.png",
+              "../people/OscarRoyo/environmentscene2conceptmoodboard3.png"
             ]
           },
           "2": {
@@ -1190,7 +1185,7 @@
       },
       "polp": {
         "rol": "UI/Sound artist",
-        "overview": "As a member of the art team I've been involved with the UI from the very beginning until its redesign in the end, where my attention was captured by the cinematic design in which I defined every animation for every character under the approval of Enric Morales, the owner of the script. Between these two focuses I’m also responsible of the search of all audio in game, except the new music by our external composer, again thanks to the supervision of Max from the design team. I also worked in few animations for the enemies and others in the cinematics at the very beginning. I’m glad that the design team has let me do these jobs while I worked at the art department as design is my true passion in video games.	 Here is my linkedIn as I’m open to work in any design/art team: https://www.linkedin.com/in/pol-pallares-mur-4a5729226/",
+        "overview": "As a member of the art team I've been involved with the UI from the very beginning until its redesign in the end, where my attention was captured by the cinematic design in which I defined every animation for every character under the approval of Enric Morales, the owner of the script. Between these two focuses I’m also responsible of the search of all audio in game, except the new music by our external composer, again thanks to the supervision of Max from the design team. I also worked in few animations for the enemies and others in the cinematics at the very beginning. I’m glad that the design team has let me do these jobs while I worked at the art department as design is my true passion in video games. Here is my linkedIn as I’m open to work in any design/art team: https://www.linkedin.com/in/pol-pallares-mur-4a5729226/",
         "contributions": {
           "1": {
             "title": "UI Artist",
