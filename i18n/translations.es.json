@@ -73,7 +73,7 @@
           },
           "2": {
             "title": "Trigger Event",
-            "text": "The physics engine includes the OnTrigger, OnTriggerEnter, and OnTriggerExit events. The use of these events has been exploited throughout the game. Thanks to the triggers it has been possible to manage all events and some mechanics that happen during the game like the dialog system, hiding in bushes, activating checkpoints etc.",
+            "text": "The physics engine includes the OnTrigger, OnTriggerEnter, and OnTriggerExit events. The use of these events has been exploited throughout the game. Thanks to the triggers it has been possible to manage all events and some mechanics that happen during the game like the dialog system, hiding in bushes, activating checkpoints etc."
           },
           "3": {
             "title": "Tags and Layers",
@@ -151,7 +151,7 @@
           },
           "3": {
             "title": "Documentation and Workflow",
-            "text": "As I’ve mentioned before, I was part of the creation of the Audio Design Document, but I also created other types of documentation so that our team would work smoothly. The most significant ones would be: a document for naming conventions, organizational documents to distribute tasks for each sprint and being part of the animations list document. In addition to the creation of these documents, I was in charge of organizing the files in our shared folder, to make the Art delivery and to make sure that the pipeline was followed correctly.",
+            "text": "As I’ve mentioned before, I was part of the creation of the Audio Design Document, but I also created other types of documentation so that our team would work smoothly. The most significant ones would be: a document for naming conventions, organizational documents to distribute tasks for each sprint and being part of the animations list document. In addition to the creation of these documents, I was in charge of organizing the files in our shared folder, to make the Art delivery and to make sure that the pipeline was followed correctly."
           },
           "4": {
             "title": "HUD and Logo",
