@@ -106,34 +106,57 @@
         }
       },
       "ismael": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Lead designer",
+        "overview": "From minute zero, I have felt fortunate to have the opportunity to lead a magnificent and very capable design team. In this project I have developed as a Designer and as a person, since organizing the whole team to make a design on a genre that we did not know much about, has been a challenge to face and I can be proud of the teamwork. I have learned to work side by side with my colleagues and to use all the feedback in a constructive way. My main task in this project has been to know the capabilities of each person in order to assign the most appropriate tasks and to get the maximum potential out of each part. I have also focused on monitoring the development of all design tasks and overseeing the cohesion of the project, providing assistance to different departments when necessary.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Team management",
+            "text": "My main task as Lead Designer has been to focus on the management of the department generating different teams within the agile Scrum methodology, evaluating the different capabilities of each member. Within this contribution I have helped the different teams in the development of their different tasks, from level design, character and enemy design, narrative, UX experience to production tasks. "
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
-            ]
+            "title": "Narrative",
+            "text": "Together with Enric Morales and Marc Ruiz, I have been in charge of supervising the script and planning the narrative pacing of the game throughout the experience we offer to the player, so that there is coherence between the narrative and the level design."
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Castings and Dubbing",
+            "text": "In collaboration with Denis Deconinck, I opened a casting of voice actors to work with us to give life to the characters we have created in our project.I am personally proud of the results obtained in the castings, seeing that people specialized in different sectors of the world of dubbing and cinema have joined our cast of voice actors, managing to add to our project professionals who have participated in major studios such as Disney, Pixar and Marvel Studios, in important roles such as America Chavez in 'Doctor Strange in the multiverse of madness' or Raya in 'Raya and the last dragon.'"
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Level Design",
+            "text": "Regarding level design I have created several concepts of different iterations of level 2, corrections in level 1 and made a supervision of all of them to ensure consistency and coherence between them. I have designed the narrative pacing of all levels to facilitate the insertion of dialogue events.",
+            "media": [
+                "../people/Ismael/concept_level.png",
+                "../people/Ismael/map.jpg",
+                "../people/Ismael/IMG_0023.jpg"
+            ]
+          },
+          "5": {
+            "title": "UX & UI Design",
+            "text": "Together with Albert Pou and Pau Motta I have designed and developed part of the UI implemented in the project and made different iterations that, together with the code department, has been implemented and supervised in its different phases of development."
+          },
+          "6": {
+            "title": "Feedback",
+            "text": "Together with several members of the design team and code lead Alejandro Moreno I have supervised and helped to create several visual and sound feedback systems to help the player accordingly to the actions that happen in our game. Feedback systems such as dynamic sound area indicators, indicators for throwing objects in the skills section and managed the cognitive load of these.",
+            "media": ["../people/Ismael/move.gif"]
+          },
+          "7": {
+            "title": "Production Tasks",
+            "text": "I have provided support in the different production tasks that required support, such as the search for new assets for the project, as the musical composer, conducting interviews in castings, documentation management, layout and assembly of organizational charts in the pipeline of the project."
+          },
+          "8": {
+            "title": "Playtesting",
+            "text": "During several playtesting sessions, both behind closed doors with my colleagues and in front of the public, I have learned to collect and examine the feedback provided to us about our project in order to correct and polish different aspects of it and to acquire the ability to redirect the guidelines of the department and make the team's work more flexible."
+          },
+          "9": {
+            "title": "Artistic Support ",
+            "text": "I have provided artistic support by designing and developing 3D modeling for character abilities, such as Paul Atreides' eagle and throwing knife. For the initial documentation of the GDD draft, I was in charge of the visual design, generating templates both for this doc and for the documentation of the presentations for the stand-Ups.",
+            "media": [
+                "../people/Ismael/ab1.jpg",
+                "../people/Ismael/ab2.jpg",
+                "../people/Ismael/ab3.jpg",
+                "../people/Ismael/gdd1.jpg",
+                "../people/Ismael/gdd2.jpg",
+            ]
           }
         }
       },
