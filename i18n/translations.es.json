@@ -209,18 +209,12 @@
           "1": {
             "title": "Scripting System",
             "text": "In order to be able to develop the game inside our engine, it was necessary to implement a script system in C#, just like in Unity. To do this, I implemented the Mono Project library.<br /><br />Among the features of this scripting system are:<br /><ul><li>- Hot Reload, using MSBuild.exe and .NET Framework.</li><li>- In-engine script creation.</li><li>- Add Script Component to GameObject</li><li>- In-engine public variables and GameObject Drag and Drop.</li></ul>",
-            "media": ["https://picsum.photos/1600/900"]
+            "media": ["../people/ArnauBonada/scripting.gif"]
           },
           "2": {
             "title": "Spritesheet Particle System",
             "text": "When the Particle System was implemented, we also wanted to add a Unity-like Particle System using Spritesheets, which generates an animation of the particles using a single texture with all the necessary frames.",
-            "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
-            ]
+            "media": ["../people/Carles/particle.gif"]
           },
           "3": {
             "title": "VFX",
