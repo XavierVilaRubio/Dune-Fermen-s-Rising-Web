@@ -57,8 +57,10 @@ const Member = () => {
                   className={`flex ${
                     (media && media.length > 1) || !text
                       ? "flex-col"
-                      : "flex-row gap-4 even:flex-row-reverse"
-                  } mt-4`}
+                      : `${
+                          index % 2 ? "flex-row" : "flex-row-reverse"
+                        } gap-4 mt-4`
+                  } `}
                 >
                   <p
                     className="text-lg"
@@ -66,7 +68,7 @@ const Member = () => {
                   ></p>
                   {media && media.length > 1 ? (
                     <>
-                      <div className="grid grid-cols-3 gap-4 ">
+                      <div className="grid grid-cols-3 gap-4 mt-4">
                         {media.map((src) => {
                           return <img src={src} alt="" key={src} />;
                         })}
