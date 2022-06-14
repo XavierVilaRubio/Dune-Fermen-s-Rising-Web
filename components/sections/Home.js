@@ -31,7 +31,9 @@ export default function HomeSection({ t }) {
             text={t("home.card3.text")}
             image={"https://picsum.photos/400/200"}
           />
-          <DownloadButton t={t} />
+          <div className="mx-auto mt-20 w-fit">
+            <DownloadButton t={t} />
+          </div>
         </div>
       </section>
       <style jsx>{`

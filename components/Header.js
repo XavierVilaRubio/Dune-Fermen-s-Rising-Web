@@ -9,8 +9,6 @@ import Link from "next/link";
 
 export default function Header({ t, home }) {
   const [query] = useLanguageQuery();
-  // console.log(query);
-  // console.log(t);
 
   const [open, setOpen] = useState(false);
 

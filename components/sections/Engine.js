@@ -1,6 +1,4 @@
-import DownloadButton from "components/DownloadButton";
 import SectionTitle from "components/text/SectionTitle";
-import TextImage from "components/TextImage";
 import Image from "next/image";
 
 export default function Engine({ t }) {
@@ -8,10 +6,10 @@ export default function Engine({ t }) {
     <section className="container mt-24" id="engine">
       <SectionTitle>{t("engine.title")}</SectionTitle>
       <div className="flex flex-row mt-8 text-customOrange-400">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!
+        {t("engine.subtitle")}
       </div>
       <hr />
-      <div className="grid grid-cols-3 gap-3 mt-8">
+      <div className="grid grid-cols-3 gap-6 mt-8">
         {[
           [
             "https://picsum.photos/1600/900",
@@ -44,7 +42,14 @@ export default function Engine({ t }) {
             t("engine.features.6.subtitle"),
           ],
         ].map(([url, title, text], index) => (
-          <div key={index} className="p-4 rounded-md bg-customOrange-300 ">
+          <div
+            key={index}
+            className="p-4 text-center bg-orange-300 rounded-md"
+            style={{
+              "box-shadow":
+                "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
+            }}
+          >
             <Image
               className="rounded-sm"
               src={url}
@@ -52,7 +57,7 @@ export default function Engine({ t }) {
               height={900}
               layout="raw"
             />
-            <p className="mt-4 text-lg font-semibold text-center text-customOrange-500">
+            <p className="mt-4 text-lg font-semibold text-customOrange-500 ">
               {title}
             </p>
             <p className="text-customOrange-600">{text}</p>

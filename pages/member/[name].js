@@ -1,7 +1,6 @@
 import Header from "components/Header";
 import SocialIcons from "components/SocialIcons";
 import { useTranslation } from "next-export-i18n";
-import Image from "next/image";
 import { useRouter } from "next/router";
 
 const Member = () => {
@@ -21,7 +20,7 @@ const Member = () => {
           <div className="flex justify-between gap-4">
             <div className="w-2/3">
               <hr className="mt-2 border-orange-500" />
-              <p className="mt-2">{t(`team.${slug}.overview`)}</p>
+              <p className="mt-2 text-lg">{t(`team.${slug}.overview`)}</p>
               <div className="flex gap-2 mt-4">
                 <SocialIcons
                   github={github}
@@ -44,38 +43,49 @@ const Member = () => {
             </div>
           </div>
         </div>
-        <h3 className="mt-8 text-3xl text-center">My Contribution</h3>
+        <h3 className="mt-8 text-4xl text-center">My Contribution</h3>
         <hr className="mt-2 border-orange-500" />
-        {contribs.map(({ title, text, media }, index) => {
-          return (
-            <div key={index}>
-              <h3
-                className="mt-8 text-2xl font-semibold"
-                dangerouslySetInnerHTML={{ __html: title }}
-              ></h3>
-              <div
-                className={`flex ${
-                  media && media.length > 1 ? "flex-col" : "flex-row"
-                }`}
-              >
-                <p dangerouslySetInnerHTML={{ __html: text }}></p>
-                {media && media.length > 1 ? (
-                  <>
-                    <div className="grid grid-cols-3 gap-4 mt-4">
-                      {media.map((src) => {
-                        return <img src={src} alt="" key={src} />;
-                      })}
-                    </div>
-                  </>
-                ) : (
-                  <>
-                    <img className="w-2/6" src={media} alt="" />
-                  </>
-                )}
+        <div className="flex flex-col ">
+          {contribs.map(({ title, text, media }, index) => {
+            return (
+              <div className="flex flex-col mt-12" key={index}>
+                <h3
+                  className="text-3xl font-semibold"
+                  dangerouslySetInnerHTML={{ __html: title }}
+                />
+                <div
+                  className={`flex ${
+                    (media && media.length > 1) || !text
+                      ? "flex-col"
+                      : "flex-row gap-4 even:flex-row-reverse"
+                  } mt-4`}
+                >
+                  <p
+                    className="text-lg"
+                    dangerouslySetInnerHTML={{ __html: text }}
+                  ></p>
+                  {media && media.length > 1 ? (
+                    <>
+                      <div className="grid grid-cols-3 gap-4 ">
+                        {media.map((src) => {
+                          return <img src={src} alt="" key={src} />;
+                        })}
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <img
+                        className={`w-2/6 ${!text && "mx-auto"}`}
+                        src={media}
+                        alt=""
+                      />
+                    </>
+                  )}
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
         <div></div>
       </div>
     </>

@@ -1,14 +1,14 @@
-import Engine from "components/sections/Engine";
-import Footer from "components/Footer";
+import { useTranslation, useLanguageQuery } from "next-export-i18n";
+import Head from "next/head";
 import Header from "components/Header";
 import HomeSection from "components/sections/Home";
-import PostMortem from "components/sections/PostMortem";
-import Production from "components/sections/Production";
 import Team from "components/sections/Team";
-import Head from "next/head";
-import { useTranslation, useLanguageQuery } from "next-export-i18n";
+import Production from "components/sections/Production";
 import Game from "components/sections/Game";
+import Engine from "components/sections/Engine";
+import PostMortem from "components/sections/PostMortem";
 import Contact from "components/sections/Contact";
+import Footer from "components/Footer";
 
 export default function Home(props) {
   const { t } = useTranslation();

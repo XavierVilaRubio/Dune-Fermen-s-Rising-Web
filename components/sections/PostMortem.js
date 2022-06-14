@@ -9,13 +9,20 @@ export default function PostMortem({ t }) {
   return (
     <section className="container mt-24" id="post_mortem">
       <SectionTitle>{t("post_mortem.title")}</SectionTitle>
-      <Image
-        className="max-w-5xl mt-8"
-        src={"https://picsum.photos/1600/900"}
-        width="1600"
-        height={"900"}
-        layout={"raw"}
-      />
+      <div className="w-min">
+        <Image
+          className="max-w-5xl mt-8"
+          src={"https://picsum.photos/1600/900"}
+          width="1600"
+          height={"900"}
+          layout={"raw"}
+        />
+        <p className="mt-4 text-lg text-center text-customOrange-500">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+          laudantium. Ipsum facilis quasi alias numquam inventore incidunt minus
+          voluptatibus porro.
+        </p>
+      </div>
       {sections.map(({ title, description }, index) => (
         <>
           <SectionSubtitle>{title}</SectionSubtitle>

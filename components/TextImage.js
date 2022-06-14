@@ -13,6 +13,11 @@ export default function TextImage({ text, image }) {
           height={450}
           alt=""
           className="rounded-xl"
+          layout="raw"
+          style={{
+            "box-shadow":
+              "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
+          }}
         />
       </div>
     </div>
