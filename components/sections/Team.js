@@ -95,7 +95,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/IsaacDigon/profile.jpg",
       cat: "PROGRAMMING",
     },
     {
@@ -104,7 +104,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Lucas/profile.png",
       cat: "PROGRAMMING",
     },
     {
@@ -122,7 +122,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/MHF13",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Mario/profile.jpg",
       cat: "PROGRAMMING",
     },
     {
@@ -131,7 +131,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/UriKurae",
       linkedin: "https://www.linkedin.com/in/oriol-bernal-martinez-54b093176/",
-      image: "/logo.png",
+      image: "/people/OriolBernal/profile.jpg",
       cat: "PROGRAMMING",
     },
     {
@@ -140,7 +140,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/OriolValverde/profile.jpeg",
       cat: "PROGRAMMING",
     },
     {
@@ -204,7 +204,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Enric/profile.jpg",
       cat: "DESIGN",
     },
     {
@@ -231,7 +231,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/MarcRuiz/profile.jpg",
       cat: "DESIGN",
     },
     {
@@ -249,7 +249,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Pau/profile.jpeg",
       cat: "DESIGN",
     },
     {
@@ -287,7 +287,7 @@ export default function Team({ t }) {
       github: "https://github.com/Ramsubito",
       linkedin: "https://www.linkedin.com/in/marc-ramos-gomez-414872217/",
       artstation: "https://www.artstation.com/ramsubo",
-      image: "/logo.png",
+      image: "/people/MarcRamos/profile.jpeg",
       cat: "ART",
     },
     {
@@ -296,7 +296,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/Meeeri08",
       linkedin: "https://www.linkedin.com/in/maria-garrigolas-0407831b4",
-      image: "/logo.png",
+      image: "/people/Maria/Profile/profile.JPG",
       cat: "ART",
     },
     {
@@ -305,7 +305,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/OscarRoyo/profile.png",
       cat: "ART",
     },
     {

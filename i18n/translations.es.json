@@ -188,81 +188,79 @@
       },
       "carlos": {
         "rol": "Programmer",
-        "overview": "My objective in this project was to improve my programming skills and learn to work with other teammates, including coders, designers and artists. I think I have accomplished them.\nSpeaking about the project, it was tough. I learned the problems of working with lots of people and bad programming, but also I acquired the aptitudes to solve them.\nI am proud of the work I have done, and proud of the game we have done.",
+        "overview": "My objective in this project was to improve my programming skills and learn to work with other teammates, including coders, designers and artists. I think I have accomplished them.<br>Speaking about the project, it was tough. I learned the problems of working with lots of people and bad programming, but also I acquired the aptitudes to solve them.<br>I am proud of the work I have done, and proud of the game we have done.",
         "contributions": {
           "1": {
             "title": "Prefabs",
-            "text": "During the first vertical slice I was in charge of the implementation of the prefab system for our engine. \nI tried to do it the easiest way possible for everyone. I could finish it on time and without major problems.",
-            "media": ["../public/people/Carlos/prefabs.gif"]
+            "text": "During the first vertical slice I was in charge of the implementation of the prefab system for our engine. <br>I tried to do it the easiest way possible for everyone. I could finish it on time and without major problems.",
+            "media": ["../people/Carlos/prefabs.gif"]
           },
           "2": {
             "title": "Particles",
             "text": "For vertical slice 2 I was charged to upgrade, optimize and fix the particle system that was having problems. Since then, I worked on everything that needed the particle system. I worked on fixing all the problems that appeared during the development, and I was responsible for implementation of the VFX that included particles on the game.",
             "media": [
-              "../public/people/Carlos/particles_system.gif",
-              "../public/people/Carlos/particles_vfx_1.gif",
-              "../public/people/Carlos/particles_vfx_2.gif"
+              "../people/Carlos/particles_system.gif",
+              "../people/Carlos/particles_vfx_1.gif",
+              "../people/Carlos/particles_vfx_2.gif"
             ]
           },
           "3": {
             "title": "Players, abilities and Enemies",
-            "text": "From the alpha 2 I was charged with the task of preparing, fixing and completing the models, textures and animations of the characters controlled by the player, their abilities and all the enemies.\nDuring this I had to create or fix behaviors of the enemies, for example: stunned or distracted. Also I had to implement or fix some of the behaviors regarding animations and abilities in the C# script.",
+            "text": "From the alpha 2 I was charged with the task of preparing, fixing and completing the models, textures and animations of the characters controlled by the player, their abilities and all the enemies.<br>During this I had to create or fix behaviors of the enemies, for example: stunned or distracted. Also I had to implement or fix some of the behaviors regarding animations and abilities in the C# script.",
             "media": [
-              "../public/people/Carlos/characters.gif",
-              "../public/people/Carlos/abilities.png",
-              "../public/people/Carlos/enemies.png"
+              "../people/Carlos/characters.gif",
+              "../people/Carlos/abilities.png",
+              "../people/Carlos/enemies.png"
             ]
           },
           "4": {
             "title": "Levels",
             "text": "Finally in beta, I was in charge of the complete implementation of models, textures and enemies positions of levels 2 and 3 that were not done until now. It was tough because the engine could not support ngons, large meshes or meshes with lots of polys, so me and the artists had a difficult time trying not to crash the engine. Also there are a lot of elements (basically on level 2) and I had to put every texture one by one.",
             "media": [
-              "../public/people/Carlos/level2.png",
-              "../public/people/Carlos/level3.png"
+              "../people/Carlos/level2.png",
+              "../people/Carlos/level3.png"
             ]
           }
         }
       },
       "davidg": {
         "rol": "Programmer",
-        "overview": "With this project I have been able to boost my overall programming skills alongside a good engine code structure to make it sustainable for the long term. I also learnt a lot about graphics programming and how to set a scripting system.\nFurthermore, I also learnt how to work with a mid-sized team, efficient communication and give and receive feedback.\nThis project has helped me to finally decide that I want to dedicate myself to graphics programming and rendering or game engine programming.",
+        "overview": "With this project I have been able to boost my overall programming skills alongside a good engine code structure to make it sustainable for the long term. I also learnt a lot about graphics programming and how to set a scripting system.<br>Furthermore, I also learnt how to work with a mid-sized team, efficient communication and give and receive feedback.<br>This project has helped me to finally decide that I want to dedicate myself to graphics programming and rendering or game engine programming.",
         "contributions": {
           "1": {
             "title": "Cel Shading and Outline post processing",
             "text": "Developed the cartoonish visual style by implementing Cel Shading in the shader lightning calculations and also a post processing edge detector done with the color, depth and normals textures of the scene. The threshold value can be edited for each object so it has more outline or less.",
-            "media": [
-              "../public/people/DavidGonzalez/CelShading_and_outline.png"
-            ]
+            "media": ["../people/DavidGonzalez/CelShading_and_outline.png"]
           },
           "2": {
             "title": "Real time lightning and shadow mapping",
             "text": "Implemented a real time lightning system with directional lights, point lights and spot lights. They all have ambient, diffuse and specular colors. Additionally, real time shadow mapping has been implemented to give more realism to the environment.",
             "media": [
-              "../public/people/DavidGonzalez/Lights1.gif",
-              "../public/people/DavidGonzalez/Lights2.gif",
-              "../public/people/DavidGonzalez/Shadows.gif"
+              "../people/DavidGonzalez/Lights1.gif",
+              "../people/DavidGonzalez/Lights2.gif",
+              "../people/DavidGonzalez/Shadows.gif"
             ]
           },
           "3": {
             "title": "C# Bindings",
             "text": "I helped setting the C# scripting system up and reworked the way components were created. Besides that, I also implemented the core bindings alongside the components migration in order to fulfill an easy scripting API.",
             "media": [
-              "../public/people/DavidGonzalez/Csharp.png",
-              "../public/people/DavidGonzalez/CsharpMigratedComps.png"
+              "../people/DavidGonzalez/Csharp.png",
+              "../people/DavidGonzalez/CsharpMigratedComps.png"
             ]
           },
           "4": {
             "title": "Stencil, normals and emissive",
             "text": "Built a system where the objects that are occluded can be seen through, with a chosen color from scripting, using the stencil buffer. I also implemented normal mapping in order to give roughness sensation and emissive colors to highlight the objects.",
             "media": [
-              "../public/people/DavidGonzalez/Stencil.gif",
-              "../public/people/DavidGonzalez/NormalMap.png"
+              "../people/DavidGonzalez/Stencil.gif",
+              "../people/DavidGonzalez/NormalMap.png"
             ]
           },
           "5": {
             "title": "Particles’ batch renderer",
             "text": "This allowed to improve the engine’s performance by just accumulating quads and flushing them onto one draw call instead of doing one draw call per quad, which would have been extremely inefficient.",
-            "media": ["../public/people/DavidGonzalez/BatchRenderer.gif"]
+            "media": ["../people/DavidGonzalez/BatchRenderer.gif"]
           },
           "6": {
             "title": "Cinematics 2 and 7",
@@ -305,105 +303,108 @@
       },
       "ignasi": {
         "rol": "Gameplay/Systems Programmer",
-        "overview": "I certainly believe that what we have achieved with this project is something to be taken into account by all the people who may come to value us at some point in our lives. Thanks to the efforts of everyone involved, we have managed to make a contribution to the industry that really feels like our own. And the feeling of having achieved it is something I thought I would never feel. \nThanks to this project I have been able to see where I want to direct my career as a programmer, since I have dedicated myself in large part to the creation of the logic of the information management systems of the players and the enemies, and also, it has helped me to know the experience of working in a team as if it were a company; but most importantly, and what I will always take with me, is that this project has taught me to fail, accept criticism, mend my mistakes and obtain results even greater than the previous ones.",
+        "overview": "I certainly believe that what we have achieved with this project is something to be taken into account by all the people who may come to value us at some point in our lives. Thanks to the efforts of everyone involved, we have managed to make a contribution to the industry that really feels like our own. And the feeling of having achieved it is something I thought I would never feel. <br>Thanks to this project I have been able to see where I want to direct my career as a programmer, since I have dedicated myself in large part to the creation of the logic of the information management systems of the players and the enemies, and also, it has helped me to know the experience of working in a team as if it were a company; but most importantly, and what I will always take with me, is that this project has taught me to fail, accept criticism, mend my mistakes and obtain results even greater than the previous ones.",
         "contributions": {
           "1": {
             "title": "Player Management",
             "text": "In the first instance I was in charge of creating the logic and laying the foundations of the Player Manager, that is, the logic behind the control of all the playable characters, from movement to skill casting. I generated a base file with the ability to store as many players as you want, have up to 4 skills (with their respective casts or cancellations), a system to correctly keep the cooldowns of each character, etc.",
             "media": [
-              "../public/people/Ignasi/PlayerManagerPicture1.png",
-              "../public/people/Ignasi/PlayerManagerPicture2.png"
+              "../people/Ignasi/PlayerManagerPicture1.png",
+              "../people/Ignasi/PlayerManagerPicture2.png"
             ]
           },
           "2": {
             "title": "Enemy Management",
-            "text": "After the Player Manager, I was given a similar task, and that was, again, to create the logic and foundations for the Enemy Manager. Today the file is completely different from what I originally conceived, but the basic functionalities I thought of and programmed are still there. \nBasically, the creation of the enemies is done through the information it receives through the Level Managers (position and type of enemy, as well as whether it patrols or not). With this, through a loop and several algorithms that are nowadays quite optimized, it was possible to create a quite acceptable behavior that is controlled from the same space. ",
+            "text": "After the Player Manager, I was given a similar task, and that was, again, to create the logic and foundations for the Enemy Manager. Today the file is completely different from what I originally conceived, but the basic functionalities I thought of and programmed are still there. <br>Basically, the creation of the enemies is done through the information it receives through the Level Managers (position and type of enemy, as well as whether it patrols or not). With this, through a loop and several algorithms that are nowadays quite optimized, it was possible to create a quite acceptable behavior that is controlled from the same space. ",
             "media": [
-              "../public/people/Ignasi/EnemyManagerPicture1.png",
-              "../public/people/Ignasi/EnemyManagerPicture2.png"
+              "../people/Ignasi/EnemyManagerPicture1.png",
+              "../people/Ignasi/EnemyManagerPicture2.png"
             ]
           },
           "3": {
             "title": "Level Management",
-            "text": "Finally, since I had already taken care of the Managers of two really important parts of the code, I was given the third and last major management task thanks to the experience I had gained during the creation of the two previous scripts. \nFor the Level Manager, I evaluated the shortcomings of our engine, and tried to create scripts that behaved like big batteries of information for each level, so that the logic and algorithms (Player and Enemy Manager) would be separated from all the raw information weight. With this I managed to create a triangular communication vehicle with which we optimised the handling of all the information, objects, and functions that were used or found in each level.",
+            "text": "Finally, since I had already taken care of the Managers of two really important parts of the code, I was given the third and last major management task thanks to the experience I had gained during the creation of the two previous scripts. <br>For the Level Manager, I evaluated the shortcomings of our engine, and tried to create scripts that behaved like big batteries of information for each level, so that the logic and algorithms (Player and Enemy Manager) would be separated from all the raw information weight. With this I managed to create a triangular communication vehicle with which we optimised the handling of all the information, objects, and functions that were used or found in each level.",
             "media": [
-              "../public/people/Ignasi/LevelManagerPicture1.png",
-              "../public/people/Ignasi/LevelManagerPicture2.png"
+              "../people/Ignasi/LevelManagerPicture1.png",
+              "../people/Ignasi/LevelManagerPicture2.png"
             ]
           },
           "4": {
             "title": "Ability Programming",
-            "text": "Together with Oriol Valverde and Isaac Digón we were in charge of programming all the logic behind the 12 skills that exist in the game. Personally I was in charge of all Stilgar's abilities, i.e. the sword, the stunner, the trap and the whistle; and talking about Chani's abilities, I programmed the spice grenade.\nIt was a simple job at the beginning, but it became more complicated as the game progressed in all aspects. During each release we had to fix or add new things, but I think the end result of the skills is really interesting and cool. ",
+            "text": "Together with Oriol Valverde and Isaac Digón we were in charge of programming all the logic behind the 12 skills that exist in the game. Personally I was in charge of all Stilgar's abilities, i.e. the sword, the stunner, the trap and the whistle; and talking about Chani's abilities, I programmed the spice grenade.<br>It was a simple job at the beginning, but it became more complicated as the game progressed in all aspects. During each release we had to fix or add new things, but I think the end result of the skills is really interesting and cool. ",
             "media": ["../logo.png", "https://picsum.photos/1600/900"]
           },
           "5": {
             "title": "Quality Assurance",
-            "text": "After all the previous work, I was busy fixing all the skill-related bugs that came in from the Playtesting sessions. I personally took care of several bugs related to the skills that generate noise areas, as well as small hotfixes to make everything work properly.\nOn the other hand, and until the end of the project, together with my colleagues we have been working on making the game look as nice and finished as possible, having as a personal task that the skills were launched according to the animations that we received from art.",
+            "text": "After all the previous work, I was busy fixing all the skill-related bugs that came in from the Playtesting sessions. I personally took care of several bugs related to the skills that generate noise areas, as well as small hotfixes to make everything work properly.<br>On the other hand, and until the end of the project, together with my colleagues we have been working on making the game look as nice and finished as possible, having as a personal task that the skills were launched according to the animations that we received from art.",
             "media": ["../logo.png", "https://picsum.photos/1600/900"]
           }
         }
       },
       "isaacd": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Programmer",
+        "overview": "AThis project has been truly an ambitious enterprise, and the burden of going from scratch to a complete game has posed both an appealing goal yet a crunching madtime.<br>Getting to know my colleagues better has proven to be very comforting, and despite all the fun times, I still got somewhat unmotivated early on. However, regarding back all the effort condensed into this final result I feel proud of the team as a whole.<br>Staying in the programming department, in which we really lacked some personal back then, I developed a few features to be taken as first approaches, always focusing on functionality.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Animations Core",
+            "text": "Along with Ignasi Pardo, we were assigned this task at the very beginning of the engine development. One such capability as animations were crucial for a fine result, and so we had to develop our own animation importer, loader from custom file format and modules for playing them. Although the blending of keyframes got finished by other team members, we managed to emplace the Assimp library into our “fully fledged” engine.",
+            "media": ["../people/IsaacDigon/Animation.gif"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
-            ]
+            "title": "Camera Component",
+            "text": "Once the base engine was somewhat finished and it was due time to begin with the gameplay core functionality, Denis and I built the first approach to a camera component. This was to be used in game and be the main input point for the player. After some matrix transformations, a simple version was done, yet we later had to iterate the movement constraints many times, correct the image frame buffer process and enhance the overall experience. We even added a shake functionality.",
+            "media": ["../people/IsaacDigon/Camera.gif"]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Ability - Hunter Seeker",
+            "text": "Later in the development, already having started programming gameplay itself, I formed part of the abilities team. We were to find feasible solutions for the list of abilities the design department had evaluated final. I personally built the first approach to this ability, which at the time was to resemble a flying drone that killed on explosion. The thing is controlled by the player whilst disabling character movement so it can command the insect at ease. After some iterations, the movement details got adjusted, and the detonation was replaced with a collision trigger.",
+            "media": ["../people/IsaacDigon/Ability.gif"]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Memory Leaks",
+            "text": "By making as good use as I could of the mmgr library another team member had implemented into the engine, I pushed away the major memory leaks up until the later release of the game. Many of them were due to improper cleaning, a very reasonable cause given the amount of people working on the same code and the various modules each member ended up taking part in. Still a few minor leaks got through and could not be resolved due to their spread among many items in the hierarchy (in a way that made them untrackable).",
+            "media": ["../people/IsaacDigon/Memleak.gif"]
+          },
+          "5": {
+            "title": "Note",
+            "text": "Taking part in such a large team, given our experience back then, I have realized how much work there is always to do, so I sincerely thank everyone, specially the code department, for such fine organization and effort to get through this humble project in the most professional of ways it could.",
+            "media": ["https://picsum.photos/1600/900"]
           }
         }
       },
       "lucas": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Programmer",
+        "overview": "This project has allowed me to learn many things, to improve my programming skills and to structure my code correctly. <br>First of all, I have learned to work with a medium sized team, communicating with the other departments and giving and receiving feedback.<br>I also learned how to implement things I had never done before like the animation system and the Scene Manager. These were quite a challenge for me, as they were really difficult to implement, and there wasn't much time.<br>Overall, I think I did a great job during the whole project and I am very happy with the outcome of the project.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Ragnar Engine",
+            "text": "The engine base was developed a couple of months before we started the Dune project. The selection of the engine was made by the whole class.<br>The engine base was solid, had no memory leaks and also had an audio system implemented with Wwise.",
+            "media": ["../people/Lucas/RagnarEngine.gif"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
-            ]
+            "title": "Animation System",
+            "text": "The animation system was difficult to implement as it was done from scratch in one week. Later, improvements were made to the animation system that drastically reduced the time it took to calculate.",
+            "media": ["../people/Lucas/AnimationSystem.gif"]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Boss",
+            "text": "Implementing the boss was both an interesting and difficult challenge. The boss has 4 phases, with different behaviours in each one. It was difficult to make the boss challenging for the player, but also clear and easy to understand.",
+            "media": ["../people/Lucas/Boss.png"]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Scene Manager",
+            "text": "I was in charge of helping to create the Scene Manager. The Scene Manager of Unity was used as a reference for this. The Scene Manager allows you to manage different scenes, and to switch between scenes from scripting.",
+            "media": ["../people/Lucas/SceneManager.png"]
+          },
+          "5": {
+            "title": "Save System",
+            "text": "I have helped to create a save and load system for the game, taking advantage of some of C#'s own files.",
+            "media": ["../people/Lucas/SaveSystem.png"]
+          },
+          "6": {
+            "title": "Optimizations",
+            "text": "In the last deliveries I was in charge of supervising certain parts of the code, using a profiler to observe where code optimisation was needed, especially to catch the components of the objects and in the animations, which were greatly reduced in processing time. Even so, during the whole project I was very careful to make sure that my code was efficient and clean.",
+            "media": ["../people/Lucas/Optimizacion.png"]
           }
         }
       },
@@ -440,98 +441,111 @@
         }
       },
       "mario": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Programmer",
+        "overview": "The creation of this project is an achievement of which both I and my colleagues should be proud. More than the end result, what I take away from it is the effort and the way I have approached this challenge. Although I have not been able to participate as a gameplay programmer, which is what I hope to become, I have had the opportunity to work in certain branches of development that also motivated me as a tool Programmer.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Nav Mesh",
+            "text": "The movement of our game focuses on the pathfinding system. We used Recast, an open source library to create navmesh in the scene models.<br>Along with this library we used Detour, a set of pathfinding tools that allowed us to make the movement of all the entities on the stage. These 2 tools have allowed us to create a NavMesh on the objects of our choice and draw a path to make the entities follow it.",
+            "media": ["../people/Mario/NavMesh.gif"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
-            ]
+            "title": "Player Manager",
+            "text": "In our game you can control more than one character. I worked on the first iteration of the Player Manager that allowed us to control 1 to 4 characters in the scene by switching between them with an assigned button.",
+            "media": ["../people/Mario/PlayerManager.gif"]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Dialogue System",
+            "text": "Continuing with the work of a colleague, I implemented a new dialogue system that allowed to read the texts from an external document and associate each speaker with its line of dialogue, separating the conversations by ID to improve their organization and make them easier to edit for the dialogue team, which would be in charge of modifying them.<br>Dialogues are activated by triggers that stop character movement and activate the dialogue system during gameplay.A language switch was also implemented, to choose from Spanish to English. It can also be changed during the dialogues.<br>Along with the above work, related UI bugs were also fixed.",
+            "media": ["../people/Mario/DialogueSystem.gif"]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Cinematics",
+            "text": "I created a generic manager for all the cinematics with an individual state machine for each scene that allowed us to control the events that happened in each line of dialogue such as: character animations, sound effects, character movements. In addition, I made some of these cinematics.",
+            "media": ["../people/Mario/Cinematic.png"]
           }
         }
       },
       "oriolb": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Programmer",
+        "overview": "This project improved my teamwork skills, I also learned how to work under pressure and with different departments. Also, I had the pleasure to work with new code teammates that gave me different perspectives on how they work or code.<br>As a member of the code team, I implemented different systems like the animation system, or tools like the save system, as well as developed some core mechanics like the boss.<br>Although I have helped in mechanics, my goal was to give the team different utilities that made the coding and implementations easier.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Base engine “Ragnar Engine”",
+            "text": "The base of the engine was developed for ~3-4 months before starting the project itself. The engine was selected by the class.<br>The base of the engine had no memory leaks, and had the audio system implemented in it with Wwise. The system itself was later on improved a little bit for the project.",
+            "media": ["../people/OriolBernal/Ragnar.gif"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
-            ]
+            "title": "Animation system ",
+            "text": "This system was very hard to implement and followed me for the rest of the project. It was implemented in one week from scratch via shaders, but later on received different upgrades that helped to reduce the time it took to calculate all the bone animations. I was also given the task to give the animations the ability to interpolate between them, making the animations smoother.",
+            "media": ["../people/OriolBernal/Animations.gif"]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Boss",
+            "text": "I implemented the different phases of the boss. The phases included: Patrolling, calling more guards, hitting the ground, throwing rocks, and more.<br>The design team wrote a document with all the mechanics that the boss needed and I had to implement all of them. The boss had some redesigns that needed to be implemented after the playtesting phase.",
+            "media": ["../people/OriolBernal/boss.gif"]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Scene Manager",
+            "text": "I implemented the scene manager that was needed to swap between scenes to have better control of the multiple scenes we have in the game. <br>It helped a lot for other systems like the save system, or the game loop.",
+            "media": ["../people/OriolBernal/sceneManager.gif"]
+          },
+          "5": {
+            "title": "Save System",
+            "text": "I was given the task to implement a save system for the game. Instead of using the engine itself, I thought it would be better to save the game from the scripting part. So all the save system was made in C# and was made so that anyone could save with a little bit of knowledge of how the system works.",
+            "media": ["../people/OriolBernal/saveSystem.gif"]
+          },
+          "6": {
+            "title": "Optimization",
+            "text": "I helped with the optimization of the engine from the beginning, but with more emphasis on the last delivery. The part I optimized the most was the animation system, which followed us until the end. The time it took to calculate animations got reduced considerably.",
+            "media": ["../people/OriolBernal/Optimization.png"]
+          },
+          "7": {
+            "title": "Audio",
+            "text": "At the beginning one of the tasks I had was also to put audios with Wwise for the engine. When doing this, I noticed that the audio system could be improved, so I decided to improve the functionality of it by allowing more clips and the possibility to stop single audio clips at any moment.",
+            "media": ["../people/OriolBernal/Wwise.png"]
           }
         }
       },
       "oriolv": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Programmer",
+        "overview": "At first I thought it would be like the vast majority of other projects I've been doing, with a small group of people. This project has made me see that an already quite large group of people is very different from anything I've ever done. It is much more difficult to organize and if someone does not get the job done on time, someone else will be delayed as a result.<br>Apart from this, this experience has made me a better programmer in relation to frontend developer with C# because of its similarity with the engine used in a wide market called Unity.<br>I am very proud of the final result despite some comments denying it and I think it has been a necessary subject in the development of a game developer.<br>Much of my contribution to this project has basically been C# programming in the engine to make the game functional. Although at the beginning before it was implemented, I was dedicated to helping several groups in engine code and small tasks that the lead was giving me.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Player abilities",
+            "text": "Much of my work on this project has been creating most of the abilities for both Paul and Chani. Thanks to the logic of the player manager, the skills work by generating an empty gameObject where in the Start what is necessary is calculated before being able to do it, such as if you have selected an enemy or if you have to change something internal to the prefab.",
             "media": ["https://picsum.photos/1600/900"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Paul",
+            "text": "",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/OriolValverde/Paul1.gif",
+              "../people/OriolValverde/Paul2.gif",
+              "../people/OriolValverde/Paul3.gif",
+              "../people/OriolValverde/Paul4.gif"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Chani",
+            "text": "",
+            "media": [
+              "../people/OriolValverde/Chani1.gif",
+              "../people/OriolValverde/Chani2.gif"
+            ]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "God Mode",
+            "text": "For a while, if we wanted to debug something that was not at the beginning of the game, we had to play to the location we wanted to test. This was very time consuming. That's why I decided to make the God Mode system to be able to teleport to other areas or so that enemies couldn't attack you.",
+            "media": [
+              "../people/OriolValverde/God.gif",
+              "../people/OriolValverde/God2.gif"
+            ]
+          },
+          "5": {
+            "title": "BugFixing",
+            "text": "At the end of the process I dedicated myself to solving the bugs that were related to Paul and Chani's skills. For example, when throwing the knife, the enemies would die if they stepped on it or Chani's backstab when killing a specific enemy would blow up the game.",
+            "media": ["https://picsum.photos/1600/900"]
           }
         }
       },
@@ -600,164 +614,163 @@
         }
       },
       "unai": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "UI Programmer",
+        "overview": "My contribution to this project has been the programming of the UI in general, creating the various menus and submenus, start screen, credits screen, pause screen, options screen, win, lose, etc.. In addition to the assembly itself the programming of the various buttons, sliders, dropdowns, etc., both in its operation and the actions of each of them, has also worked on a system of animations that allows to transmit feedback to the user for the various actions that occur in the game, all this has been programmed with the intention that the loading times are as little as possible to maintain user immersion.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Menus and submenus",
+            "text": "As you can see different menus have been implemented with different functions and structures, some of these menus contain submenus that allow access to different sections such as options, credits, pause menu, etc..., have been programmed so as to stop as little as possible the immersion of the player avoiding as much as possible long waiting times and always enhancing the feedback to the user.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/Unai/optionsControls.png",
+              "../people/Unai/credits.png",
+              "../people/Unai/game.png"
             ]
           },
-          "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+          "2": {
+            "title": "UI Animations",
+            "text": "We have developed a system of animations for the UI, this system is mainly used to transmit different types of feedback to the player, either to indicate that the player has changed player or also to transmit that the player has received a hit, also used in the menus in case of having a focused button, and in the case of the button clicked. The system works on the basis of images that are displayed in an orderly fashion.",
+            "media": [
+              "../people/Unai/ability-aviable_Trim.gif",
+              "../people/Unai/player_die.gif",
+              "../people/Unai/botones-menu_Trim.gif",
+              "../people/Unai/credits-main-menu_Trim.gif",
+              "../people/Unai/missions-animation_Trim.gif",
+              "../people/Unai/options-main-menu_Trim.gif",
+              "../people/Unai/win-screen_Trim.gif",
+              "../people/Unai/lose_Screen.gif"
+            ]
           }
         }
       },
       "adrian": {
         "rol": "Designer",
-        "overview": "During this project I learned how to design some aspects of a video game from scratch (mostly, enemies and boss design). Moreover, I improved my programming skills thanks to creating all the quests system.\nFurthermore, I also learned how to work inside a big development team. Being efficient, communicative and even being able to organize little scrum teams.\nThis project helped me to decide that my goal inside this industry is to become a great technical designer, focusing my efforts into Level, Enemies, and Combat design. I could also be a gameplay programmer.",
+        "overview": "During this project I learned how to design some aspects of a video game from scratch (mostly, enemies and boss design). Moreover, I improved my programming skills thanks to creating all the quests system.<br>Furthermore, I also learned how to work inside a big development team. Being efficient, communicative and even being able to organize little scrum teams.<br>This project helped me to decide that my goal inside this industry is to become a great technical designer, focusing my efforts into Level, Enemies, and Combat design. I could also be a gameplay programmer.",
         "contributions": {
           "1": {
             "title": "Quest System",
             "text": "After doing all my work on Design, I helped the team doing programming tasks. And the main task I did here was the Quest System. After coding all the system, I also implemented and tested all the game quests.",
-            "media": ["../public/people/Adrian/Quest_System.png"]
+            "media": ["../people/Adrian/Quest_System.png"]
           },
           "2": {
             "title": "Enemies & Boss Design",
             "text": "My main role during all the project has been designing all the enemies that the player will face during the game (4 enemies). Moreover, I’ve also been working on the Boss design with some teammates. ",
             "media": [
-              "../public/people/Adrian/Enemy1.png",
-              "../public/people/Adrian/Enemy2.png",
-              "../public/people/Adrian/Boss.jpg"
+              "../people/Adrian/Enemy1.png",
+              "../people/Adrian/Enemy2.png",
+              "../people/Adrian/Boss.jpg"
             ]
           },
           "3": {
             "title": "Control Mapping",
             "text": "I’ve also helped designing two different sets of control mapping (Keyboard and Mouse). One based on Partisans 1941 Controls and other based on Shadow Tactics Controls",
-            "media": ["../public/people/Adrian/Control_Mapping.jpg"]
+            "media": ["../people/Adrian/Control_Mapping.jpg"]
           }
         }
       },
       "albert": {
         "rol": "Game/UI Designer",
-        "overview": "As a game designer I was first tasked with analyzing tactical combat implemented in various games. I documented some of the games that were supposed to be similar to the one we were tasked to develop.\nI helped with audio design and made the audio bible. I was one of the main designers for the UI and UX of the game.\nLater on in the project I switched to the Code department to help with the cinematics.\nI express my gratitude and joy to be able to help develop this game. I am proud of the work done.",
+        "overview": "As a game designer I was first tasked with analyzing tactical combat implemented in various games. I documented some of the games that were supposed to be similar to the one we were tasked to develop.<br>I helped with audio design and made the audio bible. I was one of the main designers for the UI and UX of the game.<br>Later on in the project I switched to the Code department to help with the cinematics.<br>I express my gratitude and joy to be able to help develop this game. I am proud of the work done.",
         "contributions": {
           "1": {
             "title": "Audio Design & Audio Bible",
-            "text": "On the Vertical Slice 2, I was asked to make an extensive list of most of the audios that will be in the game. The purpose of this list was to make the Art department able to know which audios they had to search for.\nLater, on the Alpha 3 release, we detailed all the audio on an Audio Bible while working with the Art Lead, Carles Garriga.",
+            "text": "On the Vertical Slice 2, I was asked to make an extensive list of most of the audios that will be in the game. The purpose of this list was to make the Art department able to know which audios they had to search for.<br>Later, on the Alpha 3 release, we detailed all the audio on an Audio Bible while working with the Art Lead, Carles Garriga.",
             "media": [
-              "../public/people/Albert/audio_list.png",
-              "../public/people/Albert/audio_bible1.png",
-              "../public/people/Albert/audio_bible2.png"
+              "../people/Albert/audio_list.png",
+              "../people/Albert/audio_bible1.png",
+              "../people/Albert/audio_bible2.png"
             ]
           },
           "2": {
             "title": "UI & UX Design",
-            "text": "I was the main UI and UX designer for Dune: Femen’s Rising. I was tasked to help design the UI in the early stages. Then I took over from there and started to design and create the needed UI elements.\nSome short list of the elements designed:\nDialogue Box, Win/Lose Scenes, Options Menu, Main Menu, Character HUD, Ability HUD and animation and Journal Tab.\nAll these elements were listed in a document where I detailed the behavior of each button and interaction.\nFrom here, I want to express my gratitude to some people I’ve worked with along the project:\nOscar Canales and Unai Diaz were the code team that programmed the entire UI.\nIsmael Tejada (our Design Lead), Pau Motta (who designed some of the UI in early stages) and all the Design department that helped with the iterations providing valuable feedback.",
+            "text": "I was the main UI and UX designer for Dune: Femen’s Rising. I was tasked to help design the UI in the early stages. Then I took over from there and started to design and create the needed UI elements.<br>Some short list of the elements designed:<br>Dialogue Box, Win/Lose Scenes, Options Menu, Main Menu, Character HUD, Ability HUD and animation and Journal Tab.<br>All these elements were listed in a document where I detailed the behavior of each button and interaction.<br>From here, I want to express my gratitude to some people I’ve worked with along the project:<br>Oscar Canales and Unai Diaz were the code team that programmed the entire UI.<br>Ismael Tejada (our Design Lead), Pau Motta (who designed some of the UI in early stages) and all the Design department that helped with the iterations providing valuable feedback.",
             "media": [
-              "../public/people/Albert/level_completed.png",
-              "../public/people/Albert/ability_gif.gif",
-              "../public/people/Albert/char_hud_gif.gif",
-              "../public/people/Albert/journal_gif.gif",
-              "../public/people/Albert/main_menu.png"
+              "../people/Albert/level_completed.png",
+              "../people/Albert/ability_gif.gif",
+              "../people/Albert/char_hud_gif.gif",
+              "../people/Albert/journal_gif.gif",
+              "../people/Albert/main_menu.png"
             ]
           },
           "3": {
             "title": "Code: Cinematics Scripting",
-            "text": "During the Beta and Gold releases, I switched from the Design department to the Code department in order to help with the cinematics setup. For the Beta we set up all the cinematics, but later for the Gold release, some changes were made and we were forced to mostly recreate them.\nI was tasked with Cinematic 4, where Rabann argues with a villager and Stilgar, along with Lady Jessica, confronts him on the main Square of the city. This is the previous cinematic before the player starts the second level.",
-            "media": ["https://picsum.photos/1600/900"]
+            "text": "During the Beta and Gold releases, I switched from the Design department to the Code department in order to help with the cinematics setup. For the Beta we set up all the cinematics, but later for the Gold release, some changes were made and we were forced to mostly recreate them.<br>I was tasked with Cinematic 4, where Rabann argues with a villager and Stilgar, along with Lady Jessica, confronts him on the main Square of the city. This is the mid cinematic during the second level. It finally got canceled.<br>So then I helped with the Cinematic 3 to get it ready for the release.",
+            "media": ["../people/Albert/cinematic3_1.png"]
+          },
+          "4": {
+            "title": "QA Testing",
+            "text": "Since the cinematic I was in charge got canceled, I got some time to participate in the playtesting sessions before the Gold release to help polish the game by finding bugs and writing them down on a document to help the Code team track them down.",
+            "media": ["../people/Albert/qa_1.png", "../people/Albert/qa_2.png"]
           }
         }
       },
       "arnauu": {
         "rol": "Designer",
-        "overview": "During these last months I have been working, mainly, as a designer, although I have also worked as an artist. That’s why during game creation I’ve been able to work in different fields. Like the whole design team, I have tried to have everything I needed to do quickly so I could help in whatever way I could.\nThe main fields I’ve been working as a designer are Core Game Pillars, audio, NPC dialogues, animations and feedback. As an artist I’ve been into animations.",
+        "overview": "During these last months I have been working, mainly, as a designer, although I have also worked as an artist. That’s why during game creation I’ve been able to work in different fields. Like the whole design team, I have tried to have everything I needed to do quickly so I could help in whatever way I could.<br>The main fields I’ve been working as a designer are Core Game Pillars, audio, NPC dialogues, animations and feedback. As an artist I’ve been into animations.",
         "contributions": {
           "1": {
             "title": "Core Game Pillars",
             "text": "",
             "media": [
-              "../public/people/Arnauustrell/GamePillars1.png",
-              "../public/people/Arnauustrell/GamePillars2.png"
+              "../people/Arnauustrell/GamePillars1.png",
+              "../people/Arnauustrell/GamePillars2.png"
             ]
           },
           "2": {
             "title": "Audio Analysis",
             "text": "Firstly, I did an analysis of Dune and other analysis of other games, similar to ours, of music and all kinks of audio that might be at our game or that might interest us.",
             "media": [
-              "../public/people/Arnauustrell/audioAnalysis1.png",
-              "../public/people/Arnauustrell/audioAnalysis2.png"
+              "../people/Arnauustrell/audioAnalysis1.png",
+              "..c/people/Arnauustrell/audioAnalysis2.png"
             ]
           },
           "3": {
             "title": "List of  All Audios and Environmental Music",
             "text": "I’ve put together the extensive list of audio and ambient music that we’ve put into the game and provided all the necessary feedback for them.",
-            "media": ["../public/people/Arnauustrell/audios.gif"]
+            "media": ["../people/Arnauustrell/audios.gif"]
           },
           "4": {
             "title": "NPC dialogues",
             "text": "I have done some research among other videogames and I’ve created the most appropriate dialogues of our game from all NPCs in spanish and english (both allies and enemies).",
-            "media": ["../public/people/Arnauustrell/dialogues.gif"]
+            "media": ["../people/Arnauustrell/dialogues.gif"]
           },
           "5": {
             "title": "Animation list and Cinematic Animations",
             "text": "Like audio, I’ve put together the extensive list of animations and list of cinematic animations that we’ve put into the game and provided all the necessary feedback for them.",
-            "media": ["../public/people/Arnauustrell/animatonsGif.gif"]
+            "media": ["../people/Arnauustrell/animatonsGif.gif"]
           },
           "6": {
             "title": "Animations",
             "text": "Finally, I took care of different animations, especially some animations of Chani and some animations of other characters and enemies that were needed. Also, I was in charge of the Cinematic Animations of Chani, Stilgar, Lady Jessica and Sardakaur enemy.",
-            "media": ["../public/people/Arnauustrell/animations.png"]
+            "media": ["../people/Arnauustrell/animations.png"]
           }
         }
       },
       "enric": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Narrative director",
+        "overview": "My focus when working on this project has been to take care of the narrative and the consistency of our work with the Dune universe, taking into account both Frank Herbert's novels and Dennis Villeneuve's final film for the same franchise in 2021 as well as reading extensive 200+ page Lore documents.<br>Working with my team has been a myriad of challenges, a lot of hours of intense work and has certainly given me a closer perspective on how the industry works and is something I will never forget.<br>Everything with this team has been an incredible experience that sometimes I can't quite process. How the department has worked in sync and how I have been able to manage my skills in communicating with the other departments and do my best to get the job done in the most effective way possible.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Concept discovery",
+            "text": "In anticipation of writing and narrating the story for our videogame, I spent several days researching the Dune universe in multiple aspects, from symbology and politics to astronomy, botany and science in the universe of this great IP, as well as obviously watching the movies and several chapters of some series that have been made about it.",
+            "media": ["../people/Enric/DUNE.jpg"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Level & Enemy Design",
+            "text": "Together with Pol Vazquez, Marc Pavón and Isaac Colomer, according to my research to carry out the narrative, I helped my teammates with the level design in order to make it have a narrative sense and find a way to make meaningful the mechanical challenges posed by a RTT based also on the narrative aspect of our game.<br>Concerning the enemy design, I advised the artists on the guidelines for the enemy costumes design and the boss design with the artists David Lira, María Garrigolas and Carles Garriga.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/Enric/Mapa_de_dialogos_level_2.png",
+              "../people/Enric/Enemy_2_Art.png"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Narrative Script",
+            "text": "Together with my lead designer Ismael Tejada and my partner Marc Ruiz, I wrote the narrative script of our game, which would later be used by several voice actors to make the cinematics of the project in the recordings where I co-directed the actors based on the interpretation we thought best of this script, with Himar Bravo in charge of the recording.<br><br>This script has also come to life in written form in-game, either as subtitles for cinematics or conversations that are merely text, all thanks to the system that Mario Hernandez and Carlos Megía programmed from code.",
+            "media": ["../people/Enric/Narrative_script.JPG"]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Team Twitter",
+            "text": "During the last stages of development, although it is not the work on which I have been more focused and I think I would have done a better job starting since we were given the assignment, I have covered the publication of several of the events and the day to day of our team via Twitter as a small and fictitious way to promote our work in social networks.<br><br>It's a job that requires a little daily dedication and the creation of content to upload to show what we do. Although I have not been able to keep up, with the knowledge acquired during the course I know that I could make a promotion up to the effort that my teammates invested in our game.",
+            "media": ["../people/Enric/twitterlogo.png"]
           }
         }
       },
@@ -774,22 +787,22 @@
             "title": "Level 1",
             "text": "For level 1 I have helped to make the hand prototypes of the level as well as the layout of the enemies. I have also participated in all the iterations we have done of this level.",
             "media": [
-              "../public/people/IsaacColomer/lvl1.png",
-              "../public/people/IsaacColomer/lvl1.gif"
+              "../people/IsaacColomer/lvl1.png",
+              "../people/IsaacColomer/lvl1.gif"
             ]
           },
           "3": {
             "title": "Level 2",
             "text": "In level 2 I have made different prototypes of the level. On the other hand, I have made the final version of it. I have also collaborated in the assembly of the level, adding the enemies and iterating everything we have been doing.",
             "media": [
-              "../public/people/IsaacColomer/lvl2.gif",
-              "../public/people/IsaacColomer/concept_lvl2_1.png"
+              "../people/IsaacColomer/lvl2.gif",
+              "../people/IsaacColomer/concept_lvl2_1.png"
             ]
           },
           "4": {
             "title": "Level 3",
             "text": "For level 3 I have been in all the design phases of the level and I have been in charge of placing the enemies. On the other hand, I have helped with the design of the boss and I have helped to create the boss battle zone.",
-            "media": ["../public/people/IsaacColomer/lvl3.gif"]
+            "media": ["../people/IsaacColomer/lvl3.gif"]
           },
           "5": {
             "title": "Level Prototyping",
@@ -803,120 +816,109 @@
           },
           "7": {
             "title": "Extras",
-            "text": "- Design of the intro scene screen.\n- Prop List: I did a prop list for all the levels.\n- Game Balance: After the testing sessions, I helped to balance the abilities cooldown and the enemies position and patrol.\n- Level Design: I did the concept discovery of some RTT games level design.\n- QA: Lots of testing!",
-            "media": ["../public/people/IsaacColomer/mainMenu.png"]
+            "text": "- Design of the intro scene screen.<br>- Prop List: I did a prop list for all the levels.<br>- Game Balance: After the testing sessions, I helped to balance the abilities cooldown and the enemies position and patrol.<br>- Level Design: I did the concept discovery of some RTT games level design.<br>- QA: Lots of testing!",
+            "media": ["../people/IsaacColomer/mainMenu.png"]
           }
         }
       },
       "marcp": {
         "rol": "Designer",
-        "overview": "As a member of the Design team I’ve been working from the early discovery and concepts to the final polishing of the game. It’s been an incredible learning experience, where we all learned how to team up and tackle the constant adversities we found along the way. And at the end of the road I realize the hard and marvelous job that all the departments have achieved. \nPersonally, I’ve learned to work as a team in a professional environment, whether it be seeking help or giving it when needed, distributing tasks, guiding the team and keeping track of the work as Scrum Master, being more critical with myself and accepting others' criticism. As well as foundations for level, enemy, character design and the effort it takes to iterate countless times to get them as close to perfect as possible.",
+        "overview": "As a member of the Design team I’ve been working from the early discovery and concepts to the final polishing of the game. It’s been an incredible learning experience, where we all learned how to team up and tackle the constant adversities we found along the way. And at the end of the road I realize the hard and marvelous job that all the departments have achieved. <br>Personally, I’ve learned to work as a team in a professional environment, whether it be seeking help or giving it when needed, distributing tasks, guiding the team and keeping track of the work as Scrum Master, being more critical with myself and accepting others' criticism. As well as foundations for level, enemy, character design and the effort it takes to iterate countless times to get them as close to perfect as possible.",
         "contributions": {
           "1": {
             "title": "Level Design",
             "text": "Designed the concepts of all the levels, terrain distribution, enemies positioning and patrols, interactable objects, narrative triggers and characters and abilities progression through them, and pacing. Building the blockouts and iterating with the playtesting feedback paired with Isaac Colomer.",
             "media": [
-              "../public/people/MarcPavon/lvl1.png",
-              "../public/people/MarcPavon/lvl1Gif.gif",
-              "../public/people/MarcPavon/lvl2.png",
-              "../public/people/MarcPavon/lvl2Gif.gif",
-              "../public/people/MarcPavon/lvl3.png",
-              "../public/people/MarcPavon/lvl3Gif.gif"
+              "../people/MarcPavon/lvl1.png",
+              "../people/MarcPavon/lvl1Gif.gif",
+              "../people/MarcPavon/lvl2.png",
+              "../people/MarcPavon/lvl2Gif.gif",
+              "../people/MarcPavon/lvl3.png",
+              "../people/MarcPavon/lvl3Gif.gif"
             ]
           },
           "2": {
             "title": "Playtesting",
             "text": "Organized several in class playtest sessions and a presencial playtest at CITM Terrassa open to all students with more than 30 participants where we discovered several bugs, some crashes, design problems and lack of in game feedback, among others.",
-            "media": ["../public/people/MarcPavon/coninue.png"]
+            "media": ["../people/MarcPavon/coninue.png"]
           },
           "3": {
             "title": "Boss Design",
             "text": "Worked on the Rabban boss concept, design and diverse iterations, dividing him in phases or hits. Designed the first, second and third phase, arena distribution and defined the exploding barrels mechanic.",
             "media": [
-              "../public/people/MarcPavon/Boss_design.PNG",
-              "../public/people/MarcPavon/Rabban.PNG"
+              "../people/MarcPavon/Boss_design.PNG",
+              "../people/MarcPavon/Rabban.PNG"
             ]
           },
           "4": {
             "title": "Player and enemy prototyping",
             "text": "Prototyped the first level on Unity. With the player base movement and first ability (stone) with basic enemies with vision range to test the sizes, speeds, timings and interaction between player and environment.",
-            "media": ["../public/people/MarcPavon/Unity.PNG"]
+            "media": ["../people/MarcPavon/Unity.PNG"]
           },
           "5": {
             "title": "Level 3 Decoration",
             "text": "Added decoration from already made props from art to level 3. The Level was floating on the void, added terrain, houses, and rocks with Maya, implemented and textured them on the Engine.",
             "media": [
-              "../public/people/MarcPavon/No_decoration.PNG",
-              "../public/people/MarcPavon/With_decoration.PNG"
+              "../people/MarcPavon/No_decoration.PNG",
+              "../people/MarcPavon/With_decoration.PNG"
             ]
           },
           "6": {
             "title": "Minor Stuff",
-            "text": "Interactable Objects: Concept Discovery of interactable objects. \nAudio Feedback: Audio implementations on the early iterations of the game.\nCharacters Design: Abilities, movement options and sound area defined on early stages.\nEnemies behavior: Design of different enemies behaviors needed to be implemented.\nProps List: Defined different props list on each level for art to make.\nDifficulty Balance: The feedback the playtesting gave us made us realize the game was too hard, so we reduced cooldowns on players abilities and reduced the number of enemies on some zones.\nQA: Finding and reporting bugs.",
+            "text": "Interactable Objects: Concept Discovery of interactable objects. <br>Audio Feedback: Audio implementations on the early iterations of the game.<br>Characters Design: Abilities, movement options and sound area defined on early stages.<br>Enemies behavior: Design of different enemies behaviors needed to be implemented.<br>Props List: Defined different props list on each level for art to make.<br>Difficulty Balance: The feedback the playtesting gave us made us realize the game was too hard, so we reduced cooldowns on players abilities and reduced the number of enemies on some zones.<br>QA: Finding and reporting bugs.",
             "media": ["https://picsum.photos/1600/900"]
           }
         }
       },
       "marcru": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Designer",
+        "overview": "As a member of the design project I have made a lot of impactful throughout the development of the game, my contribution for this game has been made in a wide range such as abilities, narrative and marketing. So everywhere I was I tried my best to ensure the game received the best quality I could add. Working with my classmates has been an enriching experience that I will carry on for my future as I learnt a lot about working with a team.<br>I have been a scrum master thrice and leading my team has been an amazing journey with a great result that I’m proud to be part of.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Stealth mechanics and skill tree",
+            "text": "At the start of the development I was assigned to study the stealth mechanic from a wide range of video games, especially from our genre, then I was asked to make a skill tree for the game, which I did, with all the unlockables and ways to unlock the skills, but it was finally canceled due to not having enough time to implement it.",
+            "media": ["../people/MarcRuiz/stealth.gif"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
-            ]
+            "title": "Iteration of abilities",
+            "text": "During the course of the development, I was told to make a second iteration of the abilities of the game, which I did for all three characters alongside a member of my team. We balanced all the abilities, changed a few, and added new ones to make the game feel more polished. We even made an achievement system which would reward better abilities and a progression system for the game.r",
+            "media": ["../people/MarcRuiz/abilities.gif"]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Marketing",
+            "text": "I made a few spotlights for characters in-game for youtube and TikTok, which were made of an early build of the game. Later I made the trailer for the final game.<br>Also I made a documentary about the making of the video game, which consisted of interviews with the leads and a few members of the team that explained their points of view about this project. Currently the documentary is in development and will be released soon but there is a trailer about it which you can watch now on youtube.",
+            "media": ["https://www.youtube.com/watch?v=psQ3VnADBAI"]
           }
         }
       },
       "max": {
         "rol": "Designer",
-        "overview": "I'm Max Llovera and I've been working as a designer for Dune: Fremen's Rising. As a member of the design team I've been able to work in different fields across the development of the game, always focusing on creating the perfect experience for the player, making sure that the final product has a good consistency and the highest quality. Later, at some point of the development, I switched to the Art Department to help them in some fields like animations or UI elements. I really enjoyed working in different departments and getting experience with both of them. \nBeing part of this project has been a wonderful experience for me and all the team, I'm so proud to be part of this.",
+        "overview": "I'm Max Llovera and I've been working as a designer for Dune: Fremen's Rising. As a member of the design team I've been able to work in different fields across the development of the game, always focusing on creating the perfect experience for the player, making sure that the final product has a good consistency and the highest quality. Later, at some point of the development, I switched to the Art Department to help them in some fields like animations or UI elements. I really enjoyed working in different departments and getting experience with both of them. <br>Being part of this project has been a wonderful experience for me and all the team, I'm so proud to be part of this.",
         "contributions": {
           "1": {
             "title": "Character Design (Skills and Rune System)",
-            "text": "During the development of the game, I designed the abilities for each character of the game. First of all I designed some abilities without assigning it to a specific character, and finally I distributed it to the 3 different characters taking into account their gameplay and synergies between them.\nApart from the abilities, I designed a Rune system, bringing new power ups to the basic abilities of each character, which makes a good progression system to the gameplay of the game. Unfortunately, it couldn’t be implemented into the game.",
-            "media": ["../public/people/MaxLlovera/Gif_HAbilities.gif"]
+            "text": "During the development of the game, I designed the abilities for each character of the game. First of all I designed some abilities without assigning it to a specific character, and finally I distributed it to the 3 different characters taking into account their gameplay and synergies between them.<br>Apart from the abilities, I designed a Rune system, bringing new power ups to the basic abilities of each character, which makes a good progression system to the gameplay of the game. Unfortunately, it couldn’t be implemented into the game.",
+            "media": ["../people/MaxLlovera/Gif_HAbilities.gif"]
           },
           "2": {
             "title": "Design of Enemy behavior and dynamics between Characters and Enemies",
             "text": "As I was the character designer for abilities and skills, I designed all the behaviors and dynamics between enemies and characters, taking into account all the abilities and how they work.",
-            "media": ["../public/people/MaxLlovera/Behaviour.gif"]
+            "media": ["../people/MaxLlovera/Behaviour.gif"]
           },
           "3": {
             "title": "Audio Document",
             "text": "Detailing as much as I could all the different audios needed for the game and its correct feedback. Checking with Audio Designer that all the sounds were good and understandable for the player.",
-            "media": ["../public/people/MaxLlovera/AudioDocument.gif"]
+            "media": ["../people/MaxLlovera/AudioDocument.gif"]
           },
           "4": {
             "title": "Fx and Particles Document",
             "text": "As I did with the audio document, here I detailed all the FX and Particles we needed to implement into the game to offer a nice experience to the player.",
-            "media": ["../public/people/MaxLlovera/Particles.gif"]
+            "media": ["../people/MaxLlovera/Particles.gif"]
           },
           "5": {
             "title": "Boss Design Document",
             "text": "Together with Boss Design team, detailing as much as I could about all the boss fight and how to defeat it. Describing each phase in detail and how to change between phases, all boss behaviors between him and the characters. Finally, iterating and changing some gameplay features for a great experience for the player.",
-            "media": ["../public/people/MaxLlovera/BossDocument.gif"]
+            "media": ["../people/MaxLlovera/BossDocument.gif"]
           },
           "6": {
             "title": "Feedback documents",
@@ -927,87 +929,80 @@
             "title": "Characters and Cinematic Animations",
             "text": "As the Art team needed help, I did Paul Atreides, Enemy 1 and 3 animations. Then I did some character animations for cinematics, such as Paul, Rabban, Hostages, Harkonen Soldier and Undistractable Harkonen Soldier. Finally, I did both Victory and Defeat animations which appear at the end of each level.",
             "media": [
-              "../public/people/MaxLlovera/Animations.gif",
-              "../public/people/MaxLlovera/Animations2.gif"
+              "../people/MaxLlovera/Animations.gif",
+              "../people/MaxLlovera/Animations2.gif"
             ]
           },
           "8": {
             "title": "UI Elements",
             "text": "I help the UI team doing some elements needed for a perfect gameplay experience and for a correct feedback. Some elements are the boss life and shield bar, pop-ups for the abilities and enemy stun icon.",
-            "media": ["../public/people/MaxLlovera/UI_ELEMENTS_web.JPG"]
+            "media": ["../people/MaxLlovera/UI_ELEMENTS_web.JPG"]
           },
           "9": {
             "title": "QA",
             "text": "Doing testing and QA sessions, spotting bugs and reporting to the Code team",
-            "media": ["../public/people/MaxLlovera/QA.png"]
+            "media": ["../people/MaxLlovera/QA.png"]
           }
         }
       },
       "pau": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Designer/UI Designer",
+        "overview": "This work has been able to teach me first-hand to have an experience more or less similar to what I could find in a video game company. Thanks to this, I have been able to learn how teams work and what works dynamics there are and which ones usually succeed. In addition, I have been able to observe through the dynamics made for a correct functioning of the team how these influence the work of the rest of the group's participants and what their needs were.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "UX  Designer",
+            "text": "For this design iteration of the HUD, we have chosen to go with DUNE's typography-based design. This is because it was the one that came closest to the objectives that were set at the beginning before making this design, these were the simplicity of this design and the closeness it has with the film.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/Pau/UXDesign1.png",
+              "../people/Pau/UXDesign2.png",
+              "../people/Pau/UXDesign3.png",
+              "../people/Pau/UXDesign4.PNG"
             ]
           },
-          "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+          "2": {
+            "title": "Group dynamics moderator",
+            "text": "I have been organizing some class sessions dedicated to generating a better work environment and explaining the needs that each of the departments had for the correct functioning of the team, I have also been able to learn first-hand which dynamics work and which do not.  Thanks to the iteration of these practices I have been able to adapt to the needs of the group.",
+            "media": ["../people/Pau/Dynamics.png"]
           },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+          "3": {
+            "title": "Playtesting",
+            "text": "I was responsible for the creation of the tests for the playtest, in addition to helping with the dynamization and the creation of an optimal environment to carry them out."
           }
         }
       },
       "polv": {
         "rol": "Designer/Artist",
-        "overview": "During this project, I’ve played different roles during the project, alternating between the Design and the Art departments.\nMy part during this project was primarily focused on Boss Design, while also helping with Level Design with the blockouts. During the middle of the project, we needed some help in art, so I switched to the Art department to help.\nWhen I was in art, I helped with the animations, but mainly I focused on level 2. I did some props, all of the houses and the city wall. Lastly, I put it all together and made the final touches to the 2nd level.\nIn the final milestones I helped in the gameplay feedback and polish of the game. It was a lot of fun and helped me decide that I want to become either a Level Designer or a 3D Environment artist.",
+        "overview": "During this project, I’ve played different roles during the project, alternating between the Design and the Art departments.<br>My part during this project was primarily focused on Boss Design, while also helping with Level Design with the blockouts. During the middle of the project, we needed some help in art, so I switched to the Art department to help.<br>When I was in art, I helped with the animations, but mainly I focused on level 2. I did some props, all of the houses and the city wall. Lastly, I put it all together and made the final touches to the 2nd level.<br>In the final milestones I helped in the gameplay feedback and polish of the game. It was a lot of fun and helped me decide that I want to become either a Level Designer or a 3D Environment artist.",
         "contributions": {
           "1": {
             "title": "Boss Design",
             "text": "Even though I wasn’t in the last iteration of the boss, I made the first approach of how we wanted the boss to be, according to what we had and what we wanted to achieve. We followed the 7 pulses theory to design this boss, and we also designed the boss room for the fight.",
-            "media": ["../public/people/PolVazquez/Rabban.PNG"]
+            "media": ["../people/PolVazquez/Rabban.PNG"]
           },
           "2": {
             "title": "Levels Blockout",
             "text": "I developed all of the levels blockouts to help the designers see what the level was gonna look like and the coders so they could start testing things out.",
             "media": [
-              "../public/people/PolVazquez/lvl1_blockout.PNG",
-              "../public/people/PolVazquez/lvl2_blockout.PNG",
-              "../public/people/PolVazquez/lvl3_blockout.png"
+              "../people/PolVazquez/lvl1_blockout.PNG",
+              "../people/PolVazquez/lvl2_blockout.PNG",
+              "../people/PolVazquez/lvl3_blockout.png"
             ]
           },
           "3": {
             "title": "Level 2 Props & Textures",
-            "text": "I helped with the small prop list of the level 2, and later on I modeled all of the houses of the level, along with the wall and its textures.\nFinally I put it all together and created the final version of level 2. It was a huge upgrade and 1 month of optimizing, remodeling and re-doing some of the houses to fit in our engine. In total, I managed to get 35k of polys, with a total of 84 houses (just 13 of these are different models). I scaled, rotated, added and removed props so any of the houses feel repetitive. By far, the thing I'm most proud of during this project.",
+            "text": "I helped with the small prop list of the level 2, and later on I modeled all of the houses of the level, along with the wall and its textures.<br>Finally I put it all together and created the final version of level 2. It was a huge upgrade and 1 month of optimizing, remodeling and re-doing some of the houses to fit in our engine. In total, I managed to get 35k of polys, with a total of 84 houses (just 13 of these are different models). I scaled, rotated, added and removed props so any of the houses feel repetitive. By far, the thing I'm most proud of during this project.",
             "media": [
-              "../public/people/PolVazquez/lvl2props.PNG",
-              "../public/people/PolVazquez/mercattrencat.png",
-              "../public/people/PolVazquez/lvl2.png",
-              "../public/people/PolVazquez/lvl2finished.PNG",
-              "../public/people/PolVazquez/lvl2textures.PNG"
+              "../people/PolVazquez/lvl2props.PNG",
+              "../people/PolVazquez/mercattrencat.png",
+              "../people/PolVazquez/lvl2.png",
+              "../people/PolVazquez/lvl2finished.PNG",
+              "../people/PolVazquez/lvl2textures.PNG"
             ]
           },
           "4": {
             "title": "Minor Stuff",
-            "text": "- Enemies first iterations: First approach on what class of enemies the RTTs have and what mechanics could be interesting.\n- Enemies animations & fixing: Animations of some enemies along with fixing some of the animations.\n- First Win-Lose scene iterations: First iterations of the scenes, currently deleted but useful in the first steps of the game.\n- Main Menu Screen iterations: First iterations of the screen, currently deleted but useful in the first steps of the game.\n- Boss Level Design: Designed the boss room and imported it to Blender to test it.\n- QA & Playtesting: Searching and reporting bugs and crashes.",
-            "media": ["../public/people/PolVazquez/dunes_rising_winscene.png"]
+            "text": "- Enemies first iterations: First approach on what class of enemies the RTTs have and what mechanics could be interesting.<br>- Enemies animations & fixing: Animations of some enemies along with fixing some of the animations.<br>- First Win-Lose scene iterations: First iterations of the scenes, currently deleted but useful in the first steps of the game.<br>- Main Menu Screen iterations: First iterations of the screen, currently deleted but useful in the first steps of the game.<br>- Boss Level Design: Designed the boss room and imported it to Blender to test it.<br>- QA & Playtesting: Searching and reporting bugs and crashes.",
+            "media": ["../people/PolVazquez/dunes_rising_winscene.png"]
           }
         }
       },
@@ -1045,170 +1040,176 @@
       },
       "davidl": {
         "rol": "Artist",
-        "overview": "I am David Lira Martí, a Videogame Development student who loves art and videogames. On this project I worked as a Concept Artist and Modeler for some of the props and characters.\nDune Fremen’s Rising was a real challenge for the team and myself, I think that during the development I learned several things about video game development as an artist.\nDespite some difficult moments we managed to finish a cool game on time with some created from 0 with our own engine. I think it is quite amazing what we managed to do by ourselves in such little time of development. It was nice and educational working on this project with my classmates and is an experience I will always remember.",
+        "overview": "I am David Lira Martí, a Videogame Development student who loves art and videogames. On this project I worked as a Concept Artist and Modeler for some of the props and characters.<br>Dune Fremen’s Rising was a real challenge for the team and myself, I think that during the development I learned several things about video game development as an artist.<br>Despite some difficult moments we managed to finish a cool game on time with some created from 0 with our own engine. I think it is quite amazing what we managed to do by ourselves in such little time of development. It was nice and educational working on this project with my classmates and is an experience I will always remember.",
         "contributions": {
           "1": {
             "title": "Concept / HUD Art",
-            "text": "At the start of the project I was assigned to do some Concept Art for the characters in the game, some of them like Chani and Paul were included in the game as playable characters but others like Vladimir Harkonnen were discarded game content.\nI also was the artist who made the portraits for the game, they appear on the conversations and the HUD, they needed to have little detail because of the ingame size of the portrait.",
+            "text": "At the start of the project I was assigned to do some Concept Art for the characters in the game, some of them like Chani and Paul were included in the game as playable characters but others like Vladimir Harkonnen were discarded game content.<br>I also was the artist who made the portraits for the game, they appear on the conversations and the HUD, they needed to have little detail because of the ingame size of the portrait.",
             "media": [
-              "../public/people/DavidLira/PaulAtreidesConcept.png",
-              "../public/people/DavidLira/ChaniConceptFinal.png",
-              "../public/people/DavidLira/VLADIMIRHARKONNENFINAL.png",
-              "../public/people/DavidLira/portraits.png"
+              "../people/DavidLira/PaulAtreidesConcept.png",
+              "../people/DavidLira/ChaniConceptFinal.png",
+              "../people/DavidLira/VLADIMIRHARKONNENFINAL.png",
+              "../people/DavidLira/portraits.png"
             ]
           },
           "2": {
             "title": "Enemy / Boss and Other Models",
             "text": "These are some of the models I created for the game. I was focused mainly on the enemies models, but I also created other ones. On the first image you can see the first enemy I created, it was to be changed because of the poly count and art style of the game, so the next ones were more low poly and had different body proportions.",
             "media": [
-              "../public/people/DavidLira/EarlyEnemy.PNG",
-              "../public/people/DavidLira/Enemies.PNG",
-              "../public/people/DavidLira/Dron.PNG",
-              "../public/people/DavidLira/Boss.PNG"
+              "../people/DavidLira/EarlyEnemy.PNG",
+              "../people/DavidLira/Enemies.PNG",
+              "../people/DavidLira/Dron.PNG",
+              "../people/DavidLira/Boss.PNG"
             ]
           },
           "3": {
             "title": "Some Level 3 Props",
-            "text": "I also worked on some of the level 3 (palace level) props, these are the ones I worked on, they are low-poly because of the engine limitations, but they look great in game because of the camera distance and the cell shading of the engine.\nIn addition I was the person who put together all of the props in order to create the final map, I also improved the level 1 creating a better atmosphere with the background rocks.",
+            "text": "I also worked on some of the level 3 (palace level) props, these are the ones I worked on, they are low-poly because of the engine limitations, but they look great in game because of the camera distance and the cell shading of the engine.<br>In addition I was the person who put together all of the props in order to create the final map, I also improved the level 1 creating a better atmosphere with the background rocks.",
             "media": [
-              "../public/people/DavidLira/props.PNG",
-              "../public/people/DavidLira/props2.PNG",
-              "../public/people/DavidLira/props3.PNG"
+              "../people/DavidLira/props.PNG",
+              "../people/DavidLira/props2.PNG",
+              "../people/DavidLira/props3.PNG"
             ]
           }
         }
       },
       "marcra": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Artist",
+        "overview": "As a member of the art team, my duty in this project was to create the art of the levels alongside other artists. During the project I have been modeling and texturing props and environments based on the art style of the game and optimizations given the engine guidelines.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Level 1 Art",
+            "text": "I was responsible for the creation and optimization of level 1. Main environment such as rocks, sand… And decoration props.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/MarcRamos/Captura.png",
+              "../people/MarcRamos/rocas.png",
+              "../people/MarcRamos/screenshot000.png"
             ]
           },
-          "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+          "2": {
+            "title": "Texturing level 2 and level 3",
+            "text": "I was responsible for the material creation for the main buildings and structures of the second and the third level.",
+            "media": [
+              "../people/MarcRamos/RefA.png",
+              "../people/MarcRamos/RefA_2.png",
+              "../people/MarcRamos/Captura3.png"
+            ]
           }
         }
       },
       "maria": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Artist",
+        "overview": "As a member of the art department, my main role within the art team has been texturing, drawing concepts, some modeling and helping other art branches such as animation. This project has been an incredible journey and an amazing rollercoaster.I will cherish every moment of it, since it’s the first big project I’ve taken part of and got to learn many things that will for sure make a difference in my future career, not only as a game developer but as an individual.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Concept Art",
+            "text": "First of all, we needed to have a visual reference or representation of how the different characters would look like. These are some of the turnarounds that were made in order to ease the modeling process.",
+            "media": [
+              "../people/Maria/Concepts/char_stilgar_art.png",
+              "../people/Maria/Concepts/enm_boss_art.png",
+              "../people/Maria/Concepts/enm_enemy4_art.png",
+              "../people/Maria/Concepts/nme_enemy3_art.png"
+            ]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Characters and enemies",
+            "text": "Once the modeling was done, we had to proceed to texturize them. These are the characters and their abilities with their respective textures. Substance was the main software used for the textures. The only channels that were used are base color and normal map. Also I had to do some last minute modeling on the abilities part, because stilgar’s trap was missing.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/Maria/Characters/chars.png",
+              "../people/Maria/Characters/abilities.png"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Cinematics characters textures",
+            "text": "Also, I was in charge of the cinematics characters textures: the male and female hostage and Lady Jessica.",
+            "media": ["../people/Maria/Cinematics/cinematicschars.png"]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Props",
+            "text": "I was in charge of texturing these props that belonged to level 2 and level 3. Again, the software that was used was Substance and the only channels were base color and normal map.",
+            "media": ["../people/Maria/Props/Props.png"]
+          },
+          "5": {
+            "title": "Other",
+            "text": "Also, I lent a hand anytime my teammates had a hard time finishing on time their tasks, such as helping on the animation part with Stilgar character animations.",
+            "media": ["https://picsum.photos/1600/900"]
           }
         }
       },
       "oscarr": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Artist",
+        "overview": "This project has been a lot of fun and even with some problems that we had I liked it a lot and think the final result is great. Having the opportunity to work as if it was a real studio and the possibility to work in what I like the most has been an incredible experience that I'll always remember.<br>As a member of the art team, my main role in the project has been 3D modeling. Throughout the project, I have been in charge of modeling some of the characters and many assets that appear in the game. Also made some textures and animations.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Concept for Level 2",
+            "text": "My first important work was researching and creating a concept for the second level. I searched for the ambience, the look of the buildings and the props. I also developed the prop list that later needed to be extended.",
+            "media": [
+              "../people/OscarRoyo/environmentscene2conceptmoodboard.png",
+              "../people/OscarRoyo/environmentscene2conceptmoodboard2.png",
+              "../people/OscarRoyo/environmentscene2conceptmoodboard3.png"
+            ]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Character Models",
+            "text": "I made the high poly and low poly versions of the three main characters: Paul, Chani and Stilgar. We had a pretty small polycount limit so I had to work with the texture artist to give them the maximum amount of detail with the least amount of polygons.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/OscarRoyo/stilgargif.gif",
+              "../people/OscarRoyo/Paul_Model_Gif.gif",
+              "../people/OscarRoyo/Chani_Model_Gif.gif"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Props",
+            "text": "I made a lot of props for this game, the models and the textures. Like with the characters I tried to keep the polycount very low.<ul><li>Barrels</li><li>Bullet holes</li><li>Barricade</li><li>Columns</li><li>Antenas</li><li>Fruit boxes</li><li>Cables</li><li>Street lamp</li><li>Anti worms</li><li>Ground hole</li></ul>",
+            "media": [
+              "../people/OscarRoyo/Captura.PNG",
+              "../people/OscarRoyo/nuevosassets.jpg"
+            ]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Particles",
+            "text": "I investigated the different types of particles that could be used in our game and I had to make some of them too. Since our particle system is pretty extensive I checked the behavior with unity and worked with the particle system coder to make them look like the design team wanted.",
+            "media": ["../people/OscarRoyo/Particles.png"]
+          },
+          "5": {
+            "title": "Animations",
+            "text": "I helped with some of Chani’s animations and also worked in the animations for the menu, win and lose screens. This was really hard because some of the animations didn’t seem to work in our engine so a lot of iterations were needed to make them work.",
+            "media": ["../people/OscarRoyo/ezgif.com-gif-maker.gif"]
+          },
+          "4": {
+            "title": "Textures",
+            "text": "Apart from the textures of my props I also made some textures for some abilities of the characters and for the high poly models in the menu. The faces were a pretty difficult challenge to me and I spent a lot of time on them.",
+            "media": ["../people/OscarRoyo/wpn_paul_eagle_BaseColor.png"]
           }
         }
       },
       "polp": {
         "rol": "UI/Sound artist",
-        "overview": "As a member of the art team I've been involved with the UI from the very beginning until its redesign in the end, where my attention was captured by the cinematic design in which I defined every animation for every character under the approval of Enric Morales, the owner of the script. Between these two focuses I’m also responsible of the search of all audio in game, except the new music by our external composer, again thanks to the supervision of Max from the design team. I also worked in few animations for the enemies and others in the cinematics at the very beginning. I’m glad that the design team has let me do these jobs while I worked at the art department as design is my true passion in video games.",
+        "overview": "As a member of the art team I've been involved with the UI from the very beginning until its redesign in the end, where my attention was captured by the cinematic design in which I defined every animation for every character under the approval of Enric Morales, the owner of the script. Between these two focuses I’m also responsible of the search of all audio in game, except the new music by our external composer, again thanks to the supervision of Max from the design team. I also worked in few animations for the enemies and others in the cinematics at the very beginning. I’m glad that the design team has let me do these jobs while I worked at the art department as design is my true passion in video games. Here is my linkedIn as I’m open to work in any design/art team: https://www.linkedin.com/in/pol-pallares-mur-4a5729226/",
         "contributions": {
           "1": {
             "title": "UI Artist",
             "text": "As a UI artist I worked on different sketches throughout the game such as the skill icons, a set of two textures that were subsequently discarded, various UI icons and elements and finally I worked on photoshop and later on in blender for the first and second sets of backgrounds for the main menu and loose screen. I also worked on a sketch for the game logo later changed by the art’s lead.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/PolPallares/all_at_once.png",
+              "../people/PolPallares/primera_iteracion_iconos_ui.png",
+              "../people/PolPallares/segunda_iteracion_iconos_ui.png",
+              "../people/PolPallares/ui_mainmenuBG_png.png",
+              "../people/PolPallares/ui_losescreen.png"
             ]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Sound Artist",
+            "text": "In two different deliveries I worked as the sound artist searching/modifying over 130 different sounds/FX without including those discarded and some music tracks and environmental sounds. Some of the sounds are original from soundsnap but some others have been modified through audacity.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/PolPallares/Captura2.PNG",
+              "../people/PolPallares/Captura3.PNG"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Cinematic Design",
+            "text": "In the last deliveries I’ve been part of the cinematics team defining every animation and cinematic that should appear in-game, some personal problems didn’t let me continue my job for 1 week where Enric organized the group redefining the cinematics as the system was prepared for 7 cinematics and not for 13 as I had planned out but the script ended up fitting into those 7 cinematics perfectly. At the beginning I also worked finding some first animations for an example for the cinematics and evey animation was listed in a set of excel pages such as in the following image.",
+            "media": ["../people/PolPallares/Captura.PNG"]
           }
         }
       }
