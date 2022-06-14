@@ -210,7 +210,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "https://www.linkedin.com/in/isaac-colomer-casas-4a8a41206/",
-      image: "/people/IsaacColomer/profile.jpg",
+      image: "/people/IsaacColomer/profile.JPG",
       cat: "DESIGN",
     },
     {
@@ -234,7 +234,7 @@ export default function Team({ t }) {
     {
       name: "Max Llovera",
       slug: "max",
-      twitter: "#",
+      twitter: "https://twitter.com/Nothanhere",
       github: "https://github.com/MaxLlovera",
       linkedin: "https://www.linkedin.com/in/max-llovera-mart%C3%AD-273929241/",
       image: "/people/MaxLlovera/profile.jpeg",
@@ -252,10 +252,10 @@ export default function Team({ t }) {
     {
       name: "Pol Vázquez",
       slug: "polv",
-      twitter: "#",
-      github: "#",
-      linkedin: "#",
-      image: "/logo.png",
+      twitter: "https://twitter.com/_Amade128_",
+      github: "https://github.com/AMADE128",
+      linkedin: "https://www.linkedin.com/in/pol-v%C3%A1zquez-porcar-74b435202/",
+      image: "/people/PolVazquez/profile.PNG",
       cat: "DESIGN",
     },
     {
