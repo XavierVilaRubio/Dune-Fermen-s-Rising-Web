@@ -78,7 +78,10 @@
           "3": {
             "title": "Tags and Layers",
             "text": "The tags and layers system has allowed to determine the type of the objects to condition and mask the events. Some tags and layers are included by default but the developer can add as many as needed.",
-            "media": ["https://picsum.photos/1600/900"]
+            "media": [
+                "../people/Alejandro/layers.png",
+                "../people/Alejandro/tags_edit.png"
+            ]
           },
           "4": {
             "title": "Perception System",
@@ -93,7 +96,12 @@
           "6": {
             "title": "Pop Up",
             "text": "The tags and layers system has allowed to determine the type of the objects to condition and mask the events. Some tags and layers are included by default but the developer can add as many as needed.",
-            "media": ["https://picsum.photos/1600/900"]
+            "media": [
+                "../people/Alejandro/layers.png",
+                "../people/Alejandro/layers.png",
+                "../people/Alejandro/layers.png",
+                "../people/Alejandro/layers.png"
+            ]
           }
         }
       },
