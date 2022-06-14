@@ -97,10 +97,10 @@
             "title": "Pop Up",
             "text": "The tags and layers system has allowed to determine the type of the objects to condition and mask the events. Some tags and layers are included by default but the developer can add as many as needed.",
             "media": [
-                "../people/Alejandro/layers.png",
-                "../people/Alejandro/layers.png",
-                "../people/Alejandro/layers.png",
-                "../people/Alejandro/layers.png"
+                "../people/Alejandro/WorldToScreen.png",
+                "../people/Alejandro/explosion.png",
+                "../people/Alejandro/knife_paul.png",
+                "../people/Alejandro/trap_stilgar.png"
             ]
           }
         }
@@ -431,34 +431,30 @@
         }
       },
       "magdalena": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Programmer",
+        "overview": "From the very beginning my main goal was to improve and develop my skills and I am very happy that I had an opportunity to take part in the creation of this game. I feel I have learned a lot about developing a big project as a part of a team. On a day-to-day basis I was working closely with my code department teammates and also with artists and designers and this cooperation made us achieve an impressive final result. Thanks to this project I have leveled up both my programming and communication skills. Now I am better prepared to work on the development of professional projects that require time management, good problem-solving and communication abilities. ",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Particle System",
+            "text": "I have been working in the development of the particle system in the game engine using C++.<br /><br />My contribution included:<ul><li>- Building the base code of the particle system using object pooling for optimization</li><li>- Coding some particle effects such as velocity, acceleration, color, spawn in the spherical, cubicle and conical sphere shape</li><li>- The billboard (particles rotate to always face the camera)</li><li>- Special timer that allows specifying the duration of the particles’ effect</li></ul>",
+            "media": [
+                "../people/Magda/particle_system.gif",
+                "../people/Magda/billboard.gif"
+            ]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Particle Effects",
+            "text": "The particle system has been used in our game many times to build different effects. I created the following ones: character’s shield, fire, sand wind, destroyed drone’s explosion and sand spatter after the fall of an object.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/Magda/Shield.gif",
+              "../people/Magda/sand_wind.gif",
+              "../people/Magda/dron_destroyed.gif"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Perception cone’s color change",
+            "text": "I was responsible for making the perception cones of enemies change their color when the player is detected. The function used for the color switch depends on the time that player spends in the area of vision of the enemy.",
+            "media": ["../people/Magda/perception_cone.gif"]
           }
         }
       },
