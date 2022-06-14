@@ -57,16 +57,16 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/Chuchocoronel",
       linkedin: "https://www.linkedin.com/in/carlos-megia-zubillaga-b64bb31b7/",
-      image: "/logo.png",
+      image: "/people/Carlos/profile.jpeg",
       cat: "PROGRAMMING",
     },
     {
       name: "David Gonzalez",
       slug: "davidg",
       twitter: "#",
-      github: "#",
-      linkedin: "#",
-      image: "/logo.png",
+      github: "https://github.com/MagiX7",
+      linkedin: "https://www.linkedin.com/in/david-jes%C3%BAs-gonz%C3%A1lez-l%C3%B3pez-03a2041b1/",
+      image: "/people/DavidGonzalez/profile.jpg",
       cat: "PROGRAMMING",
     },
     {
@@ -84,7 +84,7 @@ export default function Team({ t }) {
       twitter: "https://twitter.com/KuronoaScarlet",
       github: "https://github.com/KuronoaScarlet",
       linkedin: "https://www.linkedin.com/in/ignasi-pardo-carbó-8693a9216/",
-      image: "/logo.png",
+      image: "/people/Ignasi/profile.jpg",
       cat: "PROGRAMMING",
     },
     {
@@ -165,17 +165,17 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/Unai/profile.jpg",
       cat: "PROGRAMMING",
     },
     {
       name: "Adrian Aroca",
       slug: "adrian",
       twitter: "#",
-      github: "#",
-      linkedin: "#",
+      github: "https://github.com/adrianam4",
+      linkedin: "https://www.linkedin.com/in/adri%C3%A1n-aroca-mascaraque-216a86154/",
       cat: "DESIGN",
-      image: "/logo.png",
+      image: "/people/Adrian/profile.jpg",
     },
     {
       name: "Albert Pou",
@@ -183,7 +183,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/Hydeon-git",
       linkedin: "https://www.linkedin.com/in/poualbert/",
-      image: "/logo.png",
+      image: "/people/Albert/profile.jpg",
       cat: "DESIGN",
     },
     {
@@ -192,7 +192,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/ArnauUstrell/profile.jpeg",
       cat: "DESIGN",
     },
     {
@@ -210,7 +210,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "https://www.linkedin.com/in/isaac-colomer-casas-4a8a41206/",
-      image: "/logo.png",
+      image: "/people/IsaacColomer/profile.jpg",
       cat: "DESIGN",
     },
     {
@@ -219,7 +219,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "#",
       linkedin: "#",
-      image: "/logo.png",
+      image: "/people/MarcPavon/profile.jpg",
       cat: "DESIGN",
     },
     {
@@ -237,7 +237,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/MaxLlovera",
       linkedin: "https://www.linkedin.com/in/max-llovera-mart%C3%AD-273929241/",
-      image: "/logo.png",
+      image: "/people/MaxLlovera/profile.jpeg",
       cat: "DESIGN",
     },
     {
@@ -273,7 +273,7 @@ export default function Team({ t }) {
       twitter: "#",
       github: "https://github.com/davidlira19",
       linkedin: "https://www.linkedin.com/in/david-lira-mart%C3%AD-b30a2b241/",
-      image: "/logo.png",
+      image: "/people/DavidLira/profile.png",
       cat: "ART",
     },
     {
@@ -311,7 +311,7 @@ export default function Team({ t }) {
       github: "#",
       linkedin: "#",
       cat: "ART",
-      image: "/logo.png",
+      image: "/people/PolPallares/profile.png",
     },
   ];
   const [filteredMembers, setFilteredMembers] = React.useState(teamMembers);
