@@ -155,7 +155,7 @@
                 "../people/Ismael/ab2.jpg",
                 "../people/Ismael/ab3.jpg",
                 "../people/Ismael/gdd1.jpg",
-                "../people/Ismael/gdd2.jpg",
+                "../people/Ismael/gdd2.jpg"
             ]
           }
         }
@@ -203,17 +203,17 @@
         }
       },
       "arnaub": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Programmer",
+        "overview": "As a member of the code team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Scripting System",
+            "text": "In order to be able to develop the game inside our engine, it was necessary to implement a script system in C#, just like in Unity. To do this, I implemented the Mono Project library.<br /><br />Among the features of this scripting system are:<br /><ul><li>- Hot Reload, using MSBuild.exe and .NET Framework.</li><li>- In-engine script creation.</li><li>- Add Script Component to GameObject</li><li>- In-engine public variables and GameObject Drag and Drop.</li></ul>",
             "media": ["https://picsum.photos/1600/900"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Spritesheet Particle System",
+            "text": "When the Particle System was implemented, we also wanted to add a Unity-like Particle System using Spritesheets, which generates an animation of the particles using a single texture with all the necessary frames.",
             "media": [
               "https://picsum.photos/1600/900",
               "https://picsum.photos/1600/900",
@@ -223,14 +223,12 @@
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "VFX",
+            "text": "I also contributed to the creation of vfx, mainly particles for some skills: Knife, Hunter Seeker and Eagle."
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Win and Lose Scenes",
+            "text": "During the development of the game, from the design team came the idea of creating scenes for the Main, Win and Lose menus. These scenes have the three main characters in a game scenario, and each character would have a different animation depending on the scene they are in. My role here was to implement the Win and Lose scenes, and I also helped in the main menu scene"
           }
         }
       },
