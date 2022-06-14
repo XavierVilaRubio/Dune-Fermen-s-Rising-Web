@@ -364,32 +364,29 @@ export default function Team({ t }) {
     <>
       <section className="container mt-16" id="team">
         <SectionTitle>{t("team.title")}</SectionTitle>
-        <div className="flex flex-wrap justify-center gap-4 mt-8 mb-6 md:gap-8">
+        <div className="flex flex-wrap justify-center gap-4 mt-8 mb-6 md:gap-8 decoration-2">
           <button
             ref={allButton}
-            className="underline"
+            className="underline text-customOrange-400"
             onClick={() => filterTeamMembers("ALL")}
           >
             ALL
           </button>
-          <button ref={leadsButton} onClick={() => filterTeamMembers("LEADS")}>
-            LEADS
-          </button>
-          <button
-            ref={programmingButton}
-            onClick={() => filterTeamMembers("PROGRAMMING")}
-          >
-            PROGRAMING
-          </button>
-          <button
-            ref={designButton}
-            onClick={() => filterTeamMembers("DESIGN")}
-          >
-            DESIGN
-          </button>
-          <button ref={artButton} onClick={() => filterTeamMembers("ART")}>
-            ART
-          </button>
+          {[
+            [leadsButton, "LEADS"],
+            [programmingButton, "PROGRAMMING"],
+            [designButton, "DESIGN"],
+            [artButton, "ART"],
+          ].map(([button, cat]) => (
+            <button
+              key={cat}
+              ref={button}
+              className="text-customOrange-400"
+              onClick={() => filterTeamMembers(cat)}
+            >
+              {cat}
+            </button>
+          ))}
         </div>
         <div className="container grid items-center justify-center grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {filteredMembers.map((member, index) => (

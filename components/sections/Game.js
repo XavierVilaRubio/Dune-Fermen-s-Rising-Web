@@ -5,39 +5,41 @@ import Image from "next/image";
 
 export default function Game({ t }) {
   return (
-    <section className="container mt-24" id="game">
-      <SectionTitle>{t("game.title")}</SectionTitle>
-      <div className="flex flex-row mt-8">
-        <div className="w-1/2"></div>
-        <div className="w-1/2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quaerat et at exercitationem sequi perspiciatis, fuga vitae amet. Quo,
-          neque.
-          <DownloadButton t={t} />
+    <>
+      <section className="container mt-24" id="game">
+        <h3 className="w-full text-3xl font-bold text-customOrange-500">
+          {t("home.headline")}
+        </h3>
+        <div className="flex flex-row w-full mt-8">
+          <div className="w-1/2"></div>
+          <div className="w-1/2 text-customOrange-400">
+            {t("game.text")}
+            <DownloadButton t={t} />
+          </div>
         </div>
-      </div>
-      <hr />
-      <div className="mt-8 text-center">
-        <SectionSubtitle>Gameplay</SectionSubtitle>
-        <div className="grid grid-cols-3 gap-3 mt-4">
-          {[
-            "https://picsum.photos/1600/900",
-            "https://picsum.photos/1600/900",
-            "https://picsum.photos/1600/900",
-            "https://picsum.photos/1600/900",
-            "https://picsum.photos/1600/900",
-            "https://picsum.photos/1600/900",
-          ].map((url, index) => (
-            <Image
-              key={index}
-              src={url}
-              width={1600}
-              height={900}
-              layout="raw"
-            />
-          ))}
+        <hr />
+        <div className="mt-8 text-center">
+          <SectionSubtitle>Gameplay</SectionSubtitle>
+          <div className="grid grid-cols-3 gap-3 mt-4">
+            {[
+              "https://picsum.photos/1600/900",
+              "https://picsum.photos/1600/900",
+              "https://picsum.photos/1600/900",
+              "https://picsum.photos/1600/900",
+              "https://picsum.photos/1600/900",
+              "https://picsum.photos/1600/900",
+            ].map((url, index) => (
+              <Image
+                key={index}
+                src={url}
+                width={1600}
+                height={900}
+                layout="raw"
+              />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

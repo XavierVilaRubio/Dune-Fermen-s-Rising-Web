@@ -1214,7 +1214,8 @@
       }
     },
     "game": {
-      "title": "Juego"
+      "title": "Juego",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quaerat et at exercitationem sequi perspiciatis, fuga vitae amet. Quo, neque."
     },
     "production": {
       "title": "Producción",
@@ -1233,14 +1234,51 @@
       "subtitle4": "Objetos del juego"
     },
     "engine": {
-      "title": "Motor"
+      "title": "Motor",
+      "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!",
+      "features": {
+        "1": {
+          "title": "Graphics",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!"
+        },
+        "2": {
+          "title": "Audio",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!"
+        },
+        "3": {
+          "title": "Physics",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!"
+        },
+        "4": {
+          "title": "Input",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!"
+        },
+        "5": {
+          "title": "UI",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!"
+        },
+        "6": {
+          "title": "AI",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!"
+        }
+      }
     },
     "post_mortem": {
       "title": "Post Mortem",
-      "subtitle1": "Objetos del juego",
-      "subtitle2": "Objetos del juego",
-      "subtitle3": "Objetos del juego",
-      "subtitle4": "Objetos del juego"
+      "sections": {
+        "1": {
+          "title": "Objetos del juego",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis, eos nam perspiciatis reiciendis, dolorem atque quidem quam illum minima nostrum itaque odit labore inventore voluptas iusto culpa vitae voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor cupiditate odit!"
+        },
+        "2": {
+          "title": "Objetos del juego",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis, eos nam perspiciatis reiciendis, dolorem atque quidem quam illum minima nostrum itaque odit labore inventore voluptas iusto culpa vitae voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor cupiditate odit!"
+        },
+        "3": {
+          "title": "Objetos del juego",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis, eos nam perspiciatis reiciendis, dolorem atque quidem quam illum minima nostrum itaque odit labore inventore voluptas iusto culpa vitae voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor cupiditate odit!"
+        }
+      }
     },
     "contact": {
       "title": "Contacto",

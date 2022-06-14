@@ -29,7 +29,7 @@ const Member = () => {
                   linkedin={linkedin}
                   artstation={artstation}
                   color="#000"
-                  size={6}
+                  size={8}
                 />
               </div>
             </div>

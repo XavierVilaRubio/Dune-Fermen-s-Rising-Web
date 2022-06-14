@@ -12,10 +12,12 @@ export default function HomeSection({ t }) {
           <div className="w-40 max-w-sm mx-auto md:w-52">
             <Image src={logo} alt={"Dune: Fermen's Rising Logo"} />
           </div>
-          <h1 className="mb-4 text-4xl font-bold text-center text-orange-500 md:text-5xl">
+          <h1 className="mb-4 text-4xl font-bold text-center text-customOrange-500 md:text-5xl">
             {t("home.headline")}
           </h1>
-          <p className="mb-8 text-center md:text-xl">{t("home.catchphrase")}</p>
+          <p className="mb-8 text-center text-customOrange-400 md:text-xl">
+            {t("home.catchphrase")}
+          </p>
 
           <TextImage
             text={t("home.card1.text")}

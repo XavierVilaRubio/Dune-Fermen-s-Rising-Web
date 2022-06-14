@@ -3,6 +3,9 @@ import SectionTitle from "components/text/SectionTitle";
 import Image from "next/image";
 
 export default function PostMortem({ t }) {
+  const JSONsections = t(`post_mortem.sections`);
+  var sections = Object.values(JSONsections);
+
   return (
     <section className="container mt-24" id="post_mortem">
       <SectionTitle>{t("post_mortem.title")}</SectionTitle>
@@ -13,30 +16,12 @@ export default function PostMortem({ t }) {
         height={"900"}
         layout={"raw"}
       />
-      <SectionSubtitle>{t("post_mortem.subtitle1")}</SectionSubtitle>
-      <p className="text-justify">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis,
-        eos nam perspiciatis reiciendis, dolorem atque quidem quam illum minima
-        nostrum itaque odit labore inventore voluptas iusto culpa vitae
-        voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor
-        cupiditate odit!
-      </p>
-      <SectionSubtitle>{t("post_mortem.subtitle1")}</SectionSubtitle>
-      <p className="text-justify">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis,
-        eos nam perspiciatis reiciendis, dolorem atque quidem quam illum minima
-        nostrum itaque odit labore inventore voluptas iusto culpa vitae
-        voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor
-        cupiditate odit!
-      </p>
-      <SectionSubtitle>{t("post_mortem.subtitle1")}</SectionSubtitle>
-      <p className="text-justify">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis,
-        eos nam perspiciatis reiciendis, dolorem atque quidem quam illum minima
-        nostrum itaque odit labore inventore voluptas iusto culpa vitae
-        voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor
-        cupiditate odit!
-      </p>
+      {sections.map(({ title, description }, index) => (
+        <>
+          <SectionSubtitle>{title}</SectionSubtitle>
+          <p className="text-justify text-customOrange-400">{description}</p>
+        </>
+      ))}
     </section>
   );
 }

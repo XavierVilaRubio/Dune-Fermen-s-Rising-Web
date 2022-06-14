@@ -6,9 +6,7 @@ export default function Production({ t }) {
   return (
     <section className="container mt-24" id="production">
       <SectionTitle>{t("production.title")}</SectionTitle>
-      <h3 className="mt-8 mb-2 text-3xl font-bold text-orange-600 underline">
-        {t("production.subtitle1")}
-      </h3>
+      <SectionSubtitle>{t("production.subtitle1")}</SectionSubtitle>
       <TextImage
         text={t("production.card1.text")}
         image={"https://picsum.photos/400/200"}

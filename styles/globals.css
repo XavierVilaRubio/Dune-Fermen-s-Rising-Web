@@ -4,10 +4,11 @@
 
 :root {
   --color-light-yellow: #f9deaa;
+  --color-light-light-yellow: #fae5bd;
   --color-orange: #fc811d;
   --color-orangish-brown: #bd4714;
   --color-brown: #672c0e;
-  --color-primary: var(--color-light-yellow);
+  --color-primary: var(--color-light-light-yellow);
   --color-secondary: var(--color-orange);
   --color-accent: var(--color-orangish-brown);
   --max-width: 1440px;
