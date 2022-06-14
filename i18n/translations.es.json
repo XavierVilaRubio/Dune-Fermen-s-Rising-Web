@@ -332,7 +332,12 @@
           "4": {
             "title": "Ability Programming",
             "text": "Together with Oriol Valverde and Isaac Digón we were in charge of programming all the logic behind the 12 skills that exist in the game. Personally I was in charge of all Stilgar's abilities, i.e. the sword, the stunner, the trap and the whistle; and talking about Chani's abilities, I programmed the spice grenade.</br>It was a simple job at the beginning, but it became more complicated as the game progressed in all aspects. During each release we had to fix or add new things, but I think the end result of the skills is really interesting and cool. ",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "media": [
+              "../people/Ignasi/ab1.png",
+              "../people/Ignasi/ab2.png",
+              "../people/Ignasi/ab3.png",
+              "../people/Ignasi/ab4.png"
+            ]
           },
           "5": {
             "title": "Quality Assurance",
