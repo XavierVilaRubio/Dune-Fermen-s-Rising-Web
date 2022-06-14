@@ -59,34 +59,41 @@
         }
       },
       "alejandro": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Lead Programmer",
+        "overview": "As lead Programmer my main job has consisted in supervising, distributing and assigning each task to the most qualified person to do the best job possible, ensuring that the naming conventions were met, and that everything could be executed in a functional way according to the guidelines of the Design department and the work done by the Art department without compromising the integrity of the code work. Working with our own engine to make our game has been a real challenge that we have faced the whole department as a solid and effective team to be able to move forward the work in the face of all adversity while maintaining a clean and understandable code structure. I am very happy with the work done by my team, we have done things we thought impossible and I am proud of the development we have done at all levels.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Physics Engine",
+            "text": "My main contribution has consisted in the implementation of the physics engine, which is in charge of managing all the physical objects in the world by triggering OnCollision and OnCollisionEnter events, with physical properties such as the gravity, the mass, the friction, the restitution, the linear and angular damping etc. It also contains a system of constraints on freeze position and rotation, and P2P, and an IgnoreCollision system. Finally it has a Collision Type system in which the developer can choose the figure that best suits the model in which he can choose between a collision type Box, Sphere, Capsule, Cylinder, Cone, Plane and Mesh and modify its size, radius and height. All editable from the RigidBody component.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+                "../people/Alejandro/shapes.png",
+                "../people/Alejandro/rigid_body.png",
+                "../people/Alejandro/rigid_body_2.png"
             ]
           },
+          "2": {
+            "title": "Trigger Event",
+            "text": "The physics engine includes the OnTrigger, OnTriggerEnter, and OnTriggerExit events. The use of these events has been exploited throughout the game. Thanks to the triggers it has been possible to manage all events and some mechanics that happen during the game like the dialog system, hiding in bushes, activating checkpoints etc.",
+          },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Tags and Layers",
+            "text": "The tags and layers system has allowed to determine the type of the objects to condition and mask the events. Some tags and layers are included by default but the developer can add as many as needed.",
             "media": ["https://picsum.photos/1600/900"]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Perception System",
+            "text": "The core of the artificial intelligence of the enemies is the Perception System that provides the enemies with a field of vision to detect the players. This system consists of a cone in which the developer can determine the radius, the angle, the amount of raycast it launches, the tag of the object to be detected, whether it should rotate and how many degrees or be static. The main particularity of the cones is that it is a mesh built in real time according to the amount of rays launched that collide with the environment to occlude the spaces in which the player should not be captured and thus improve the visual feedback. You can also choose the framerate at which they are updated to improve game performance, one for when they are inside the camera frustum and another for when they are occluded.",
+            "media": ["../people/Alejandro/perception_system.png"]
+          },
+          "5": {
+            "title": "User Data Collection",
+            "text": "A file was created to record all the user's data while playing during PlayTesting sessions, such as the game round, the level they are in, the total number of deaths, the game time, the player they were using when they lost and the position of the player where they had died. All this to help level design to identify action bubbles that failed and should be redesigned for difficulty.",
+            "media": ["../people/Alejandro/user_data_collection.png"]
+          },
+          "6": {
+            "title": "Pop Up",
+            "text": "The tags and layers system has allowed to determine the type of the objects to condition and mask the events. Some tags and layers are included by default but the developer can add as many as needed.",
+            "media": ["https://picsum.photos/1600/900"]
           }
         }
       },
@@ -123,34 +130,44 @@
         }
       },
       "carles": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Lead Artist",
+        "overview": "Hello there, welcome to my page! I am Carles, the Lead Artist for TDM.The main objective of my work during this project has been to organize and oversee the work of my department and to assign the right task to the right person. In addition to that, my job was also to lend a hand to whoever needed aid so that we could push through crunches with a good resultThe organization of the team has been a real challenge during the development of the game, as communication had to be constant and clear, but we have managed to overcome the difficulties we were presented with and delivered as needed. I’m especially proud of the evolution my team has made over these few months.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Concept Art",
+            "text": "During the first stages of the development, I worked in tandem with the Design Department to create concept art and moodboards of the levels so that we had a visual representation of the ideas they were contemplating.",
+            "media": [
+                "../people/Carles/concept_art_1.jpg",
+                "../people/Carles/concept_art_2.png"
+            ]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Audio Design",
+            "text": "Working together with the Design Department, we created an Audio Design Document that I followed to obtain a first iteration of the VFXs and placeholders for the music of the game, so that we could have an ambience set. To do so, I used rFXGen for UI purposes and modified audios from soundsnap with Audacity to fit our needs.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/Carles/audio_design_1.png",
+              "../people/Carles/audio_design_2.png"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Documentation and Workflow",
+            "text": "As I’ve mentioned before, I was part of the creation of the Audio Design Document, but I also created other types of documentation so that our team would work smoothly. The most significant ones would be: a document for naming conventions, organizational documents to distribute tasks for each sprint and being part of the animations list document. In addition to the creation of these documents, I was in charge of organizing the files in our shared folder, to make the Art delivery and to make sure that the pipeline was followed correctly.",
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "HUD and Logo",
+            "text": "To help with the UI, I got the sketches of the ability Icons, put them into Adobe Illustrator and gave them a bit of an overhaul so that they would look more polished and minimalistic. Also, I did several iterations of the Logo of the game and ended up with the one shown below, which mixes the Atreides’ House symbol and the Fremen’s crysknife.",
+            "media": [
+                "../people/Carles/hud_and_logo_1.png",
+                "../people/Carles/hud_and_logo_2.png"
+            ]
+          },
+          "5": {
+            "title": "Ability Models",
+            "text": "Using Maya I created the models for Stilgar’s Sword and his Stunner gun following the material of the movies.",
+            "media": [
+                "../people/Carles/abilities_1.gif",
+                "../people/Carles/abilities_2.gif"
+            ]
           }
         }
       },
@@ -276,28 +293,20 @@
           "1": {
             "title": "Input System",
             "text": "My main contribution to the project has been the development of an input system that largely automates the implementation of skills and actions in the game.<br />The system is based on the new input system Unity released a year ago. Its operation is simple:<br />We save action maps (nodes) in an XML file, which contain different actions. Each action is assigned a series of inputs or keys and, finally, through a component assigned to a game object, we assign the function that will be called when the input of each action is pressed.<br />This system can help to develop the following:<ul><li>- Different skills for each character</li><li>- Interchangeable controls in the options</li><li>- Code optimization</li></ul>",
-            "media": ["https://picsum.photos/1600/900"]
+            "media": ["../people/Himar/ezgif-2-b031797f56.gif"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
-            ]
+            "title": "Audio implementation",
+            "text": "I have also been in charge of the implementation of music and sound effects in the game.<br /><br />FI did the post-production of the audio clips using Wwise, an audio software focused on video games. As an addition, I was in charge of editing and recording the sound of the voices in the game.<br />F<br />Finally, I implemented this sound in code and adapted the engine on certain occasions for the proper functioning of said audio.",
+            "media": ["../people/Himar/wwise_logo.png"]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Cursor feedback",
+            "text": "Finally, I have contributed to the implementation of visual feedback to the game, adding a small system of cursors and designing these cursors myself.<br />F<br />FFor the system I have used the functions that SDL offers when creating and adding cursors, and for the design I have used a program called icoFx, specifically for the design of icons and cursors.",
+            "media": [
+                "../people/Himar/chani_hunter_seeker.png",
+                "../people/Himar/chani_spice_grenade.png"
+            ]
           }
         }
       },
@@ -587,34 +596,29 @@
         }
       },
       "raul": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "Programmer",
+        "overview": "Even though this project has been way more time consuming than expected, it's been funny. I’m very satisfied with the result of, not only my part of the work, but the whole project.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Corpse Carrying",
+            "text": "The characters have the ability to carry the dead bodies of the enemies to get them out of sight of other enemies.<br /><br />It uses the same raycast for the movement. If the player clicks B and left button mouse when an enemy is dead, the player will pick that enemy up. Doing it once more the player is able to drop it where they want.",
+            "media": ["../people/Raul/CorpseCarry.gif"]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "Sound Area",
+            "text": "The Sound Area is a Prefab with a Circular Trigger. It’s instantiated when something is making noise. When an enemy hears that sound, it will look in that direction. <br /><br />Thanks to its script, depending on the parent, it will disappear in an established time or stay in the game. The size of it can be easily changed with the respective function. Contains an light area as feedback, that increases/decreases at the same speed as the trigger does.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+                "../people/Raul/SoundArea.gif",
+                "../people/Raul/SoundAreaEditor.gif"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Navigation",
+            "text": "<b>NavAgent</b><br />Agent fully customizable. Initial physical properties are setted according to the <b>NavMesh</b>.<br /><br />Point and Click<br />Uses a raycast to calculate its projection relative to the NavMesh. That point can be used as the destination of the Agent.<br /><br /><b>PathFinding</b><br />Calculates a path to the indicated position. The path is a set of points that the Agent will follow. It gently rotates to look at the point.",
+            "media": [
+                "../people/Raul/ObstacleNavigator.gif",
+                "../people/Raul/MultiHeightNavigator.gif"
+            ]
           }
         }
       },
