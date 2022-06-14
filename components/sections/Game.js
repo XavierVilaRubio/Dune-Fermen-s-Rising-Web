@@ -1,13 +1,13 @@
 import DownloadButton from "components/DownloadButton";
+import SectionSubtitle from "components/text/SectionSubtitle";
+import SectionTitle from "components/text/SectionTitle";
 import Image from "next/image";
 
 export default function Game({ t }) {
   return (
     <section className="container mt-24" id="game">
-      <h2 className="mt-4 mb-8 text-4xl font-bold text-orange-500 md:text-5xl">
-        {t("game.title")}
-      </h2>
-      <div className="flex flex-row">
+      <SectionTitle>{t("game.title")}</SectionTitle>
+      <div className="flex flex-row mt-8">
         <div className="w-1/2"></div>
         <div className="w-1/2">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
@@ -17,8 +17,8 @@ export default function Game({ t }) {
         </div>
       </div>
       <hr />
-      <div className="mt-8">
-        <h3 className="text-2xl text-center">Gameplay</h3>
+      <div className="mt-8 text-center">
+        <SectionSubtitle>Gameplay</SectionSubtitle>
         <div className="grid grid-cols-3 gap-3 mt-4">
           {[
             "https://picsum.photos/1600/900",

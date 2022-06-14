@@ -2,6 +2,7 @@ import * as React from "react";
 
 // import TeamCard from "components/TeamCard";
 import dynamic from "next/dynamic";
+import SectionTitle from "components/text/SectionTitle";
 const TeamCard = dynamic(() => import("components/TeamCard"), { ssr: false });
 
 export default function Team({ t }) {
@@ -65,7 +66,8 @@ export default function Team({ t }) {
       slug: "davidg",
       twitter: "#",
       github: "https://github.com/MagiX7",
-      linkedin: "https://www.linkedin.com/in/david-jes%C3%BAs-gonz%C3%A1lez-l%C3%B3pez-03a2041b1/",
+      linkedin:
+        "https://www.linkedin.com/in/david-jes%C3%BAs-gonz%C3%A1lez-l%C3%B3pez-03a2041b1/",
       image: "/people/DavidGonzalez/profile.jpg",
       cat: "PROGRAMMING",
     },
@@ -173,7 +175,8 @@ export default function Team({ t }) {
       slug: "adrian",
       twitter: "#",
       github: "https://github.com/adrianam4",
-      linkedin: "https://www.linkedin.com/in/adri%C3%A1n-aroca-mascaraque-216a86154/",
+      linkedin:
+        "https://www.linkedin.com/in/adri%C3%A1n-aroca-mascaraque-216a86154/",
       cat: "DESIGN",
       image: "/people/Adrian/profile.jpg",
     },
@@ -254,7 +257,8 @@ export default function Team({ t }) {
       slug: "polv",
       twitter: "https://twitter.com/_Amade128_",
       github: "https://github.com/AMADE128",
-      linkedin: "https://www.linkedin.com/in/pol-v%C3%A1zquez-porcar-74b435202/",
+      linkedin:
+        "https://www.linkedin.com/in/pol-v%C3%A1zquez-porcar-74b435202/",
       image: "/people/PolVazquez/profile.PNG",
       cat: "DESIGN",
     },
@@ -359,10 +363,8 @@ export default function Team({ t }) {
   return (
     <>
       <section className="container mt-16" id="team">
-        <h2 className="mt-4 text-4xl font-bold text-orange-500 md:text-5xl">
-          {t("team.title")}
-        </h2>
-        <div className="flex flex-wrap justify-center gap-4 mt-12 mb-6 md:gap-8">
+        <SectionTitle>{t("team.title")}</SectionTitle>
+        <div className="flex flex-wrap justify-center gap-4 mt-8 mb-6 md:gap-8">
           <button
             ref={allButton}
             className="underline"

@@ -32,13 +32,15 @@ export default function Header({ t, home }) {
       <div className="sticky top-0 z-10 flex flex-col w-full px-4 align-middle headerWrapper">
         <header className="container flex flex-col justify-between align-top md:max-w-full md:flex-row">
           <div className="flex flex-row justify-between py-5 align-middle">
-            <Image
-              src={logo}
-              width={54}
-              height={54}
-              alt="Dune: Fermen's Rising logo"
-            />
-            {/* <h1>Dune</h1> */}
+            <Link href={"/"} passHref>
+              <Image
+                src={logo}
+                width={54}
+                height={54}
+                className="cursor-pointer"
+                alt="Dune: Fermen's Rising logo"
+              />
+            </Link>
             <button
               className="items-center md:hidden"
               onClick={() => setOpen(!open)}
@@ -80,6 +82,11 @@ export default function Header({ t, home }) {
                     text: t("nav.post_mortem"),
                     id: "post_mortemNav",
                   },
+                  {
+                    href: `${home ? "" : "/"}#contact`,
+                    text: t("nav.contact"),
+                    id: "contactNav",
+                  },
                 ].map(({ href, text, id }) => (
                   <li key={href}>
                     {home ? (
@@ -109,13 +116,17 @@ export default function Header({ t, home }) {
                 {t("nav.download")}
               </a>
 
-              <p className="text-sm font-semibold">
-                {query?.lang === "en" ? (
-                  <LanguageSwitcher lang="es">ES</LanguageSwitcher>
-                ) : (
-                  <LanguageSwitcher lang="en">EN</LanguageSwitcher>
-                )}
-              </p>
+              {home ? (
+                <p className="text-sm font-semibold">
+                  {query?.lang === "en" ? (
+                    <LanguageSwitcher lang="es">ES</LanguageSwitcher>
+                  ) : (
+                    <LanguageSwitcher lang="en">EN</LanguageSwitcher>
+                  )}
+                </p>
+              ) : (
+                <></>
+              )}
             </div>
           </div>
         </header>
@@ -140,25 +151,35 @@ export default function Header({ t, home }) {
           }
 
           #homeNav {
-            color: ${scrollPosition < 1822 ? "#fb923c" : ""};
+            color: ${scrollPosition < 2120 ? "#fb923c" : ""};
           }
           #teamNav {
-            color: ${scrollPosition > 1822 && scrollPosition < 2392
+            color: ${scrollPosition > 2120 && scrollPosition < 6568
               ? "#fb923c"
               : ""};
           }
           #productionNav {
-            color: ${scrollPosition > 2392 && scrollPosition < 5060
+            color: ${scrollPosition > 6568 && scrollPosition < 9212
+              ? "#fb923c"
+              : ""};
+          }
+          #gameNav {
+            color: ${scrollPosition > 9212 && scrollPosition < 10252
               ? "#fb923c"
               : ""};
           }
           #engineNav {
-            color: ${scrollPosition > 5060 && scrollPosition < 6141
+            color: ${scrollPosition > 10252 && scrollPosition < 11220
               ? "#fb923c"
               : ""};
           }
           #post_mortemNav {
-            color: ${scrollPosition > 6141 ? "#fb923c" : ""};
+            color: ${scrollPosition > 11220 && scrollPosition < 11884
+              ? "#fb923c"
+              : ""};
+          }
+          #contactNav {
+            color: ${scrollPosition > 11884 ? "#fb923c" : ""};
           }
         }
       `}</style>

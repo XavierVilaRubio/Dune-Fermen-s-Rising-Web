@@ -7,11 +7,10 @@ import { useRouter } from "next/router";
 const Member = () => {
   const { t } = useTranslation();
   const router = useRouter();
-  const { name, slug, cat, github, linkedin, twitter, artstation } =
+  const { name, slug, cat, github, linkedin, twitter, artstation, image } =
     router.query;
   const JSONcontribs = t(`team.${slug}.contributions`);
   var contribs = Object.values(JSONcontribs);
-  var i = 0;
 
   return (
     <>
@@ -34,14 +33,10 @@ const Member = () => {
                 />
               </div>
             </div>
-            <div className="w-1/3 max-w-sm">
-              <Image
-                className="rounded-full"
-                src="https://picsum.photos/100/100"
-                width={100}
-                height={100}
-                layout={"responsive"}
-                alt="Mountain"
+            <div className="relative w-1/3 max-w-sm aspect-square">
+              <img
+                className="object-cover rounded-full aspect-square"
+                src={image}
               />
               <h2 className="mt-2 text-lg text-center">
                 {t(`team.${slug}.rol`)}

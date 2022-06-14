@@ -8,6 +8,7 @@ import Team from "components/sections/Team";
 import Head from "next/head";
 import { useTranslation, useLanguageQuery } from "next-export-i18n";
 import Game from "components/sections/Game";
+import Contact from "components/sections/Contact";
 
 export default function Home(props) {
   const { t } = useTranslation();
@@ -29,6 +30,7 @@ export default function Home(props) {
       <Game t={t} />
       <Engine t={t} />
       <PostMortem t={t} />
+      <Contact t={t} />
       <Footer t={t} />
     </>
   );

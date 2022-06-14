@@ -1,14 +1,13 @@
 import DownloadButton from "components/DownloadButton";
+import SectionTitle from "components/text/SectionTitle";
 import TextImage from "components/TextImage";
 import Image from "next/image";
 
 export default function Engine({ t }) {
   return (
     <section className="container mt-24" id="engine">
-      <h2 className="mt-4 mb-8 text-4xl font-bold text-orange-500 md:text-5xl">
-        {t("engine.title")}
-      </h2>
-      <div className="flex flex-row">
+      <SectionTitle>{t("engine.title")}</SectionTitle>
+      <div className="flex flex-row mt-8">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, in!
       </div>
       <hr />
