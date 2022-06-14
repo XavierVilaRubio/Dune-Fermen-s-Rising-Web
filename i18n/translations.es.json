@@ -1042,34 +1042,33 @@
         }
       },
       "alex": {
-        "rol": "Diseñador",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "rol": "2D&3D Artist/Animator",
+        "overview": "I am Alex Gesti Fernández, a video game development student at CITM and a graduate in 3D animation, games and interactive environments. In this project I have worked in the Art group as a 3D Animator, 2D VFX Artist and Modeler of some props using Maya, Blender, Photoshop and After Effects. Dune Fremen's Rising was an incredibly difficult job as a 3D animator, since we worked with our own engine and it was being developed while the Art team was working on the game and sometimes it was not known how the animations developed in the engine would work.  Despite this, it has been an entertaining and lucrative experience to learn to work in a group and improve my 3D skills.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "3D Animator",
+            "text": "In this project I have been working as the main 3D Animator of the characters, the enemies and the boss, having some animations that were taken from Mixamo and others made from scratch by hand.<br /><br />In general, animations with interpolation have been worked on, but others have worked with animations made frame by frame.",
+            "media": [
+                "../people/Alex/3DAnimator/1.gif",
+                "../people/Alex/3DAnimator/2.gif",
+                "../people/Alex/3DAnimator/3.gif"
+            ]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "2D VFX Artist",
+            "text": "During half of the development I have worked on the VFX sprites of the game, developing them all in After Effects.<br /><br />These have been made from scratch with different effects available in the application, some being simple and not covering many frames, and others being complex and with a large number of frames.<br /><br />After finishing them, these animations had to be transformed into sprite sheets so that the code team could implement it.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/Alex/2DVFXArtist/1.gif",
+              "../people/Alex/2DVFXArtist/2.gif"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
-          },
-          "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "3D Modeler",
+            "text": "While I was developing some animations, the 3D Modelers team needed help with some materials, so I took a moment to develop some models.<br /><br />These models were a blinder, which was made a version with holes, which was made a normal map and implemented in a more low poly model, and a stone, which was made a high poly and then made a retopology.",
+            "media": [
+              "../people/Alex/3DModeler/1.png",
+              "../people/Alex/3DModeler/2.png"
+            ]
           }
         }
       },
