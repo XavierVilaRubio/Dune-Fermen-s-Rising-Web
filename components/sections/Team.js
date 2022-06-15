@@ -284,7 +284,7 @@ export default function Team({ t }) {
       github: "https://github.com/Ramsubito",
       linkedin: "https://www.linkedin.com/in/marc-ramos-gomez-414872217/",
       artstation: "https://www.artstation.com/ramsubo",
-      image: "/people/MarcRamos/profile.jpeg",
+      image: "/people/MarcRamos/profile.jpg",
       cat: "ART",
     },
     {

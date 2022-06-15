@@ -204,7 +204,7 @@
       },
       "arnaub": {
         "rol": "Programmer",
-        "overview": "As a member of the code team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "overview": "As a member of the code team, my role in this project has been to help to develop the game and improve its engine. I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. It has been an experience with ups and downs, like a rollercoaster, but we have reached the end with a satisfactory result, and I am personally very proud to have shared it with my teammates.",
         "contributions": {
           "1": {
             "title": "Scripting System",
@@ -214,15 +214,28 @@
           "2": {
             "title": "Spritesheet Particle System",
             "text": "When the Particle System was implemented, we also wanted to add a Unity-like Particle System using Spritesheets, which generates an animation of the particles using a single texture with all the necessary frames.",
-            "media": ["../people/Carles/particle.gif"]
+            "media": ["../people/ArnauBonada/particle.gif"]
           },
           "3": {
             "title": "VFX",
-            "text": "I also contributed to the creation of vfx, mainly particles for some skills: Knife, Hunter Seeker and Eagle."
+            "text": "I also contributed to the creation of vfx, mainly particles for some skills: Knife, Hunter Seeker and Eagle.",
+            "media": [
+                "../people/ArnauBonada/ab1.gif",
+                "../people/ArnauBonada/ab2.gif"
+            ]
           },
           "4": {
             "title": "Win and Lose Scenes",
-            "text": "During the development of the game, from the design team came the idea of creating scenes for the Main, Win and Lose menus. These scenes have the three main characters in a game scenario, and each character would have a different animation depending on the scene they are in. My role here was to implement the Win and Lose scenes, and I also helped in the main menu scene"
+            "text": "During the development of the game, from the design team came the idea of creating scenes for the Main, Win and Lose menus. These scenes have the three main characters in a game scenario, and each character would have a different animation depending on the scene they are in. My role here was to implement the Win and Lose scenes, and I also helped in the main menu scene",
+            "media": [
+                "../people/ArnauBonada/win.gif",
+                "../people/ArnauBonada/loose.gif"
+            ]
+          },
+          "5": {
+            "title": "Cinematics",
+            "text": "In the last days of the game development, it was considered the option of implementing some cinematics, to show the dialogues of the characters as a video in-game. My role here was to do the Cinematic 3, but due to time and coordination issues, it could not be implemented in the Gold version.",
+            "media": ["../people/Carles/cinematic.gif"]
           }
         }
       },
