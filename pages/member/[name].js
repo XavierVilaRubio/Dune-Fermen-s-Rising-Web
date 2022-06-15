@@ -63,7 +63,7 @@ const Member = () => {
                   } `}
                 >
                   <p
-                    className="text-lg"
+                    className="text-lg text-customOrange-400"
                     dangerouslySetInnerHTML={{ __html: text }}
                   ></p>
                   {media && media.length > 1 ? (
@@ -77,7 +77,7 @@ const Member = () => {
                   ) : (
                     <>
                       <img
-                        className={`w-2/6 ${!text && "mx-auto" && "text-customOrange-400"}`}
+                        className={`w-2/6 ${!text && "mx-auto"}`}
                         src={media}
                         alt=""
                       />
