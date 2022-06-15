@@ -1,6 +1,12 @@
 import DownloadButton from "components/DownloadButton";
 import SectionSubtitle from "components/text/SectionSubtitle";
 import Image from "next/image";
+import g1 from "public/g1.gif";
+import g2 from "public/g2.gif";
+import g3 from "public/g3.gif";
+import g4 from "public/g4.gif";
+import g5 from "public/g5.gif";
+import g6 from "public/g6.gif";
 
 export default function Game({ t }) {
   return (
@@ -32,12 +38,7 @@ export default function Game({ t }) {
           <SectionSubtitle>Gameplay</SectionSubtitle>
           <div className="grid grid-cols-3 gap-6 mt-4">
             {[
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
+              g1, g2, g3, g4, g5, g6
             ].map((url, index) => (
               <Image
                 key={index}
