@@ -18,32 +18,32 @@ export default function Engine({ t }) {
       <div className="grid grid-cols-3 gap-6 mt-8">
         {[
           [
-            "https://picsum.photos/1600/900",
+            en1,
             t("engine.features.1.title"),
             t("engine.features.1.subtitle"),
           ],
           [
-            "https://picsum.photos/1600/900",
+            en2,
             t("engine.features.2.title"),
             t("engine.features.2.subtitle"),
           ],
           [
-            "https://picsum.photos/1600/900",
+            en3,
             t("engine.features.3.title"),
             t("engine.features.3.subtitle"),
           ],
           [
-            "https://picsum.photos/1600/900",
+            en4,
             t("engine.features.4.title"),
             t("engine.features.4.subtitle"),
           ],
           [
-            "https://picsum.photos/1600/900",
+            en5,
             t("engine.features.5.title"),
             t("engine.features.5.subtitle"),
           ],
           [
-            "https://picsum.photos/1600/900",
+            en6,
             t("engine.features.6.title"),
             t("engine.features.6.subtitle"),
           ],
