@@ -1,6 +1,7 @@
 import SectionSubtitle from "components/text/SectionSubtitle";
 import SectionTitle from "components/text/SectionTitle";
 import Image from "next/image";
+import prod from "public/prod.jpeg";
 
 export default function PostMortem({ t }) {
   const JSONsections = t(`post_mortem.sections`);
@@ -12,7 +13,7 @@ export default function PostMortem({ t }) {
       <div className="w-min">
         <Image
           className="max-w-5xl mt-8"
-          src={"https://picsum.photos/1600/900"}
+          src={prod}
           width="1600"
           height={"900"}
           layout={"raw"}
