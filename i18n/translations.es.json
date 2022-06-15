@@ -28,33 +28,41 @@
       "title": "Equipo",
       "denis": {
         "rol": "Producer",
-        "overview": "As a member of the design team, my goal in this project was to create a fun experience while learning how to work in a team with other designers and and compenetrating with the other departments. While doing this, I've been able to work in many different fields during the development of our game. I've also been in charge of some Scrums, being their Scrum Master, mostly in the late part of the development of the game, leading my teams to the best result possible. Being a part of this team has been an amazing journey, leading to a great result I'm proud to be a part of.",
+        "overview": "Being the Producer of this amazing project has been one of the most interesting experiences of my academic career. Having to organize and assign tasks according to each person’s abilities, plus having to constantly keep in touch with the leads to know exactly what’s going on at all times, has made me improve my organization skills and hoe I manage my time. On the other hand, I have enjoyed having to contact external members for the team to fulfill tasks that were out of our capacities. Taking the responsibility of having to convince those people that the project is worth working on and setting up multiple face-to-face meetings to keep track of their advances.",
         "contributions": {
           "1": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Agile Methodology",
+            "text": "After considering various options I found Agile to be the best fitting methodology to face this project. With that decision made I, with the help of the other leads, had to create all the scrum teams for each sprint, with each having a list of tasks they had to complete before the set deadline.<br /><br />On top of that, I conducted sprint retrospectives after every deadline to see how we could improve our performance and communication, mostly between departments. The way these retrospectives were organized was different on every delivery so they wouldn’t get repetitive.",
+            "media": [
+                "../people/Denis/standup.jpg",
+                "../people/Denis/scrum_teams.PNG",
+                "../people/Denis/hacknplan.png",
+                "../people/Denis/ideaboardz.PNG",
+                "../people/Denis/motivacion.PNG",
+                "../people/Denis/organigrama.PNG"
+            ]
           },
           "2": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
+            "title": "HacknPlan",
+            "text": "In order to keep track of everyone’s work we used the online tool ‘HacknPlan’, which let us create tasks, assign them to people, log times, change their states, and even move them to the backlog. This turned out to be very useful as everyone could see what tasks were being worked on and which weren’t, so less communication problems would arise.",
             "media": [
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900",
-              "https://picsum.photos/1600/900"
+              "../people/Denis/tasks.PNG",
+              "../people/Denis/individualtask.PNG",
+              "../people/Denis/backlog.PNG"
             ]
           },
           "3": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["https://picsum.photos/1600/900"]
+            "title": "Voice Acting",
+            "text": "With the intent to improve the game’s quality and having the help of Ismael Tejada, we organized an online casting for voice the characters of the game. Over 50 people registered, but we only had 5 characters to impersonate, so we decided to double this number by voicing the game both in english and spanish.<br /><br />Once we finished the interviews and decided who was going to perform the different characters in the different languages we organized recording sessions in our university’s recording room. These lasted for 2 weeks and were very enriching, as we learned a lot about the voice acting world.",
+            "media": [
+              "../people/Denis/casting.PNG",
+              "../people/Denis/grabaciones.jpeg",
+              "../people/Denis/audacity.png"
+            ]
           },
           "4": {
-            "title": "Title of contribution",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in luctus purus, mattis lacus. Vivamus convallis efficitur neque finibus ultrices. Vivamus vitae mollis quam, et maximus erat. Quisque accumsan est velit, ut finibus lorem lobortis sed. Sed tristique, justo in scelerisque euismod, lorem mauris finibus purus, id feugiat metus mi sed dolor",
-            "media": ["../logo.png", "https://picsum.photos/1600/900"]
+            "title": "Webpage and Music",
+            "text": "The other two aspects were we had little to no experience were the webpage design and the music composition.<br /><br />To solve these problems I contacted two external people, one to design our webpage, and the other to produce the main menu’s song. It was a challenge keeping up in contact constantly with them as the project already took a lot of time from me on its own, but it ended up paying off considering the results."
           }
         }
       },

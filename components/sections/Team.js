@@ -10,11 +10,11 @@ export default function Team({ t }) {
     {
       name: "Denis Deconinck",
       slug: "denis",
-      twitter: "#",
-      github: "#",
-      linkedin: "#",
+      twitter: "https://twitter.com/denisdeconinck",
+      github: "https://github.com/Denisdrk6",
+      linkedin: "https://www.linkedin.com/in/denis-deconinck/",
       cat: "LEADS",
-      image: "/logo.png",
+      image: "/people/Denis/profile.jpg",
     },
     {
       name: "Alejandro Moreno",
