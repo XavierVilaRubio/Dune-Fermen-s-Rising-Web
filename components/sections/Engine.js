@@ -1,5 +1,11 @@
 import SectionTitle from "components/text/SectionTitle";
 import Image from "next/image";
+import en1 from "public/en1.png";
+import en2 from "public/en2.png";
+import en3 from "public/en3.png";
+import en4 from "public/en4.png";
+import en5 from "public/en5.png";
+import en6 from "public/en6.png";
 
 export default function Engine({ t }) {
   return (

@@ -18,9 +18,7 @@ export default function PostMortem({ t }) {
           layout={"raw"}
         />
         <p className="mt-4 text-lg text-center text-customOrange-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
-          laudantium. Ipsum facilis quasi alias numquam inventore incidunt minus
-          voluptatibus porro.
+          Little retrospective on the project.
         </p>
       </div>
       {sections.map(({ title, description }, index) => (
