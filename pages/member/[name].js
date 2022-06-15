@@ -16,11 +16,11 @@ const Member = () => {
       <Header t={t} />
       <div className="container mt-4">
         <div>
-          <h1 className="mt-4 text-4xl font-semibold ">{name}</h1>
+          <h1 className="mt-4 text-4xl font-semibold text-customOrange-500">{name}</h1>
           <div className="flex justify-between gap-4">
             <div className="w-2/3">
               <hr className="mt-2 border-orange-500" />
-              <p className="mt-2 text-lg">{t(`team.${slug}.overview`)}</p>
+              <p className="mt-2 text-lg text-customOrange-400">{t(`team.${slug}.overview`)}</p>
               <div className="flex gap-2 mt-4">
                 <SocialIcons
                   github={github}
@@ -37,20 +37,20 @@ const Member = () => {
                 className="object-cover rounded-full aspect-square"
                 src={image}
               />
-              <h2 className="mt-2 text-lg text-center">
+              <h2 className="mt-2 text-lg text-center text-customOrange-400">
                 {t(`team.${slug}.rol`)}
               </h2>
             </div>
           </div>
         </div>
-        <h3 className="mt-8 text-4xl text-center">My Contribution</h3>
+        <h3 className="mt-8 text-4xl text-center text-customOrange-400">My Contribution</h3>
         <hr className="mt-2 border-orange-500" />
         <div className="flex flex-col ">
           {contribs.map(({ title, text, media }, index) => {
             return (
               <div className="flex flex-col mt-12" key={index}>
                 <h3
-                  className="text-3xl font-semibold"
+                  className="text-3xl font-semibold text-customOrange-400"
                   dangerouslySetInnerHTML={{ __html: title }}
                 />
                 <div
@@ -77,7 +77,7 @@ const Member = () => {
                   ) : (
                     <>
                       <img
-                        className={`w-2/6 ${!text && "mx-auto"}`}
+                        className={`w-2/6 ${!text && "mx-auto" && "text-customOrange-400"}`}
                         src={media}
                         alt=""
                       />
