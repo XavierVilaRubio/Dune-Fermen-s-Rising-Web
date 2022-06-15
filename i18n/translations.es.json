@@ -12,16 +12,16 @@
     },
     "home": {
       "headline": "Dune: Fermen's Rising",
-      "catchphrase": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "catchphrase": "Dune: Fremen’s Rising es un videojuego RTT con cámara en perspectiva basado en la archiconocida IP de Dune. Este juego de acción táctica con múltiples personajes narra la breve historia de como Paul Atreides, tiempo después de morir su padre y sus aliados de la casa Atreides, vive un asedio Harkonen a las puertas de su nuevo hogar, en el que ha sido acogido por los Fremen.<br /><br />En Dune: Fremen’s Rising cada uno de nuestros protagonistas tiene su propio set de habilidades para combatir contra el ejército Harkonnen y abrirse paso por los distintos escenarios hasta llegar a Rabban Harkonen, uno de los principales responsables de la muerte de Leto, el padre de Paul.",
       "downloadText": "Descargar el juego",
       "card1": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
+        "text": "<b>Paul Atreides:</b><br />Paul Atreides es el heredero de la antes gloriosa Casa Atreides de Caladan. Su padre y gran parte de la gente que formaba parte de su vida ha muerto, y ahora vive exiliado en el desierto junto a su madre, Lady Jessica Atreides, acogidos por los Fremen, una tribu nómada del desierto nativa de Arrakis. Paul aún es joven e inexperto, y está aprendiendo a usar sus habilidades, aunque a veces es impulsivo y temerario, su entrenamiento lo convierte en un rival peligroso al que enfrentarse."
       },
       "card2": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
+        "text": "<b>Chani Kynes:</b><br />Chani Kynes, hija del fallecido Astrónomo de Arrakis Liet Kynes, vive de forma nómada con los Fremen desde niña, la vida en el desierto la ha convertido en la mujer fuerte y decidida que es hoy. Pese a su carácter parcialmente borde se esconde un alma sensible que se escuda en toda clase de recursos y armas de gran letalidad, lo que la convierte en una asesina implacable."
       },
       "card3": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
+        "text": "<b>Stilgar:</b>br />Stilgar fué antaño un líder político de Arrakeen que bajo el mandato de los Harkonnen fué relegado al exilio con su tribu a vivir en el desierto. Stilgar es un experto militar diestro en el combate cuerpo a cuerpo y a distancia, además de un gran conocedor de las costumbres y la historia de Arrakis. Su sabiduría y experiencia lo convierten en un valuarte crucial para la defensa de los Fremen frente a la Casa Harkonnen, es un hombre preparado para sacrificarse por un bien mayor si fuera necesario mientras eso detenga a los invasores que se han apropiado de la tierra de su pueblo."
       }
     },
     "team": {
@@ -1255,7 +1255,7 @@
     },
     "game": {
       "title": "Juego",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quaerat et at exercitationem sequi perspiciatis, fuga vitae amet. Quo, neque."
+      "text": "Ayuda a Paul Atreides a liberar Arrakeen del yugo de los Harkonnen después de que estos ataquen a los Fremen, su nueva familia, que habita los cañones y cuevas del desierto.<br /><br />Distrae, elimina o aturde a los soldados Harkonnen para abrirte paso entre sus filas hasta encontrar y eliminar a su líder, Rabban Harkonnen, uno de los caudillos del emperador."
     },
     "production": {
       "title": "Producción",
