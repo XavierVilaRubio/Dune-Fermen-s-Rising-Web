@@ -24,15 +24,15 @@ export default function HomeSection({ t }) {
 
           <TextImage
             text={t("home.card1.text")}
-            image={"public/paul_rock.gif"}
+            image={"../public/paul_rock.gif"}
           />
           <TextImage
             text={t("home.card2.text")}
-            image={"public/chani_invisible.gif"}
+            image={"../public/chani_invisible.gif"}
           />
           <TextImage
             text={t("home.card3.text")}
-            image={"public/stilgar_stab.gif"}
+            image={"../public/stilgar_stab.gif"}
           />
           <div className="mx-auto mt-20 w-fit">
             <DownloadButton t={t} />
