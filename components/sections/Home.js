@@ -18,18 +18,21 @@ export default function HomeSection({ t }) {
           <p className="mb-8 text-center text-customOrange-400 md:text-xl">
             {t("home.catchphrase")}
           </p>
+          <p className="mb-8 text-center text-customOrange-400 md:text-xl">
+            {t("home.catchphrasetwo")}
+          </p>
 
           <TextImage
             text={t("home.card1.text")}
-            image={"https://picsum.photos/400/200"}
+            image={"public/paul_rock.gif"}
           />
           <TextImage
             text={t("home.card2.text")}
-            image={"https://picsum.photos/400/200"}
+            image={"public/chani_invisible.gif"}
           />
           <TextImage
             text={t("home.card3.text")}
-            image={"https://picsum.photos/400/200"}
+            image={"public/stilgar_stab.gif"}
           />
           <div className="mx-auto mt-20 w-fit">
             <DownloadButton t={t} />
