@@ -1,4 +1,7 @@
 import logo from "public/logo.png";
+import paul from "public/paul_rock.gif";
+import chani from "public/chani_invisible.gif";
+import stilgar from "public/stilgar_stab.gif";
 import Image from "next/image";
 import TextImage from "components/TextImage";
 import DownloadButton from "components/DownloadButton";
@@ -24,15 +27,15 @@ export default function HomeSection({ t }) {
 
           <TextImage
             text={t("home.card1.text")}
-            image={"../public/paul_rock.gif"}
+            image={paul}
           />
           <TextImage
             text={t("home.card2.text")}
-            image={"../public/chani_invisible.gif"}
+            image={chani}
           />
           <TextImage
             text={t("home.card3.text")}
-            image={"../public/stilgar_stab.gif"}
+            image={stilgar}
           />
           <div className="mx-auto mt-20 w-fit">
             <DownloadButton t={t} />
