@@ -1261,18 +1261,17 @@
     "production": {
       "title": "Producción",
       "card1": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
+        "text": "Siguiendo el método ágil se aplicaron varios de sus elementos como son los equipos de scrum o los stand-ups. Esto nos permitió organizarnos mejor y ayudó a la comunicación entre departamentos."
       },
       "card2": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
+        "text": "Para organizar las tareas y loggear las horas se utilizó HacknPlan. Los stand-ups y las retrospectivas se llevaron a cabo en clase, al igual que las sesiones de playtesting."
       },
       "card3": {
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas eum soluta harum nesciunt aperiam voluptates ducimus, maxime et sapiente?"
+        "text": "Además de las tareas que se nos asignaban a cada entrega, desde producción decidimos ir un paso más allá y oranizamos un casting para actores de voz, a parte de conseguir un compositor para la música del juego y un diseñador web. Esto permitió elevar la calidad del juego final aún más."
       },
-      "subtitle1": "Objetos del juego",
-      "subtitle2": "Objetos del juego",
-      "subtitle3": "Objetos del juego",
-      "subtitle4": "Objetos del juego"
+      "subtitle1": "Métodologia Ágil",
+      "subtitle2": "Organización",
+      "subtitle3": "Externo",
     },
     "engine": {
       "title": "Motor",
@@ -1308,16 +1307,12 @@
       "title": "Post Mortem",
       "sections": {
         "1": {
-          "title": "Objetos del juego",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis, eos nam perspiciatis reiciendis, dolorem atque quidem quam illum minima nostrum itaque odit labore inventore voluptas iusto culpa vitae voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor cupiditate odit!"
+          "title": "Retrospectiva",
+          "description": "Haciendo una vista atrás, este proyecto ha sido una de las asignaturas más importantes de la carrera, generando un nuevo elemento en nuestro portfolio y otorgándonos gran conocimiento en áreas que no habíamos visto hasta ahora"
         },
         "2": {
-          "title": "Objetos del juego",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis, eos nam perspiciatis reiciendis, dolorem atque quidem quam illum minima nostrum itaque odit labore inventore voluptas iusto culpa vitae voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor cupiditate odit!"
-        },
-        "3": {
-          "title": "Objetos del juego",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus omnis, eos nam perspiciatis reiciendis, dolorem atque quidem quam illum minima nostrum itaque odit labore inventore voluptas iusto culpa vitae voluptate et aspernatur, cum accusamus quis veniam! Aliquid dolor cupiditate odit!"
+          "title": "Crunch",
+          "description": "El crunch ha estado presente a lo largo de todo el desarrollo, pero dado el contexto del proyecto era casi inevitable. Teniendo que conllenvar Proyecto 3 con otras asignaturas ha sido uno de los retos más dificiles que se nos ha presentado."
         }
       }
     },
