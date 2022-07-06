@@ -17,8 +17,8 @@ export default function Home(props) {
   return (
     <>
       <Head>
-        <title>Dune: Fermen&rsquo;s Rising</title>
-        <meta name="description" content="Dune: Fermen's Rising Webpage" />
+        <title>Dune: Fremen&rsquo;s Rising</title>
+        <meta name="description" content="Dune: Fremen's Rising Webpage" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

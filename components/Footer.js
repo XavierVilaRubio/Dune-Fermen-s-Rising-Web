@@ -10,7 +10,7 @@ export default function Footer({ t }) {
             src={logo}
             width={54}
             height={54}
-            alt="Dune: Fermen's Rising logo"
+            alt="Dune: Fremen's Rising logo"
           />
         </div>
         <div className="flex items-center gap-4 font-medium">

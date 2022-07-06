@@ -215,7 +215,7 @@ export default function Team({ t }) {
       cat: "DESIGN",
     },
     {
-      name: "Marc Pavón",
+      name: "Marc Pavon",
       slug: "marcp",
       twitter: "#",
       github: "https://github.com/Marckitus",

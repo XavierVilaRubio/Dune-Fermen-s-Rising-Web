@@ -36,7 +36,7 @@ export default function Header({ t, home }) {
                 width={54}
                 height={54}
                 className="cursor-pointer"
-                alt="Dune: Fermen's Rising logo"
+                alt="Dune: Fremen's Rising logo"
               />
             </Link>
             <button

@@ -13,7 +13,7 @@ export default function HomeSection({ t }) {
         <div className="video"></div>
         <div className="container">
           <div className="w-40 max-w-sm mx-auto md:w-52">
-            <Image src={logo} alt={"Dune: Fermen's Rising Logo"} />
+            <Image src={logo} alt={"Dune: Fremen's Rising Logo"} />
           </div>
           <h1 className="mb-4 text-4xl font-bold text-center text-customOrange-500 md:text-5xl">
             {t("home.headline")}
