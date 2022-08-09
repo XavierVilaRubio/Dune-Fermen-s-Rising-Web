@@ -104,7 +104,7 @@
           },
           "6": {
             "title": "Pop Up",
-            "text": "The tags and layers system has allowed to determine the type of the objects to condition and mask the events. Some tags and layers are included by default but the developer can add as many as needed.",
+            "text": "The mobile pop-ups in the game are a UI Image element that follow a real object by converting the 3D coordinates of the world to screen coordinates. A circle has also been added to improve visual feedback so that the user knows at all times which character they are controlling.",
             "media": [
                 "../people/Alejandro/WorldToScreen.png",
                 "../people/Alejandro/explosion.png",
